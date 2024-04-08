@@ -1,0 +1,6 @@
+
+Ñ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 7d04f24ebf5adc521be4899562fb9c9fh
+Å	java:S116"NRename this field "NIF" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 7df2a05d741f8c13f6fb6bd29cf2c4bdh
+à	java:S116	"URename this field "IdProfesor" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b b160790be8aab64e535a966effd7d649h
+e
+java:S1172"1Remove this unused method parameter "idProfesor".b de6b20f3d6037fbcfc3f3ef1bdd1a5dah

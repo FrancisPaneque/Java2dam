@@ -1,0 +1,10 @@
+1707723405303	Rename field 'pais'
+1707725339223	Rename local variable 'direccion'
+1707727770761	Rename local variable 'contador'
+1707847951367	Delete element
+1707847956700	Delete element
+1707853640389	Delete element
+1707856001632	Rename local variable 'actores'
+1707935202323	Rename local variable 'populares'
+1708012117753	Rename field 'knownForDepartment'
+1708016860083	Rename method 'imprimirPeliculas'

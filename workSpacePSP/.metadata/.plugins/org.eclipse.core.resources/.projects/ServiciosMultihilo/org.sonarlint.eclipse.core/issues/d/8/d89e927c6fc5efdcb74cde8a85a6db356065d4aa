@@ -1,0 +1,14 @@
+
+e	java:S106t"+Replace this use of System.out by a logger.8‚‘ÊÅÅ1b bb1c3f2ea781263d3a2bb92b06a2061fh
+
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.8¶ú„˜Ç1b fad58de7366495db4650cfefac2fcd61h
+h
+java:S1481="-Remove this unused "filePath" local variable.8ø‚¦˜Ç1b 47826cacc65c665212b821e6ff80b9b0h
+™
+java:S2142L"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.8ó×˜Ç1b 400ebd14c53cd39cfd3bce567e05b664h
+u
+java:S1854":Remove this useless assignment to local variable "config".8øÂ±Ç1b f91fe8bd6ba16fdf29535389c450c34ah
+f
+java:S1481"+Remove this unused "config" local variable.8øÂ±Ç1b 2245023265ae4cf87d02c8b6ba991139h
+k
+java:S1128"0Remove this unused import 'java.io.IOException'.8Ï¬µÇ1b b4d0c6ab436c3bc3a3bfe8df6b26cb6eh

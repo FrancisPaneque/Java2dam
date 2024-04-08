@@ -1,0 +1,29 @@
+
+ˆ
+java:S1104"TMake usuarios a static final constant or non-public and provide accessors if needed.b 03f996214fba4a1d05a68b18fece8e71h
+‡
+java:S1104"SMake comidas a static final constant or non-public and provide accessors if needed.b 1e232874aa59d29146483beac472f98eh
+‡
+java:S1104"SMake bebidas a static final constant or non-public and provide accessors if needed.b b342ed39f661c24931093f6a17b3d9beh
+b
+java:S1444".Make this "public static usuarios" field finalb 03f996214fba4a1d05a68b18fece8e71h
+a
+java:S1444"-Make this "public static comidas" field finalb 1e232874aa59d29146483beac472f98eh
+a
+java:S1444"-Make this "public static bebidas" field finalb b342ed39f661c24931093f6a17b3d9beh
+Q
+java:S2386"Make this member "protected".b 03f996214fba4a1d05a68b18fece8e71h
+Q
+java:S2386"Make this member "protected".b 1e232874aa59d29146483beac472f98eh
+Q
+java:S2386"Make this member "protected".b b342ed39f661c24931093f6a17b3d9beh
+n
+java:S1118":Add a private constructor to hide the implicit public one.b 509b33f481190d230e210361076b2006h
+h
+java:S1128"4Remove this unused import 'javax.swing.JOptionPane'.b d10424ab592bd7429f9e347040b7ebb0h
+g
+java:S1128"3Remove this unused import 'javax.swing.JTextField'.b dcebd63ded365f050ae201e7cbfb142eh
+V
+java:S1128""Remove this unused import 'front'.b 639f26d251077290655b481c3b25f284h
+k
+java:S1128"7Remove this unused import 'java.awt.event.ActionEvent'.b b62a6376d44eb6e083dd2739092a93b6h

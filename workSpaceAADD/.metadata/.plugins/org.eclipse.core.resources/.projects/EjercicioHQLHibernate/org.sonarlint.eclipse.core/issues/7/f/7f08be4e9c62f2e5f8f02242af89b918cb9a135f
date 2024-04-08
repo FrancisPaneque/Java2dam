@@ -1,0 +1,23 @@
+
+e	java:S106"+Replace this use of System.out by a logger.8ê√‰„—1b bb1c3f2ea781263d3a2bb92b06a2061fh
+í
+java:S1128"WRemove this unused import 'org.hibernate.boot.registry.StandardServiceRegistryBuilder'.8öÄ•„—1b a4d68ecd0b9fb473f6e87a9fe1bafe6dh
+e	java:S106$"+Replace this use of System.out by a logger.8ê√‰„—1b bb1c3f2ea781263d3a2bb92b06a2061fh
+`
+java:S1181*"%Catch Exception instead of Throwable.8òﬁà¬Œ1b d7af4fa06d4171008feaad27882949b3h
+e	java:S106 "+Replace this use of System.out by a logger.8ê√‰„—1b bb1c3f2ea781263d3a2bb92b06a2061fh
+w
+java:S1128"<Remove this unused import 'org.hibernate.cfg.Configuration'.8öÄ•„—1b cc491dd75c920a27b699f0116f39b6b3h
+e	java:S106"+Replace this use of System.out by a logger.8ê√‰„—1b bb1c3f2ea781263d3a2bb92b06a2061fh
+f
+java:S1128	"+Remove this unused import 'java.util.List'.8∑Ì÷„—1b 647165940d2971f696436f6a7da1f89dh
+e	java:S106""+Replace this use of System.out by a logger.8ê√‰„—1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106"+Replace this use of System.out by a logger.8ê√‰„—1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106&"+Replace this use of System.out by a logger.8ê√‰„—1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106"+Replace this use of System.out by a logger.8ê√‰„—1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106+"+Replace this use of System.err by a logger.8∫Ùè¡Œ1b af259b5629da223c99d853ddc8045589h
+t
+java:S1128"9Remove this unused import 'org.hibernate.SessionFactory'.8öÄ•„—1b 836349435fd277987074405a8d75de4ch
+k
+java:S1128"0Remove this unused import 'org.hibernate.Query'.8∑Ì÷„—1b ad054d7a123d3c55328088fe637d445ah
+e	java:S106"+Replace this use of System.out by a logger.8ê√‰„—1b bb1c3f2ea781263d3a2bb92b06a2061fh

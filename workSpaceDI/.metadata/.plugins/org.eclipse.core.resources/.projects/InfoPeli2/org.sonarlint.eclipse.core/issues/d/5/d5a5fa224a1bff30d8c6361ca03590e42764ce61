@@ -1,0 +1,19 @@
+
+€	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b e8d6cc8b7f23215c1998ca7bb89b0681h
+Ž
+java:S3776º"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.8²Ì²äÙ1b 754923e60bf4f0428ee8e0ea8bffa606h
+x	java:S107º"=Method has 18 parameters, which is greater than 7 authorized.8Ç¡ˆ›Ù1b 754923e60bf4f0428ee8e0ea8bffa606h
+g
+java:S1068",Remove this unused "URL_CAST" private field.8ÂØÊÌØ1b 3f2dbce6b822b43e2ac681bf93dfad13h
+X
+java:S1643é"Use a StringBuilder instead.8ƒÉÅäÙ1b 7f80095aea4d66af1121f1fbe916066dh
+X
+java:S1643È"Use a StringBuilder instead.8Ã²ïŽÚ1b 3d4e992d8d8a7d848724aa26ed7f4176h
+X
+java:S1643Õ"Use a StringBuilder instead.8Ã²ïŽÚ1b 585a853cba1897089e0f16832d4382cdh
+j
+java:S1172º".Remove this unused method parameter "actores".8Ã²ïŽÚ1b 59e86f5764c418310351a814dde4325eh
+h
+java:S1068"-Remove this unused "URL_MOVIE" private field.8Ã²ïŽÚ1b 9f583049ec795d7ff3054e1a44518305h
+o
+java:S1144ÿ"3Remove this unused private "actualizaActor" method.8Ã²ïŽÚ1b 737acdc0e79119ceed52b5cf8fdbf51ah

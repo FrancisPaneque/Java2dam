@@ -1,0 +1,130 @@
+// FileServerApp.java
+package psp.ud03.act303.server;
+
+import java.io.*;
+import java.net.*;
+import java.util.Properties;
+import java.io.File;
+
+public class FileServerApp {
+    private static final int DEFAULT_PORT = 2121;
+    private static final String DEFAULT_DIRECTORY = "pruebas";
+
+    public static void main(String[] args) {
+        int port = DEFAULT_PORT;
+
+        // Leer la configuración del archivo server.properties
+        try {
+            Properties properties = new Properties();
+            properties.load(new FileInputStream("server.properties"));
+            port = Integer.parseInt(properties.getProperty("puerto", String.valueOf(DEFAULT_PORT)));
+        } catch (IOException | NumberFormatException e) {
+            e.printStackTrace();
+        }
+
+        // Iniciar el servidor
+        try (ServerSocket serverSocket = new ServerSocket(port)) {
+            System.out.println("Servidor esperando conexiones en el puerto " + port + "...");
+            while (true) {
+                Socket clientSocket = serverSocket.accept();
+                System.out.println("Cliente conectado desde " + clientSocket.getInetAddress());
+                Thread clientHandler = new ClientHandler(clientSocket);
+                clientHandler.start();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    static class ClientHandler extends Thread {
+        private final Socket clientSocket;
+
+        public ClientHandler(Socket socket) {
+            this.clientSocket = socket;
+        }
+
+        @Override
+        public void run() {
+            try (
+                BufferedReader reader = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+                PrintWriter writer = new PrintWriter(clientSocket.getOutputStream(), true)
+            ) {
+                String inputLine;
+                while ((inputLine = reader.readLine()) != null) {
+                    String[] commandParts = inputLine.split(" ", 2);
+                    String command = commandParts[0].toLowerCase();
+                    String argument = commandParts.length > 1 ? commandParts[1] : "pruebas";
+                    String response = processCommand(command, argument);
+                    writer.println(response);
+                    if (response.equals("OK quit")) {
+                        break;
+                    }
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+        private String processCommand(String command, String argument) {
+            switch (command) {
+                case "list":
+                    return handleListCommand(argument);
+                case "delete":
+                    return handleDeleteCommand(argument);
+                case "show":
+                    return handleShowCommand(argument);
+                case "quit":
+                    return "OK quit";
+                default:
+                    return "KO";
+            }
+        }
+
+        private String handleListCommand(String argument) {
+            File directory = new File(DEFAULT_DIRECTORY, argument);
+            
+            StringBuilder fileList = new StringBuilder();
+            for (File file : directory.listFiles()) {
+                if (file.isFile()) {
+                    fileList.append(file.getName()).append(" ").append(file.length() / 1024).append("\n");
+                }
+            }
+            return "OK\n" + fileList.toString();
+        }
+
+        private String handleDeleteCommand(String argument) {
+            File fileToDelete = new File(DEFAULT_DIRECTORY, argument);
+            if (!fileToDelete.exists()) {
+                return "KO";
+            }
+            if (fileToDelete.isDirectory() && fileToDelete.list().length > 0) {
+                return "KO";
+            }
+            if (fileToDelete.delete()) {
+                return "OK";
+            } else {
+                return "KO";
+            }
+        }
+
+        private String handleShowCommand(String argument) {
+            File fileToShow = new File(DEFAULT_DIRECTORY, argument);
+            if (!fileToShow.exists() || fileToShow.isDirectory()) {
+                return "KO";
+            }
+            try (BufferedReader fileReader = new BufferedReader(new FileReader(fileToShow))) {
+                StringBuilder content = new StringBuilder();
+                String line;
+                int linesCount = 0;
+                while ((line = fileReader.readLine()) != null) {
+                    content.append(line).append("\n");
+                    linesCount++;
+                }
+                return "OK\n" + linesCount + "\n" + content.toString();
+            } catch (IOException e) {
+                e.printStackTrace();
+                return "KO";
+            }
+        }
+    }
+}

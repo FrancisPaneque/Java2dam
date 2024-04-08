@@ -1,0 +1,9 @@
+
+Ÿ
+java:S1488"dImmediately return this expression instead of assigning it to the temporary variable "randomNumber".8£ÁÎ‰Ü1b 23124ad850c8ff322ff53d329d7bd174h
+u
+java:S1118":Add a private constructor to hide the implicit public one.8£ÁÎ‰Ü1b a470a23326b3831dd974dfc1116119c2h
+d
+java:S2140")Use "java.util.Random.nextInt()" instead.8£ÁÎ‰Ü1b 3de8353f9a30b5d10e2f7c496ecab616h
+ˆ
+java:S20959"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.8ã™±‹Ü1b 36382c8520576f4ebb38783d5c7ef677h

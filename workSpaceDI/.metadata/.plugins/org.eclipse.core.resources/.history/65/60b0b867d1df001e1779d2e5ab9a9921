@@ -1,0 +1,170 @@
+package front;
+
+import java.awt.BorderLayout;
+import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JDialog;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+
+import models.Bebida;
+import models.Comida;
+
+import javax.swing.JLabel;
+import javax.swing.DefaultComboBoxModel;
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.Alignment;
+import javax.swing.LayoutStyle.ComponentPlacement;
+import javax.swing.JComboBox;
+import javax.swing.JTextField;
+
+public class ComandaBebida extends JDialog {
+
+	private static final long serialVersionUID = 1L;
+	private final JPanel contentPanel = new JPanel();
+	private JTextField textField;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		try {
+			ComandaBebida dialog = new ComandaBebida();
+			dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+			dialog.setVisible(true);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	/**
+	 * Create the dialog.
+	 */
+	public ComandaBebida() {
+		setBounds(100, 100, 1026, 753);
+		getContentPane().setLayout(new BorderLayout());
+		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
+		getContentPane().add(contentPanel, BorderLayout.CENTER);
+		contentPanel.setLayout(new BorderLayout(0, 0));
+		{
+			JPanel panel = new JPanel();
+			contentPanel.add(panel, BorderLayout.NORTH);
+			{
+				JLabel lblNewLabel = new JLabel("New label");
+				panel.add(lblNewLabel);
+			}
+		}
+		{
+			JPanel panel = new JPanel();
+			contentPanel.add(panel, BorderLayout.CENTER);
+			JLabel lblNewLabel_1 = new JLabel("New label");
+			JLabel lblNewLabel_2 = new JLabel("New label");
+			JLabel lblNewLabel_3 = new JLabel("New label");
+			JButton btnNewButton = new JButton("Salir");
+			btnNewButton.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					salidaPressed(e);
+				}
+			});
+			JButton btnNewButton_1 = new JButton("Añadir");
+			
+			JComboBox comboBox = new JComboBox();
+			// Crear el modelo y añadir los elementos al modelo
+	        DefaultComboBoxModel<String> model = new DefaultComboBoxModel<>();
+	        for (Bebida item : util.UtilidadesLogin.bebidas) {
+	            model.addElement(item.getNombreBebida());
+	        }
+	        // Establecer el modelo en el JComboBox
+	        comboBox.setModel(model);
+	        
+	        comboBox.addActionListener(new ActionListener() {
+	        	public void actionPerformed(ActionEvent e) {
+	                // Obtener el nombre de la comida seleccionada del JComboBox
+	                String selectedComidaName = (String) comboBox.getSelectedItem();
+	                
+	                // Buscar el objeto Comida correspondiente al nombre seleccionado
+	                Bebida selectedComida = null;
+	                for (Bebida comida : util.UtilidadesLogin.bebidas) {
+	                    if (comida.getNombreBebida().equals(selectedComidaName)) {
+	                        selectedComida = comida;
+	                        break;
+	                    }
+	                }
+	                
+	                // Verificar si se encontró la comida seleccionada
+	                if (selectedComida != null) {
+	                    // Mostrar el precio en el JLabel
+	                    lblNewLabel_1.setText(Integer.toString(selectedComida.getPrecio()));
+	                } else {
+	                    // Manejar el caso cuando no se encuentra la comida seleccionada
+	                    lblNewLabel_1.setText("Precio no disponible");
+	                }
+	            }
+			});
+			
+			textField = new JTextField();
+			textField.setColumns(10);
+			JLabel lblPrecio = new JLabel("Precio");
+			GroupLayout gl_panel = new GroupLayout(panel);
+			gl_panel.setHorizontalGroup(
+				gl_panel.createParallelGroup(Alignment.LEADING)
+					.addGroup(gl_panel.createSequentialGroup()
+						.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+							.addGroup(gl_panel.createSequentialGroup()
+								.addGap(119)
+								.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+									.addGroup(gl_panel.createSequentialGroup()
+										.addComponent(lblNewLabel_3, GroupLayout.PREFERRED_SIZE, 45, GroupLayout.PREFERRED_SIZE)
+										.addGap(337)
+										.addComponent(lblPrecio, GroupLayout.PREFERRED_SIZE, 45, GroupLayout.PREFERRED_SIZE))
+									.addGroup(gl_panel.createSequentialGroup()
+										.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+											.addComponent(lblNewLabel_1, GroupLayout.PREFERRED_SIZE, 45, GroupLayout.PREFERRED_SIZE)
+											.addComponent(lblNewLabel_2, GroupLayout.PREFERRED_SIZE, 45, GroupLayout.PREFERRED_SIZE))
+										.addGap(168)
+										.addGroup(gl_panel.createParallelGroup(Alignment.LEADING, false)
+											.addComponent(textField)
+											.addComponent(comboBox, 0, 407, Short.MAX_VALUE)))))
+							.addGroup(gl_panel.createSequentialGroup()
+								.addGap(263)
+								.addComponent(btnNewButton)
+								.addGap(222)
+								.addComponent(btnNewButton_1)))
+						.addContainerGap(263, Short.MAX_VALUE))
+			);
+			gl_panel.setVerticalGroup(
+				gl_panel.createParallelGroup(Alignment.LEADING)
+					.addGroup(gl_panel.createSequentialGroup()
+						.addGap(76)
+						.addGroup(gl_panel.createParallelGroup(Alignment.BASELINE)
+							.addComponent(lblNewLabel_1)
+							.addComponent(comboBox, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+						.addGap(132)
+						.addGroup(gl_panel.createParallelGroup(Alignment.BASELINE)
+							.addComponent(lblNewLabel_2)
+							.addComponent(textField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+						.addGap(139)
+						.addGroup(gl_panel.createParallelGroup(Alignment.BASELINE)
+							.addComponent(lblNewLabel_3)
+							.addComponent(lblPrecio))
+						.addPreferredGap(ComponentPlacement.RELATED, 146, Short.MAX_VALUE)
+						.addGroup(gl_panel.createParallelGroup(Alignment.BASELINE)
+							.addComponent(btnNewButton)
+							.addComponent(btnNewButton_1))
+						.addGap(130))
+			);
+			panel.setLayout(gl_panel);
+		}
+	}
+	
+	protected void salidaPressed(ActionEvent e) {
+	    // Cierra el JDialog
+	    this.dispose(); // Si la clase en la que estás implementando este método es un JDialog
+	    // O bien:
+	    // comandaComida.dispose(); // Si la clase es un JDialog llamado comandaComida
+	}
+
+}

@@ -1,0 +1,4 @@
+
+^	java:S106/"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+y
+java:S2095"EUse try-with-resources or close this "Session" in a "finally" clause.b ccd27cd2ed70f63f5fcf7ce2ff994c4ah

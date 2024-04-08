@@ -1,0 +1,134 @@
+// FileServerApp.java
+package psp.ud03.act303.server;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class ServidorEchoApp {
+    // Constantes
+    private static final int DEFAULT_PORT = 2121;
+
+    private int port;
+
+    public ServidorEchoApp() {
+        try {
+            BufferedReader br = new BufferedReader(new FileReader("server.properties"));
+            String line = br.readLine();
+            if (line != null) {
+                port = Integer.parseInt(line.split("=")[1]);
+            } else {
+                port = DEFAULT_PORT;
+            }
+            br.close();
+        } catch (IOException e) {
+            System.err.println("Error al leer el archivo de configuración, utilizando puerto por defecto.");
+            port = DEFAULT_PORT;
+        }
+    }
+
+    public static void main(String[] args) {
+        ServidorEchoApp app = new ServidorEchoApp();
+        app.run();
+    }
+
+    private void run() {
+        try (ServerSocket serverSocket = new ServerSocket(port)) {
+            System.out.println("Servidor iniciado en el puerto " + port);
+            while (true) {
+                Socket clientSocket = serverSocket.accept();
+                System.out.println("Cliente conectado desde " + clientSocket.getInetAddress());
+                Thread clientThread = new Thread(new ClientHandler(clientSocket));
+                clientThread.start();
+            }
+        } catch (IOException e) {
+            System.err.println("Error de E/S en el servidor: " + e.getMessage());
+        }
+    }
+
+    private static class ClientHandler implements Runnable {
+        private Socket clientSocket;
+
+        public ClientHandler(Socket clientSocket) {
+            this.clientSocket = clientSocket;
+        }
+
+        @Override
+        public void run() {
+            try (
+                BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+                PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
+            ) {
+                String inputLine;
+                while ((inputLine = in.readLine()) != null) {
+                    System.out.println("Comando recibido: " + inputLine);
+                    String[] tokens = inputLine.split(" ");
+                    String command = tokens[0];
+                    String argument = tokens.length > 1 ? tokens[1] : null;
+
+                    switch (command.toLowerCase()) {
+                        case "list":
+                            listFiles(argument, out);
+                            break;
+                        case "delete":
+                            deleteFile(argument, out);
+                            break;
+                        case "show":
+                            showFile(argument, out);
+                            break;
+                        case "quit":
+                            out.println("OK");
+                            return;
+                        default:
+                            out.println("KO Comando no reconocido");
+                    }
+                }
+            } catch (IOException e) {
+                System.err.println("Error de E/S en el cliente: " + e.getMessage());
+            }
+        }
+
+        private void listFiles(String path, PrintWriter out) {
+            File directory = new File(path);
+            if (directory.exists() && directory.isDirectory()) {
+                out.println("OK");
+                File[] files = directory.listFiles();
+                for (File file : files) {
+                    out.println(file.getName() + " " + file.length() / 1024);
+                }
+                out.println(); // Línea vacía para indicar fin de listado
+            } else {
+                out.println("KO");
+            }
+        }
+
+        private void deleteFile(String path, PrintWriter out) {
+            File file = new File(path);
+            if (file.exists() && file.delete()) {
+                out.println("OK");
+            } else {
+                out.println("KO");
+            }
+        }
+
+        private void showFile(String path, PrintWriter out) {
+            try (BufferedReader reader = new BufferedReader(new FileReader(path))) {
+                out.println("OK");
+                int lines = 0;
+                String line;
+                while ((line = reader.readLine()) != null) {
+                    lines++;
+                    out.println(line);
+                }
+                out.println(lines);
+            } catch (IOException e) {
+                out.println("KO");
+            }
+        }
+    }
+}

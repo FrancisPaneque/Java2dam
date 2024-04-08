@@ -1,0 +1,6 @@
+
+\
+java:S1604"(Make this anonymous inner class a lambdab ea52882b4555d68253c21906fed1a7f9h
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 20a78638219d183ccafe5efa7cdce3a0h
+}
+java:S3252""IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".b d3eba7aaff6ac48405695200513a5198h

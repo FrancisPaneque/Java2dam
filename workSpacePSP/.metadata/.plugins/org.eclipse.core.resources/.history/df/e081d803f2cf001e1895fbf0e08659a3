@@ -1,0 +1,117 @@
+// FileServerThread.java
+package psp.ud03.act303.server;
+
+import java.io.*;
+import java.net.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.Objects;
+
+public class FileServerThread extends Thread {
+    private final Socket socket;
+
+    public FileServerThread(Socket socket) {
+        this.socket = socket;
+    }
+
+    @Override
+    public void run() {
+        try (BufferedReader entrada = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+             PrintWriter salida = new PrintWriter(socket.getOutputStream(), true)) {
+
+            String inputLine;
+            while ((inputLine = entrada.readLine()) != null) {
+                String[] parts = inputLine.split(" ", 2);
+                String comando = parts[0];
+                String argumento = parts.length > 1 ? parts[1] : "pruebas";
+
+                switch (comando) {
+                    case "list":
+                        listarArchivos(salida, argumento);
+                        break;
+                    case "delete":
+                        eliminarArchivo(salida, argumento);
+                        break;
+                    case "show":
+                        mostrarArchivo(salida, argumento);
+                        break;
+                    case "quit":
+                        salida.println("OK");
+                        return;
+                    default:
+                        salida.println("KO");
+                        break;
+                }
+            }
+        } catch (IOException e) {
+            System.err.println("Error de E/S: " + e.getMessage());
+        }
+    }
+
+    private void listarArchivos(PrintWriter salida, String ruta) throws IOException {
+        Path directorio = Paths.get(ruta); // Convertimos la ruta en un objeto Path
+        if (Files.exists(directorio) && Files.isDirectory(directorio)) {
+            try {
+                // Obtener un Stream<Path> con los elementos del directorio
+                Files.list(directorio).forEach(path -> {
+                    salida.println(path.getFileName());
+                });
+                salida.println("OK");
+            } catch (IOException e) {
+                e.printStackTrace();
+                salida.println("KO"); // Si hay un error, enviamos KO
+            }
+        } else {
+            salida.println("KO"); // Si no existe el directorio o no es un directorio, enviamos KO
+        }
+        salida.println(); // Enviamos una línea vacía al final
+    }
+
+    private void eliminarArchivo(PrintWriter salida, String ruta) {
+        File archivo = new File(ruta);
+        if (archivo.exists()) {
+            if (archivo.isDirectory()) {
+                if (Objects.requireNonNull(archivo.list()).length == 0) {
+                    if (archivo.delete()) {
+                        salida.println("OK");
+                    } else {
+                        salida.println("KO");
+                    }
+                } else {
+                    salida.println("KO");
+                }
+            } else {
+                if (archivo.delete()) {
+                    salida.println("OK");
+                } else {
+                    salida.println("KO");
+                }
+            }
+        } else {
+            salida.println("KO");
+        }
+    }
+
+    private void mostrarArchivo(PrintWriter salida, String ruta) {
+        Path archivo = Paths.get(ruta);
+        try {
+            if (Files.exists(archivo) && !Files.isDirectory(archivo)) {
+                salida.println("OK");
+                Files.lines(archivo).forEach(salida::println);
+            } else {
+                salida.println("KO");
+            }
+        } catch (IOException e) {
+            salida.println("KO");
+        }
+    }
+
+    private File obtenerDirectorio(String ruta) {
+        if (ruta.startsWith("/")) {
+            return new File(ruta);
+        } else {
+            return new File(System.getProperty("user.dir"), ruta);
+        }
+    }
+}

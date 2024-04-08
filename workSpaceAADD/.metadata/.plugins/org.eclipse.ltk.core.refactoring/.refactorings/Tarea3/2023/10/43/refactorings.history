@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;length&apos; in &apos;Pelicula.Pelicula&apos; to &apos;lenght&apos;&#x0D;&#x0A;- Original project: &apos;Tarea3&apos;&#x0D;&#x0A;- Original element: &apos;Pelicula.Pelicula.length&apos;&#x0D;&#x0A;- Renamed element: &apos;Pelicula.Pelicula.lenght&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;length&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;Pelicula{Pelicula.java[Pelicula^length" name="lenght" references="true" setter="false" stamp="1698048987512" textual="false" version="1.0"/>
+</session>

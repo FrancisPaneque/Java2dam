@@ -1,0 +1,16 @@
+
+b
+java:S1121<".Extract the assignment out of this expression.b 5984c551721e630748520bd15e465412h
+b
+java:S1121>".Extract the assignment out of this expression.b 43ec3e5dee6e706af7766fffea512721h
+b
+java:S1121M".Extract the assignment out of this expression.b 8fe8311cd87ff77592fe8627f545a607h
+b
+java:S1121O".Extract the assignment out of this expression.b 43ec3e5dee6e706af7766fffea512721h
+–
+java:S1104"bMake posicionListaPeliculas a static final constant or non-public and provide accessors if needed.b 69015277050ab35e040bf97d62c0e420h
+p
+java:S1444"<Make this "public static posicionListaPeliculas" field finalb 69015277050ab35e040bf97d62c0e420h
+	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b ea7a3ab35db0ccfcc51c1f10dec94796h
+n
+java:S1118	":Add a private constructor to hide the implicit public one.b 168e0eec010a73d4f2da12e4b4d14b0eh

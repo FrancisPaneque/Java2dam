@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;HibernateUtil.java&apos; to &apos;nttdatacenters-hibernate-t1-fpj/src/main/java/nttdatacenters_hibernate_t1_fpj.hibernateUtil.com&apos;&#x0D;&#x0A;- Original project: &apos;EjercicioHQLHibernate&apos;&#x0D;&#x0A;- Destination element: &apos;nttdatacenters-hibernate-t1-fpj/src/main/java/nttdatacenters_hibernate_t1_fpj.hibernateUtil.com&apos;&#x0D;&#x0A;- Original element: &apos;utils.HibernateUtil.java&apos;" description="Copy compilation unit" destination="=nttdatacenters-hibernate-t1-fpj/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;nttdatacenters_hibernate_t1_fpj.hibernateUtil.com" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;utils{HibernateUtil.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1706094324718" units="1" version="1.0"/>
+</session>

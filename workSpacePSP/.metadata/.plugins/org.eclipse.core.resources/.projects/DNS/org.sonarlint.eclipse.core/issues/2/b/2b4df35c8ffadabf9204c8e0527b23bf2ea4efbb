@@ -1,0 +1,5 @@
+
+e	java:S106"+Replace this use of System.out by a logger.8ž÷­ŒÒ1b bb1c3f2ea781263d3a2bb92b06a2061fh
+‡
+java:S2095"LUse try-with-resources or close this "DatagramSocket" in a "finally" clause.8ž÷­ŒÒ1b 848d9998e7060033e4a59d72389f9b1ah
+e	java:S1060"+Replace this use of System.out by a logger.8ž÷­ŒÒ1b bb1c3f2ea781263d3a2bb92b06a2061fh

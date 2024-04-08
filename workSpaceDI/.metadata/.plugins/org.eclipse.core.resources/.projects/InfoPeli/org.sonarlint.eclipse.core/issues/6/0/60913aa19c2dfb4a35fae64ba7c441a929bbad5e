@@ -1,0 +1,32 @@
+
+r
+java:S2696Å"6Make the enclosing method "static" or remove this set.8Äš•îÚ1b b80bb7740288fda1f201890375a60c8fh
+‰
+java:S1192`"NDefine a constant instead of duplicating this literal "Authorization" 3 times.8‰ÀîÆÚ1b 79dc52537a349682e08481ecce1101a6h
+ƒ
+java:S1192`"HDefine a constant instead of duplicating this literal "Bearer " 3 times.8æÔ‹ÇÚ1b d9d138765349005fc066e29518612a8eh
+f	java:S106Ä"+Replace this use of System.out by a logger.8«àœ¡Ú1b bb1c3f2ea781263d3a2bb92b06a2061fh
+h
+java:S1172Î",Remove this unused method parameter "event".8’ó—íÚ1b 4119639092e62c55ea8be348e4d9260dh
+Œ
+java:S1192_"QDefine a constant instead of duplicating this literal "application/json" 3 times.8‰ÀîÆÚ1b 3df9bfa7c44bd4043000f1f950c6838ah
+“
+java:S1192g"XDefine a constant instead of duplicating this literal "Error en la solicitud: " 3 times.8‰ÀîÆÚ1b 51ba8b99befb7842dceb6c8495246cffh
+c
+java:S1128"(Remove this unused import 'models.Cast'.8Äš•îÚ1b 23ba916bde333c26187c7222f72836c7h
+‚
+java:S1192_"GDefine a constant instead of duplicating this literal "accept" 3 times.8‰ÀîÆÚ1b e3633853b46d8b8fbcc5cc2e54d53ac0h
+\
+java:S1170!"!Make this final field static too.8‹²ëíÚ1b 81ad13c2bce9da97e6268873f464e2dbh
+u
+java:S1117Ó"9Rename "stage" which hides the field declared at line 34.8øÖ©íÚ1b 9a8c2b9d518bc163e99611fbacea63b2h
+r
+java:S1128"7Remove this unused import 'javafx.scene.control.Label'.8È¤»îÚ1b 0447bcc42119510c1045e40c4f70ebe7h
+¼
+java:S11863"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.8ÞàÚ Ú1b 5035d74e69d3d3e0ea1d07c0df7687c0h
+‹	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8øÖ©íÚ1b 64c6da2436465d11573858d46056b95dh
+¨
+java:S1130©"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.8¶Ê¢¡Ú1b be3bf3cb01e0cae10d7459a53f1b9edch
+Œ	java:S116!"RRename this field "KEY_API" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8‹²ëíÚ1b 81ad13c2bce9da97e6268873f464e2dbh
+g
+java:S1128",Remove this unused import 'models.Usuarios'.8Äš•îÚ1b 11d0bbe7b400a22cc864e41f0f3a0fd4h

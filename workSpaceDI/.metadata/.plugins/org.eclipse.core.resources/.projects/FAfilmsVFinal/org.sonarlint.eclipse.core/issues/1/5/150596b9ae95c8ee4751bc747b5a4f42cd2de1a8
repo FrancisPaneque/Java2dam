@@ -1,0 +1,35 @@
+
+|
+java:S11927"HDefine a constant instead of duplicating this literal "CjFilms" 5 times.b 70ded5d8829718d07c96807486382697h
+z
+java:S1192P"FDefine a constant instead of duplicating this literal "Error" 3 times.b 679348fd6db8ab1e8f9b97a9fc70e120h
+|
+java:S1192Q"HDefine a constant instead of duplicating this literal "Error: " 3 times.b 8d3ce6296a320b092232b77b4a0dc584h
+Ö	java:S117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 71962a1ec55258fc0aeebf52cfae1550h
+Ö	java:S117ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b e291c1825d60e7f63278b325f5130bfbh
+m
+java:S11174"9Rename "stage" which hides the field declared at line 41.b 9a8c2b9d518bc163e99611fbacea63b2h
+m
+java:S1117G"9Rename "stage" which hides the field declared at line 41.b 9a8c2b9d518bc163e99611fbacea63b2h
+m
+java:S1117a"9Rename "stage" which hides the field declared at line 41.b 9a8c2b9d518bc163e99611fbacea63b2h
+m
+java:S1117z"9Rename "stage" which hides the field declared at line 41.b 9a8c2b9d518bc163e99611fbacea63b2h
+°
+java:S1130Œ"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.b be3bf3cb01e0cae10d7459a53f1b9edch
+_	java:S106È"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+k
+java:S2696Í"6Make the enclosing method "static" or remove this set.b b80bb7740288fda1f201890375a60c8fh
+n
+java:S1117¸"9Rename "stage" which hides the field declared at line 41.b 9a8c2b9d518bc163e99611fbacea63b2h
+i
+java:S1128"5Remove this unused import 'javafx.event.ActionEvent'.b c23518597ae6bb90f80e5a5007aedf50h
+l
+java:S1128"8Remove this unused import 'javafx.scene.control.Button'.b 113ad7b3b5d81e96fe4d653f389f3184h
+o
+java:S1128
+";Remove this unused import 'javafx.scene.control.TextField'.b 1b0c6a7ec53ded9698101fba20b2511bh
+j
+java:S1128"6Remove this unused import 'javafx.scene.shape.Circle'.b e5e32125d4e7d856f57dde86b6ec000dh
+p
+java:S1128"<Remove this unused import 'javafx.scene.paint.ImagePattern'.b 3a463f1a2affd84118b0f6827552d087h

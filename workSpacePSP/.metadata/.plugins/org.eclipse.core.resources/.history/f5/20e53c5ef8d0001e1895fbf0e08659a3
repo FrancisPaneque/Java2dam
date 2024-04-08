@@ -1,0 +1,57 @@
+// FileClientApp.java
+package psp.ud03.act303.client;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.Socket;
+
+public class FileClientApp {
+ private static final String DEFAULT_HOST = "localhost";
+ private static final int DEFAULT_PORT = 2121;
+
+ private String host;
+ private int port;
+
+ public FileClientApp(String host, int port) {
+     this.host = host;
+     this.port = port;
+ }
+
+ public static void main(String[] args) {
+     String host = args.length > 0 ? args[0] : DEFAULT_HOST;
+     int port = args.length > 1 ? Integer.parseInt(args[1]) : DEFAULT_PORT;
+     FileClientApp app = new FileClientApp(host, port);
+     app.run();
+ }
+
+ private void run() {
+     try (Socket socket = new Socket(host, port);
+          BufferedReader userInput = new BufferedReader(new InputStreamReader(System.in));
+          PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
+          BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()))) {
+
+         System.out.println("Conectado al servidor en " + host + ":" + port);
+
+         String userInputLine;
+         while ((userInputLine = userInput.readLine()) != null) {
+             out.println(userInputLine);
+             String serverResponse = in.readLine();
+             System.out.println("Respuesta del servidor: " + serverResponse);
+             if (serverResponse.equals("OK") || serverResponse.equals("KO")) {
+                 if (userInputLine.equalsIgnoreCase("quit")) {
+                     break;
+                 }
+             } else {
+                 int lines = Integer.parseInt(serverResponse);
+                 for (int i = 0; i < lines; i++) {
+                     System.out.println(in.readLine());
+                 }
+             }
+         }
+     } catch (IOException e) {
+         System.err.println("Error de E/S en el cliente: " + e.getMessage());
+     }
+ }
+}

@@ -1,0 +1,10 @@
+
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 18d8d31c3c59410497ab48d7b4e4dce0h
+_
+java:S1128"+Remove this unused import 'java.util.List'.b 647165940d2971f696436f6a7da1f89dh
+m
+java:S1128"9Remove this unused import 'hlc.ud04.appsec.core.Cliente'.b 2bda24a2f885489c2b3c7b727347fd6eh
+x
+java:S1128"DRemove this unused import 'hlc.ud04.appsec.core.GestorPersistencia'.b 8c99d2238f2ae2e79cc4cea06caf6891h
+Ü
+java:S1128"RRemove this unused import 'hlc.ud04.appsec.persistencia.GestorPersistenciaSqlite'.b be0170d15d67112e30cb83ae7957a8fch

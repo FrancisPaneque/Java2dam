@@ -1,0 +1,106 @@
+// FileServerThread.java
+package psp.ud03.act303.server;
+import java.io.*;
+import java.net.Socket;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class ClientHandler implements Runnable {
+    private final Socket clientSocket;
+    private final String serverRootDirectory;
+
+    public ClientHandler(Socket clientSocket, String serverRootDirectory) {
+        this.clientSocket = clientSocket;
+        this.serverRootDirectory = serverRootDirectory;
+    }
+
+    @Override
+    public void run() {
+        try (
+            BufferedReader reader = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+            PrintWriter writer = new PrintWriter(clientSocket.getOutputStream(), true);
+        ) {
+            String command;
+            while ((command = reader.readLine()) != null) {
+                String[] parts = command.split(" ", 2);
+                String action = parts[0];
+                String argument = parts.length > 1 ? parts[1] : "";
+
+                String response = "";
+                switch (action) {
+                    case "list":
+                        response = listFiles(argument);
+                        break;
+                    case "delete":
+                        response = deleteFile(argument);
+                        break;
+                    case "show":
+                        response = showFile(argument);
+                        break;
+                    case "quit":
+                        writer.println("OK");
+                        return;
+                    default:
+                        response = "KO\nInvalid command";
+                        break;
+                }
+
+                writer.println(response);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private String listFiles(String path) {
+        File directory = new File(serverRootDirectory, path);
+        if (!directory.exists() || !directory.isDirectory()) {
+            return "KO\nDirectory not found";
+        }
+
+        StringBuilder response = new StringBuilder("OK\n");
+        File[] files = directory.listFiles();
+        if (files != null) {
+            for (File file : files) {
+                response.append(file.getName()).append(" ").append(file.length()).append("\n");
+            }
+        }
+        return response.toString();
+    }
+
+    private String deleteFile(String path) {
+        File file = new File(serverRootDirectory, path);
+        if (!file.exists()) {
+            return "KO\nFile not found";
+        }
+
+        if (file.isDirectory()) {
+            if (file.list().length > 0) {
+                return "KO\nDirectory not empty";
+            }
+        }
+
+        if (file.delete()) {
+            return "OK";
+        } else {
+            return "KO\nFailed to delete file";
+        }
+    }
+
+    private String showFile(String path) {
+        Path filePath = Paths.get(serverRootDirectory, path);
+        try {
+            if (!Files.exists(filePath) || Files.isDirectory(filePath)) {
+                return "KO\nFile not found";
+            }
+
+            StringBuilder response = new StringBuilder("OK\n");
+            Files.lines(filePath).forEach(line -> response.append(line).append("\n"));
+            return response.toString();
+        } catch (IOException e) {
+            e.printStackTrace();
+            return "KO\nError reading file";
+        }
+    }
+}

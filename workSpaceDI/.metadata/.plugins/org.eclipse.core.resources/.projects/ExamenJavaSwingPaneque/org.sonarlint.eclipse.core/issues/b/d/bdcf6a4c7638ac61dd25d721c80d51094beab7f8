@@ -1,0 +1,32 @@
+
+a
+java:S1199Z"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+a
+java:S1128"-Remove this unused import 'frontLogin.Login'.b a1a1e184bf041f412fc48c11b52fafb9h
+a
+java:S1199E"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+q
+java:S1128"=Remove this unused import 'javax.swing.DefaultComboBoxModel'.b 708837c021e8640600ad518e9a5b3660h
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 4f0374ef714b3fed050248c3c53b1b1eh
+a
+java:S1199U"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+a
+java:S1199?"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+\
+java:S1604\"(Make this anonymous inner class a lambdab 65b17b751d67188db4a2eea102b1f843h
+a
+java:S1199/"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+Ñ	java:S117V"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b c77fb54f445e2112028a4ddbdad894dah
+a
+java:S11994"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+k
+java:S1172("7Remove these unused method parameters "padre", "modal".b 41409f34ee49036ad153fa10b374747eh
+ì	java:S116#"`Rename this field "rdbtnNewRadioButton_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b a548c23421431f96f8884bcbb9579a7ch
+a
+java:S1199K"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+f
+java:S1128"2Remove this unused import 'javax.swing.JComboBox'.b d8706940c40975b3efa881d908842dffh
+a
+java:S1199;"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+a
+java:S1199P"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h

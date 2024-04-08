@@ -1,0 +1,9 @@
+
+‘
+java:S1488="]Immediately return this expression instead of assigning it to the temporary variable "media".b 6e5a6dec915f051eec04806cdc018b7ch
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+e
+java:S1144-"1Remove this unused private "listaADouble" method.b c53c7d6e364fff1ed14f28aaab4ebe26h
+f
+java:S1144<"2Remove this unused private "devuelveMedia" method.b 00d73a17d216b9837d5c71ec136323e2h

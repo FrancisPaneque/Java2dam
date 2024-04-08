@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"hlc.ud04.appsec.core"},{"l":"hlc.ud04.appsec.interfaz"},{"l":"hlc.ud04.appsec.interfaz.consola"},{"l":"hlc.ud04.appsec.persistencia"},{"l":"hlc.ud04.appsec.seguridad.autenticacion"},{"l":"hlc.ud04.appsec.seguridad.controlacceso"},{"l":"hlc.ud04.appsec.seguridad.core"}];updateSearchResults();

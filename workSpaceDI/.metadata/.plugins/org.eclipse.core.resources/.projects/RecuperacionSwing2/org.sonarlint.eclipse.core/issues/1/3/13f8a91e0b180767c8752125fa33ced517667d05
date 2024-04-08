@@ -1,0 +1,16 @@
+
+\
+java:S1604("(Make this anonymous inner class a lambdab ea52882b4555d68253c21906fed1a7f9h
+}
+java:S32528"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".b d3eba7aaff6ac48405695200513a5198h
+‚
+java:S1192E"GDefine a constant instead of duplicating this literal "Tahoma" 4 times.8âÇüŒã1b 271e64d070b12fd41baa5a63b6c3bb4dh
+‹	java:S117m"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8âÇüŒã1b 0431cc9d9ea8b682dd96520cd91b1d22h
+d
+java:S1172¥"(Remove this unused method parameter "e".8Ø…¦ã1b e1671797c52e15f763380b45e841ec32h
+c
+java:S1604H"(Make this anonymous inner class a lambda8Şë¾ã1b 65b17b751d67188db4a2eea102b1f843h
+q
+java:S2696M"6Make the enclosing method "static" or remove this set.8ÊÔëã1b c0ea967392d6e372035f3657e33fed5dh
+d
+java:S1172°"(Remove this unused method parameter "e".8Ä‘–ã1b e1671797c52e15f763380b45e841ec32h

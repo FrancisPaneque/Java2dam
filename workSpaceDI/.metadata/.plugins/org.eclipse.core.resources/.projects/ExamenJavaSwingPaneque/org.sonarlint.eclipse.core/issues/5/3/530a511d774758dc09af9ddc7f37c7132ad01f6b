@@ -1,0 +1,48 @@
+
+c
+java:S3740P"/Provide the parametrized type for this generic.b ad23634b394e5f182ae9576cf7eed86ch
+c
+java:S3740P"/Provide the parametrized type for this generic.b ad23634b394e5f182ae9576cf7eed86ch
+c
+java:S3740Q"/Provide the parametrized type for this generic.b 06e974aeb7edb66ca774fba29b98f5bch
+c
+java:S3740U"/Provide the parametrized type for this generic.b ad23634b394e5f182ae9576cf7eed86ch
+c
+java:S3740U"/Provide the parametrized type for this generic.b ad23634b394e5f182ae9576cf7eed86ch
+c
+java:S3740V"/Provide the parametrized type for this generic.b 06e974aeb7edb66ca774fba29b98f5bch
+Ñ	java:S117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 95b9750f3ce6fb297b558efc3929417eh
+ã
+java:S1104 "WMake nomreClases a static final constant or non-public and provide accessors if needed.b 36c25aa7324a6766650811f6f6d6ee27h
+e
+java:S1444 "1Make this "public static nomreClases" field finalb 36c25aa7324a6766650811f6f6d6ee27h
+a
+java:S1199-"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+a
+java:S11999"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+a
+java:S11992"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+a
+java:S1199="-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+a
+java:S1199B"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+a
+java:S1199G"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 4f0374ef714b3fed050248c3c53b1b1eh
+Q
+java:S2386 "Make this member "protected".b 36c25aa7324a6766650811f6f6d6ee27h
+\
+java:S3010N"(Remove this assignment of "arrayClases".b 8cd8846a44ed7d9e122dd7d7a38da4b6h
+p
+java:S1172'"<Remove these unused method parameters "pantallaClient", "b".b 4b1d50766c67690b4a9295afd7cf8eaah
+Å	java:S100]"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b cdfe20adc0d9b160d60db85852084308h
+_
+java:S1128"+Remove this unused import 'models.Usuario'.b fd8290d1fcf19b4cffa6d26222ea3b2eh
+i
+java:S1128"5Remove this unused import 'utilidades.UtilidadesApp'.b a5074dc69cc025b96b5002d39d530e4bh
+k
+java:S1128"7Remove this unused import 'utilidades.UtilidadesLogin'.b c4d7e70026d34ebfb5c2bc7554b8eed1h
+g
+java:S1128"3Remove this unused import 'javax.swing.JTextField'.b dcebd63ded365f050ae201e7cbfb142eh
+i
+java:S1128"5Remove this unused import 'javax.swing.JRadioButton'.b 20f4d6c6c9074e87714584a156aad4d2h

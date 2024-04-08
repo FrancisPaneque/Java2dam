@@ -1,0 +1,27 @@
+
+|
+java:S1192z"HDefine a constant instead of duplicating this literal "CjFilms" 5 times.b 70ded5d8829718d07c96807486382697h
+z
+java:S1192g"FDefine a constant instead of duplicating this literal "Error" 6 times.b 679348fd6db8ab1e8f9b97a9fc70e120h
+|
+java:S1192h"HDefine a constant instead of duplicating this literal "Error: " 6 times.b 8d3ce6296a320b092232b77b4a0dc584h
+ê
+java:S14504"\Remove the "usuarioActivo" field and declare it as a local variable in the relevant methods.b bc959d3baf91a072beee560ee7142795h
+m
+java:S1117w"9Rename "stage" which hides the field declared at line 50.b 9a8c2b9d518bc163e99611fbacea63b2h
+n
+java:S1117ê"9Rename "stage" which hides the field declared at line 50.b 9a8c2b9d518bc163e99611fbacea63b2h
+n
+java:S1117©"9Rename "stage" which hides the field declared at line 50.b 9a8c2b9d518bc163e99611fbacea63b2h
+n
+java:S1117¬"9Rename "stage" which hides the field declared at line 50.b 9a8c2b9d518bc163e99611fbacea63b2h
+n
+java:S1117€"9Rename "stage" which hides the field declared at line 50.b 9a8c2b9d518bc163e99611fbacea63b2h
+o
+java:S1128";Remove this unused import 'javafx.scene.effect.DropShadow'.b e94cbc594fcddb93bf7408f478b701dch
+m
+java:S1128"9Remove this unused import 'javafx.scene.image.ImageView'.b 6eb0d079668128599a62d2b0e221b9c2h
+i
+java:S1128"5Remove this unused import 'javafx.scene.paint.Color'.b bed750e03db91c62b48495582c7fd560h
+¢
+java:S1192Ç"fDefine a constant instead of duplicating this literal "Esa funcionalidad no est√° disponible" 5 times.8ü≥„ú€1b b3776244cfdad484ad1a5bbae9f8783ah

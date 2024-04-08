@@ -1,0 +1,47 @@
+
+|
+java:S1192l"HDefine a constant instead of duplicating this literal "CjFilms" 5 times.b 70ded5d8829718d07c96807486382697h
+∞
+java:S1192ú"{Define a constant instead of duplicating this literal "https://api.themoviedb.org/3/discover/movie?include_adult=" 3 times.b e0f95164b26f06ce2e78ce3329cf3b37h
+|
+java:S1192s"HDefine a constant instead of duplicating this literal "Error: " 3 times.b 8d3ce6296a320b092232b77b4a0dc584h
+z
+java:S1192r"FDefine a constant instead of duplicating this literal "Error" 3 times.b 679348fd6db8ab1e8f9b97a9fc70e120h
+Ä	java:S101$"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b e9de173ff1b4ed9add15d97c420aaf6eh
+q
+java:S4973ù"<Strings and Boxed types should be compared using "equals()".b 2063849717d32dd19e534b77cabac517h
+é	java:S116,"[Rename this field "BuscarPorFiltros" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 759b660cb7ba62519ae295e9c524496ah
+m
+java:S1117i"9Rename "stage" which hides the field declared at line 41.b 9a8c2b9d518bc163e99611fbacea63b2h
+n
+java:S1117Ç"9Rename "stage" which hides the field declared at line 41.b 9a8c2b9d518bc163e99611fbacea63b2h
+n
+java:S1117î"9Rename "stage" which hides the field declared at line 41.b 9a8c2b9d518bc163e99611fbacea63b2h
+n
+java:S1117ß"9Rename "stage" which hides the field declared at line 41.b 9a8c2b9d518bc163e99611fbacea63b2h
+°
+java:S1130Ë"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.b be3bf3cb01e0cae10d7459a53f1b9edch
+_	java:S106Ä"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+_	java:S106Å"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+Ç	java:S100∏"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 7fadca13c4859962b1279efd65df03c1h
+r
+java:S1854º"=Remove this useless assignment to local variable "choiceBox".b 1405382d03030d093aa7a416d8076d74h
+n
+java:S1854∫"9Remove this useless assignment to local variable "items".b 4cefab1eeedc5da0b3454eba6ee2b0cah
+_
+java:S1481∫"*Remove this unused "items" local variable.b 691d502cfd0e0626cd3b058e5682ad1ch
+c
+java:S1481º".Remove this unused "choiceBox" local variable.b a6d804aa237ca0c3a825fbf8f5bb1b0ah
+_	java:S106Ö"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+k
+java:S2696Ü"6Make the enclosing method "static" or remove this set.b b80bb7740288fda1f201890375a60c8fh
+k
+java:S2696á"6Make the enclosing method "static" or remove this set.b b80bb7740288fda1f201890375a60c8fh
+n
+java:S1117ù"9Rename "stage" which hides the field declared at line 41.b 9a8c2b9d518bc163e99611fbacea63b2h
+k
+java:S1128"7Remove this unused import 'javafx.scene.control.Label'.b 0447bcc42119510c1045e40c4f70ebe7h
+n
+java:S1128":Remove this unused import 'javafx.scene.control.TextArea'.b 56174b7f0841a728f72f73a58083eeb8h
+p
+java:S1144∏";Remove this unused private "a√±adeComboBoxConArray" method.b 7fadca13c4859962b1279efd65df03c1h

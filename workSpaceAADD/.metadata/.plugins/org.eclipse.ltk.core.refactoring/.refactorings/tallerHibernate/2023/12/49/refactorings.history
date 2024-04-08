@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;utils.hibernateUtils&apos; to &apos;HibernateUtils&apos;&#x0D;&#x0A;- Original project: &apos;tallerHibernate&apos;&#x0D;&#x0A;- Original element: &apos;utils.hibernateUtils&apos;&#x0D;&#x0A;- Renamed element: &apos;utils.HibernateUtils&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;hibernateUtils&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;utils{hibernateUtils.java[hibernateUtils" matchStrategy="1" name="HibernateUtils" qualified="false" references="true" similarDeclarations="false" stamp="1701947752038" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,8 @@
+
+\
+java:S1604>"(Make this anonymous inner class a lambdab 65b17b751d67188db4a2eea102b1f843h
+n
+java:S11611":Add the "@Override" annotation above this method signatureb be5313f549f31ef35f375953c0fdb83ah
+}
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".b d3eba7aaff6ac48405695200513a5198h
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 3882ba2bf492af9bf263c32a38376686h

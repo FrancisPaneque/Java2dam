@@ -1,0 +1,6 @@
+
+€	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b 0440d8960873bac2cd6a2f309d1a9454h
+…
+java:S2095F"QUse try-with-resources or close this "CloseableHttpClient" in a "finally" clause.b 48c643b66d585f4a30336161b036c3e1h
+¾
+java:S1130D"‰Remove the declaration of thrown exception 'org.apache.http.client.ClientProtocolException' which is a subclass of 'java.io.IOException'.b bb4976df15ee3937823ca884ae325882h

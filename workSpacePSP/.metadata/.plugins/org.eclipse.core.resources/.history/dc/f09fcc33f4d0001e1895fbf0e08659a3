@@ -1,0 +1,52 @@
+// FileServerApp.java
+package psp.ud03.act303.server;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.Properties;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class FileServerApp {
+    private static final int DEFAULT_PORT = 2121;
+
+    public static void main(String[] args) {
+        int port = DEFAULT_PORT;
+        String serverRootDirectory = "pruebas"; // Valor predeterminado
+
+        // Verificar si se proporciona un directorio raíz del servidor como argumento
+        if (args.length > 0) {
+            serverRootDirectory = args[0];
+        }
+
+        // Leer la configuración desde server.properties
+        Properties properties = new Properties();
+        try {
+            properties.load(FileServerApp.class.getResourceAsStream("/server.properties"));
+            String portString = properties.getProperty("puerto");
+            if (portString != null && !portString.isEmpty()) {
+                port = Integer.parseInt(portString);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            ServerSocket serverSocket = new ServerSocket(port);
+            System.out.println("Server listening on port " + port);
+
+            ExecutorService executorService = Executors.newCachedThreadPool();
+
+            while (true) {
+                Socket clientSocket = serverSocket.accept();
+                System.out.println("Accepted connection from " + clientSocket.getInetAddress());
+
+                // Handle client connection in a separate thread
+                executorService.submit(new ClientHandler(clientSocket, serverRootDirectory));
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}

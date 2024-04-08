@@ -1,0 +1,85 @@
+
+}
+java:S1192½"HDefine a constant instead of duplicating this literal "CjFilms" 5 times.b 70ded5d8829718d07c96807486382697h
+}
+java:S1192Ä"HDefine a constant instead of duplicating this literal "Error: " 6 times.b 8d3ce6296a320b092232b77b4a0dc584h
+š
+java:S1192Å"eDefine a constant instead of duplicating this literal "Esa funcionalidad no esta disponible" 3 times.b 0f2021c200b493f79037b0a3abb56003h
+{
+java:S1192Ã"FDefine a constant instead of duplicating this literal "Error" 8 times.b 679348fd6db8ab1e8f9b97a9fc70e120h
+„	java:S117q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 64c6da2436465d11573858d46056b95dh
+Q
+java:S1643þ"Use a StringBuilder instead.b 3d4e992d8d8a7d848724aa26ed7f4176h
+Q
+java:S1643‹"Use a StringBuilder instead.b 585a853cba1897089e0f16832d4382cdh
+Q
+java:S1643©"Use a StringBuilder instead.b 7f80095aea4d66af1121f1fbe916066dh
+‚
+java:S11045"NMake id a static final constant or non-public and provide accessors if needed.b b80bb7740288fda1f201890375a60c8fh
+\
+java:S14445"(Make this "public static id" field finalb b80bb7740288fda1f201890375a60c8fh
+€	java:S101,"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b e8d6cc8b7f23215c1998ca7bb89b0681h
+|
+java:S2259Þ"GA "NullPointerException" could be thrown; "datosPeli" is nullable here.b 1fc6e9ecf24cdd943acb3e97bf0b73c9h
+|
+java:S2259‰"GA "NullPointerException" could be thrown; "datosPeli" is nullable here.b 1fc6e9ecf24cdd943acb3e97bf0b73c9h
+|
+java:S2259®"GA "NullPointerException" could be thrown; "datosPeli" is nullable here.b 1fc6e9ecf24cdd943acb3e97bf0b73c9h
+x
+java:S2583±"CChange this condition so that it does not always evaluate to "true"b fa1b0282b864cd68f395deccca91e1bdh
+q	java:S107ð"=Method has 17 parameters, which is greater than 7 authorized.b 754923e60bf4f0428ee8e0ea8bffa606h
+j
+java:S2696w"6Make the enclosing method "static" or remove this set.b b80bb7740288fda1f201890375a60c8fh
+i
+java:S2209w"5Change this instance-reference to a static reference.b 9e925e9341b490bfd3b4c4ca3b0c1ef2h
+_	java:S106†"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+_	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+_	java:S106 "+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+_	java:S106©"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+n
+java:S1117º"9Rename "stage" which hides the field declared at line 52.b 9a8c2b9d518bc163e99611fbacea63b2h
+n
+java:S1117Ô"9Rename "stage" which hides the field declared at line 52.b 9a8c2b9d518bc163e99611fbacea63b2h
+n
+java:S1117"9Rename "stage" which hides the field declared at line 52.b 9a8c2b9d518bc163e99611fbacea63b2h
+n
+java:S1117ç"9Rename "stage" which hides the field declared at line 52.b 9a8c2b9d518bc163e99611fbacea63b2h
+n
+java:S1117”"9Rename "stage" which hides the field declared at line 52.b 9a8c2b9d518bc163e99611fbacea63b2h
+‡
+java:S3776ð"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.b 754923e60bf4f0428ee8e0ea8bffa606h
+s
+java:S1854£">Remove this useless assignment to local variable "actoresBox".b a69fd3e2f360df9751683415600fbcedh
+c
+java:S1172ð".Remove this unused method parameter "actores".b 59e86f5764c418310351a814dde4325eh
+¡
+java:S1130Ç"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.b be3bf3cb01e0cae10d7459a53f1b9edch
+_	java:S106Ï"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+m
+java:S1854õ"8Remove this useless assignment to local variable "film".b 1acde218d06979841d0320dddd4a626ah
+^
+java:S1481õ")Remove this unused "film" local variable.b bdbd6db1d8cc09a957e86180fda9442ah
+m
+java:S1854ƒ"8Remove this useless assignment to local variable "film".b cbd76ca6734edd87d0f2feada4085bf5h
+^
+java:S1481ƒ")Remove this unused "film" local variable.b bdbd6db1d8cc09a957e86180fda9442ah
+g
+java:S1128"3Remove this unused import 'javafx.geometry.Insets'.b 0649308d780677971641a1db073a8301h
+d
+java:S1128"0Remove this unused import 'javafx.geometry.Pos'.b b616ca3723878c7b020f7c076072d3bdh
+i
+java:S1128"5Remove this unused import 'javafx.scene.paint.Color'.b bed750e03db91c62b48495582c7fd560h
+g
+java:S1128"3Remove this unused import 'javafx.scene.text.Font'.b c2129b7ca3c0dd7da9e347fe6a7f3aach
+m
+java:S1128"9Remove this unused import 'javafx.scene.text.FontWeight'.b e019fa84fe5741914e76338d8a5ba529h
+p
+java:S1128"<Remove this unused import 'javafx.scene.text.TextAlignment'.b 8da011aae856c7360e4208c1605ac3a5h
+o
+java:S1128";Remove this unused import 'javafx.scene.layout.AnchorPane'.b dab31e5b22b6576c230d3ed7377a2634h
+n
+java:S1128":Remove this unused import 'javafx.scene.layout.StackPane'.b 5efeb14686697d8e3b077adbbbdc9bcfh
+a
+java:S10680"-Remove this unused "URL_MOVIE" private field.b 9f583049ec795d7ff3054e1a44518305h
+`
+java:S10681",Remove this unused "URL_CAST" private field.b 3f2dbce6b822b43e2ac681bf93dfad13h

@@ -1,0 +1,34 @@
+
+a
+java:S1199-"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+l
+java:S1068""1Remove this unused "buttonGroup_1" private field.8È•ŸÖ×1b 3d06d33eefae8fc39f1ab2114e56528eh
+h
+java:S1199:"-Extract this nested code block into a method.8È•ŸÖ×1b f95b70fdc3088560732a5ac135644506h
+e	java:S106r"+Replace this use of System.out by a logger.8Ùá°Ö×1b bb1c3f2ea781263d3a2bb92b06a2061fh
+a
+java:S11992"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+a
+java:S11996"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+c
+java:S1604f"(Make this anonymous inner class a lambda8È•ŸÖ×1b 65b17b751d67188db4a2eea102b1f843h
+f
+java:S1128
+"+Remove this unused import 'models.Usuario'.8Ü—‘××1b fd8290d1fcf19b4cffa6d26222ea3b2eh
+‹	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8È•ŸÖ×1b c77fb54f445e2112028a4ddbdad894dah
+‹	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8È•ŸÖ×1b 9fe8012a185ed2be6c028c9255ab8b81h
+‹	java:S117w"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8È•ŸÖ×1b 6807a19de6aea644fb13fc98d9ae6e4eh
+r
+java:S1172'"7Remove these unused method parameters "padre", "modal".8ÐŸàÖ×1b 41409f34ee49036ad153fa10b374747eh
+‹	java:S1177"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8È•ŸÖ×1b 145d64df0d46c4835d1d6d96229dbfaeh
+’	java:S116""XRename this field "buttonGroup_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8È•ŸÖ×1b 3d06d33eefae8fc39f1ab2114e56528eh
+h
+java:S1199>"-Extract this nested code block into a method.8È•ŸÖ×1b f95b70fdc3088560732a5ac135644506h
+‹	java:S117S"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8È•ŸÖ×1b c56eb01d35ec6afdd24bd6d9f8caeee3h
+h
+java:S1199H"-Extract this nested code block into a method.8È•ŸÖ×1b f95b70fdc3088560732a5ac135644506h
+k
+java:S1128"0Remove this unused import 'java.awt.FlowLayout'.8Ü—‘××1b 152c6b14e9e8a55c4e70be29ed0b3f3ah
+‹	java:S117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8È•ŸÖ×1b 1778fbafbca5981710b1a9c4cd303023h
+h
+java:S1199B"-Extract this nested code block into a method.8È•ŸÖ×1b f95b70fdc3088560732a5ac135644506h

@@ -1,0 +1,35 @@
+
+j
+java:S2696}"6Make the enclosing method "static" or remove this set.b c0ea967392d6e372035f3657e33fed5dh
+]
+java:S1172◊"(Remove this unused method parameter "e".b e1671797c52e15f763380b45e841ec32h
+ç
+java:S1104"YMake usuarioActual a static final constant or non-public and provide accessors if needed.b c0ea967392d6e372035f3657e33fed5dh
+_
+java:S3010Ü"*Remove this assignment of "usuarioActual".b c0ea967392d6e372035f3657e33fed5dh
+Ñ	java:S117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 6e7a2377fd558796b56a432181dd0817h
+]
+java:S1604ö"(Make this anonymous inner class a lambdab 65b17b751d67188db4a2eea102b1f843h
+k
+java:S2696Ü"6Make the enclosing method "static" or remove this set.b c0ea967392d6e372035f3657e33fed5dh
+]
+java:S1172–"(Remove this unused method parameter "e".b e1671797c52e15f763380b45e841ec32h
+Ö	java:S117¢"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 20015bec5a666949b0c71bf6b9cedc11h
+\
+java:S1604("(Make this anonymous inner class a lambdab ea52882b4555d68253c21906fed1a7f9h
+]
+java:S1172ﬂ"(Remove this unused method parameter "e".b e1671797c52e15f763380b45e841ec32h
+{
+java:S1192U"GDefine a constant instead of duplicating this literal "Tahoma" 5 times.b 271e64d070b12fd41baa5a63b6c3bb4dh
+g
+java:S1444"3Make this "public static usuarioActual" field finalb c0ea967392d6e372035f3657e33fed5dh
+d
+java:S1128"0Remove this unused import 'java.awt.FlowLayout'.b 152c6b14e9e8a55c4e70be29ed0b3f3ah
+\
+java:S1604v"(Make this anonymous inner class a lambdab 65b17b751d67188db4a2eea102b1f843h
+ç	java:S116""ZRename this field "textContrase√±a" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 8df8e44f7612413547e984063a0e3e15h
+}
+java:S32529"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".b d3eba7aaff6ac48405695200513a5198h
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 20a78638219d183ccafe5efa7cdce3a0h
+^
+java:S3010}"*Remove this assignment of "usuarioActual".b c0ea967392d6e372035f3657e33fed5dh

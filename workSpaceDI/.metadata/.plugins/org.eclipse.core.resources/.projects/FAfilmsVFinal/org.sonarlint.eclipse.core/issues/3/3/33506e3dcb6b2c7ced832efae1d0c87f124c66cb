@@ -1,0 +1,7 @@
+
+d
+java:S1128"0Remove this unused import 'org.hibernate.Query'.b ad054d7a123d3c55328088fe637d445ah
+_
+java:S1128"+Remove this unused import 'java.util.List'.b 647165940d2971f696436f6a7da1f89dh
+Š
+java:S2159"VRemove this call to "equals"; comparisons between unrelated types always return false.b 51c3f59625962b899c03595d6cdfb284h

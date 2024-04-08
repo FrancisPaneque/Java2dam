@@ -1,0 +1,30 @@
+
+v
+java:S6813""BRemove this field injection and use constructor injection instead.b 0132ec8cee01c5dd244e1a60fe6448a1h
+v
+java:S6813&"BRemove this field injection and use constructor injection instead.b 0132ec8cee01c5dd244e1a60fe6448a1h
+v
+java:S6813+"BRemove this field injection and use constructor injection instead.b 0132ec8cee01c5dd244e1a60fe6448a1h
+v
+java:S68130"BRemove this field injection and use constructor injection instead.b 0132ec8cee01c5dd244e1a60fe6448a1h
+v
+java:S68134"BRemove this field injection and use constructor injection instead.b 0132ec8cee01c5dd244e1a60fe6448a1h
+v
+java:S68138"BRemove this field injection and use constructor injection instead.b 0132ec8cee01c5dd244e1a60fe6448a1h
+v
+java:S6813<"BRemove this field injection and use constructor injection instead.b 0132ec8cee01c5dd244e1a60fe6448a1h
+v
+java:S6813A"BRemove this field injection and use constructor injection instead.b 0132ec8cee01c5dd244e1a60fe6448a1h
+p
+java:S1854w"<Remove this useless assignment to local variable "results2".b 0e85c04d0db65506f6f75f2076c267bfh
+`
+java:S1874d",Remove this use of "Date"; it is deprecated.b 44749712dbec183e983dcd78a7736c41h
+`
+java:S1874i",Remove this use of "Date"; it is deprecated.b 44749712dbec183e983dcd78a7736c41h
+^	java:S106n"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106p"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106s"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+a
+java:S1481w"-Remove this unused "results2" local variable.b cd765b0f91b36e1dd70b43df4c0e169eh
+d
+java:S1128"0Remove this unused import 'java.util.ArrayList'.b 510ef3bd202c030c041eba1094753b66h

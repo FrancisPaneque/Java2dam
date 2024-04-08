@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;hlc.ud03.examen&apos; to &apos;hlc.ud03.examen.main&apos;&#x0D;&#x0A;- Original project: &apos;ExamenUnidad03&apos;&#x0D;&#x0A;- Original element: &apos;ExamenUnidad03/src/hlc.ud03.examen&apos;&#x0D;&#x0A;- Renamed element: &apos;ExamenUnidad03/src/hlc.ud03.examen.main&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;hlc.ud03.examen&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;hlc.ud03.examen" name="hlc.ud03.examen.main" qualified="false" references="true" stamp="1702296360595" textual="false" version="1.0"/>
+</session>

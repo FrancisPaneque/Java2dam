@@ -1,0 +1,13 @@
+
+Ñ	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 38f000d5f268476dc859aa72d034127ah
+Ñ	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 38f000d5f268476dc859aa72d034127ah
+â	java:S116"VRename this field "total_pages" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b ae0fe0cc7e778fabf61f9217886eb31dh
+Ñ	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b ae0fe0cc7e778fabf61f9217886eb31dh
+Å	java:S100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 541539fd5427ad59ed2faa7152260fc4h
+ã	java:S116"XRename this field "total_results" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 38f000d5f268476dc859aa72d034127ah
+Å	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b b8f14ace23b4377651e8c8fe36f507b6h
+Ñ	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b ae0fe0cc7e778fabf61f9217886eb31dh
+Å	java:S100*"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b f7f7900e308aa50cc6dacbd8b6e39567h
+Å	java:S100."NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 832fede457edb1acb1cafef583910136h

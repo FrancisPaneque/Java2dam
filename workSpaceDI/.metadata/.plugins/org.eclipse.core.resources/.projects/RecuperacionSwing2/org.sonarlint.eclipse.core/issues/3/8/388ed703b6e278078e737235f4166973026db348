@@ -1,0 +1,67 @@
+
+o
+java:S1128"4Remove this unused import 'javax.swing.GroupLayout'.8ö½¾ã1b f7bc9f2b8463bbd4d65a95f5f9851a88h
+h
+java:S1199G"-Extract this nested code block into a method.8çÍã1b f95b70fdc3088560732a5ac135644506h
+h
+java:S1199p"-Extract this nested code block into a method.8çÍã1b f95b70fdc3088560732a5ac135644506h
+h
+java:S1199e"-Extract this nested code block into a method.8çÍã1b f95b70fdc3088560732a5ac135644506h
+i
+java:S1199ª"-Extract this nested code block into a method.8çÍã1b f95b70fdc3088560732a5ac135644506h
+y
+java:S1128">Remove this unused import 'javax.swing.GroupLayout.Alignment'.8ö½¾ã1b 44a1a154b64de1001a9b52514080f2cch
+i
+java:S1199Ç"-Extract this nested code block into a method.8çÍã1b f95b70fdc3088560732a5ac135644506h
+a
+java:S11997"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+‹	java:S117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8çÍã1b d5e9134b53785ffd7159b167b2f95bfdh
+Œ	java:S117«"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8çÍã1b 9fe8012a185ed2be6c028c9255ab8b81h
+h
+java:S1199{"-Extract this nested code block into a method.8çÍã1b f95b70fdc3088560732a5ac135644506h
+a
+java:S11992"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+‚
+java:S1192:"GDefine a constant instead of duplicating this literal "Tahoma" 8 times.8çÍã1b 271e64d070b12fd41baa5a63b6c3bb4dh
+a
+java:S1199>"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+h
+java:S1199Y"-Extract this nested code block into a method.8çÍã1b f95b70fdc3088560732a5ac135644506h
+i
+java:S1199¢"-Extract this nested code block into a method.8çÍã1b f95b70fdc3088560732a5ac135644506h
+d
+java:S1172Ö"(Remove this unused method parameter "e".8¹ì™ã1b e1671797c52e15f763380b45e841ec32h
+i
+java:S1199´"-Extract this nested code block into a method.8çÍã1b f95b70fdc3088560732a5ac135644506h
+h
+java:S1199C"-Extract this nested code block into a method.8çÍã1b f95b70fdc3088560732a5ac135644506h
+d
+java:S1604É"(Make this anonymous inner class a lambda8ú±›ã1b 65b17b751d67188db4a2eea102b1f843h
+i
+java:S1199"-Extract this nested code block into a method.8çÍã1b f95b70fdc3088560732a5ac135644506h
+i
+java:S1199¯"-Extract this nested code block into a method.8çÍã1b f95b70fdc3088560732a5ac135644506h
+h
+java:S1199u"-Extract this nested code block into a method.8çÍã1b f95b70fdc3088560732a5ac135644506h
+h
+java:S1199_"-Extract this nested code block into a method.8çÍã1b f95b70fdc3088560732a5ac135644506h
+r
+java:S1172,"7Remove these unused method parameters "padre", "modal".8Ù¢ã1b 41409f34ee49036ad153fa10b374747eh
+h
+java:S1199k"-Extract this nested code block into a method.8çÍã1b f95b70fdc3088560732a5ac135644506h
+Œ	java:S117£"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8çÍã1b 145d64df0d46c4835d1d6d96229dbfaeh
+Œ	java:S117§"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8çÍã1b c77fb54f445e2112028a4ddbdad894dah
+i
+java:S1199‡"-Extract this nested code block into a method.8çÍã1b f95b70fdc3088560732a5ac135644506h
+d
+java:S1604¶"(Make this anonymous inner class a lambda8î½ôã1b 65b17b751d67188db4a2eea102b1f843h
+i
+java:S1199"-Extract this nested code block into a method.8çÍã1b f95b70fdc3088560732a5ac135644506h
+i
+java:S1199"-Extract this nested code block into a method.8çÍã1b f95b70fdc3088560732a5ac135644506h
+h
+java:S1199M"-Extract this nested code block into a method.8çÍã1b f95b70fdc3088560732a5ac135644506h
+h
+java:S1199S"-Extract this nested code block into a method.8çÍã1b f95b70fdc3088560732a5ac135644506h
+i
+java:S1199¦"-Extract this nested code block into a method.8çÍã1b f95b70fdc3088560732a5ac135644506h

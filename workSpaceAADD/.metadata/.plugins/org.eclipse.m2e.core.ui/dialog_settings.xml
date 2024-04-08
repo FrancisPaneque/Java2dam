@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Francis\Desktop\Programación\workSpaceAADD\nttdatacenters-hibernate-t1-fpj"/>
+			<item value="C:\Users\Francis\Desktop\Programación\workSpaceAADD\nttdatacenters-jdbc-t1-fpj"/>
+			<item value="C:\Users\Francis\Desktop\Programación\workSpaceAADD\nttdatacenters-jdbc-t1-fpj\src\main\java\jdbc\nttdatacenters_jdbc_t1_fpj\App.java"/>
+			<item value="C:\Users\Francis\Desktop\Programación\workSpaceAADD\pruebaHib\src\main\resources\hibernate.cfg.xml"/>
+			<item value="C:\Users\Francis\Desktop\Programación\workSpaceAADD\EjercicioHQLHibernate\pom.xml"/>
+			<item value="C:\Users\Francis\Desktop\Programación\workSpaceAADD\Ejercicio1Hibernate\src\main\resources\hibernate.cfg.xml"/>
+			<item value="C:\Users\Francis\Desktop\Programación\workSpaceAADD\examenAñoPasado2"/>
+			<item value="C:\Users\Francis\Desktop\Programación\workSpaceAADD\Tarea3\src\main\java\AADD\Tarea3\Main.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="DAO"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="nttdatacenters-hibernate-t1-fpj-v2"/>
+			<item value="nttdatacenters-hibernate"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.1-SNAPSHOT"/>
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

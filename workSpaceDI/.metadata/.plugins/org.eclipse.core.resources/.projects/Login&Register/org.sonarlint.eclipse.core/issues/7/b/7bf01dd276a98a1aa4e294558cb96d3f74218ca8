@@ -1,0 +1,15 @@
+
+€	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b fa021aebd120307891c458149c7586a7h
+i
+java:S1128"5Remove this unused import 'javafx.scene.image.Image'.b d67a74a5b0c1b0169cfb79ce3f1152f0h
+i
+java:S1128
+"5Remove this unused import 'javafx.event.ActionEvent'.b c23518597ae6bb90f80e5a5007aedf50h
+o
+java:S1128";Remove this unused import 'javafx.application.Application'.b f0054257b2be60f4ec34c4765cfe2fa5h
+c
+java:S1128"/Remove this unused import 'javafx.scene.Scene'.b 84d47dc59b206161e8431348950b8df9h
+n
+java:S1128":Remove this unused import 'javafx.scene.layout.StackPane'.b 5efeb14686697d8e3b077adbbbdc9bcfh
+c
+java:S1128	"/Remove this unused import 'javafx.stage.Stage'.b 4f81b5f8734ee0578b2a859cc90f55d8h

@@ -1,0 +1,7 @@
+
+™
+java:S6833"eReplace the "@Controller" annotation by "@RestController" and remove all "@ResponseBody" annotations.b dee1a9dfa91ea501126d7a4ecdad8cd0h
+^	java:S106 "+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106*"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106;"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106L"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh

@@ -1,0 +1,6 @@
+INDEX VERSION 1.132+C:\Users\Francis\Desktop\Programación\recuperacionAADD\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+105386637.index
+2242107490.index
+2841300794.index
+1797385342.index

@@ -1,0 +1,23 @@
+
+é
+java:S1104"ZMake sessionFactory a static final constant or non-public and provide accessors if needed.b 1831d60d1434c9963e0922f11835fed2h
+õ
+java:S1192/"gDefine a constant instead of duplicating this literal "JOIN Detalles d ON p.id = d.pedido_id " 3 times.b b724f155c436d2f6136661127b191fd3h
+d
+java:S1128
+"0Remove this unused import 'java.util.ArrayList'.b 510ef3bd202c030c041eba1094753b66h
+h
+java:S1444"4Make this "public static sessionFactory" field finalb 1831d60d1434c9963e0922f11835fed2h
+c
+java:S1128"/Remove this unused import 'java.io.FileReader'.b a9fb233e005b3e6875ad0c057a9b5623h
+^	java:S106~"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+n
+java:S1118":Add a private constructor to hide the implicit public one.b 3f14393204fd4af3e343e25c782dd331h
+_	java:S106É"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+_	java:S106Å"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+g
+java:S1128"3Remove this unused import 'java.io.BufferedReader'.b 0e794e4a956dc7a46732da2a38d615a0h
+Ñ
+java:S1192#"PDefine a constant instead of duplicating this literal "FROM Pedidos p " 3 times.b 047a1215bb086dbff6b363dfb4575a92h
+d
+java:S1128"0Remove this unused import 'java.io.IOException'.b b4d0c6ab436c3bc3a3bfe8df6b26cb6eh

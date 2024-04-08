@@ -1,0 +1,113 @@
+package Front;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.FlowLayout;
+import java.awt.Font;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.DefaultComboBoxModel;
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JDialog;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+import javax.swing.border.EmptyBorder;
+
+import Cliente.Cliente;
+import Utilidades.Utilidades;
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.Alignment;
+import javax.swing.LayoutStyle.ComponentPlacement;
+
+public class AltaClienteNew extends JPanel {
+
+	private static final long serialVersionUID = 1L;
+	private final JPanel contentPanel = new JPanel();
+	private JTextField textNombre;
+	private JTextField textApellidos;
+	private JTextField textEdad;
+	private JComboBox comboBoxProvincia;
+	private JTextField textField;
+	private JTextField textField_1;
+	private JTextField textField_2;
+
+	/**
+	 * Create the dialog.
+	 */
+	public AltaClienteNew() {
+		
+		JPanel contentPanel_1 = new JPanel();
+		contentPanel_1.setLayout(null);
+		contentPanel_1.setBorder(new EmptyBorder(5, 5, 5, 5));
+		
+		JLabel lblTitle_1 = new JLabel("ALTA CLIENTE");
+		lblTitle_1.setFont(new Font("Consolas", Font.BOLD, 20));
+		lblTitle_1.setBounds(10, 10, 143, 20);
+		contentPanel_1.add(lblTitle_1);
+		
+		JLabel lblNombre = new JLabel("Nombre:");
+		lblNombre.setFont(new Font("Consolas", Font.BOLD, 15));
+		lblNombre.setBounds(10, 40, 64, 13);
+		contentPanel_1.add(lblNombre);
+		
+		textField = new JTextField();
+		textField.setColumns(10);
+		textField.setBounds(10, 58, 195, 19);
+		contentPanel_1.add(textField);
+		
+		JLabel lblApellidos = new JLabel("Apellidos:");
+		lblApellidos.setFont(new Font("Consolas", Font.BOLD, 15));
+		lblApellidos.setBounds(10, 87, 80, 13);
+		contentPanel_1.add(lblApellidos);
+		
+		textField_1 = new JTextField();
+		textField_1.setColumns(10);
+		textField_1.setBounds(10, 110, 195, 19);
+		contentPanel_1.add(textField_1);
+		
+		JLabel lblEdad = new JLabel("Edad:");
+		lblEdad.setFont(new Font("Consolas", Font.BOLD, 15));
+		lblEdad.setBounds(10, 139, 64, 13);
+		contentPanel_1.add(lblEdad);
+		
+		textField_2 = new JTextField();
+		textField_2.setColumns(10);
+		textField_2.setBounds(10, 162, 195, 19);
+		contentPanel_1.add(textField_2);
+		
+		JLabel lblProvincia = new JLabel("Provincia:");
+		lblProvincia.setFont(new Font("Consolas", Font.BOLD, 15));
+		lblProvincia.setBounds(10, 191, 80, 13);
+		contentPanel_1.add(lblProvincia);
+		
+		JComboBox comboBoxProvincia_1 = new JComboBox();
+		comboBoxProvincia_1.setBounds(10, 214, 195, 20);
+		contentPanel_1.add(comboBoxProvincia_1);
+		
+		JLabel lblConfirmacion = new JLabel("");
+		lblConfirmacion.setForeground(Color.BLACK);
+		lblConfirmacion.setBounds(10, 250, 143, 13);
+		contentPanel_1.add(lblConfirmacion);
+		GroupLayout groupLayout = new GroupLayout(this);
+		groupLayout.setHorizontalGroup(
+			groupLayout.createParallelGroup(Alignment.LEADING)
+				.addGroup(groupLayout.createSequentialGroup()
+					.addGap(111)
+					.addComponent(contentPanel_1, GroupLayout.PREFERRED_SIZE, 221, GroupLayout.PREFERRED_SIZE)
+					.addContainerGap(118, Short.MAX_VALUE))
+		);
+		groupLayout.setVerticalGroup(
+			groupLayout.createParallelGroup(Alignment.LEADING)
+				.addGroup(Alignment.TRAILING, groupLayout.createSequentialGroup()
+					.addContainerGap(17, Short.MAX_VALUE)
+					.addComponent(contentPanel_1, GroupLayout.PREFERRED_SIZE, 273, GroupLayout.PREFERRED_SIZE)
+					.addContainerGap())
+		);
+		setLayout(groupLayout);
+		
+	}
+}

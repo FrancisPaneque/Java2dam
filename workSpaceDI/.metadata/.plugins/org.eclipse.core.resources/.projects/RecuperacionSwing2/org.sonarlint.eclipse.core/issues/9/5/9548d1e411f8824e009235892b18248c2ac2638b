@@ -1,0 +1,47 @@
+
+å	java:S117î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8 ¥Õè„1b c77fb54f445e2112028a4ddbdad894dah
+h
+java:S1199,"-Extract this nested code block into a method.8 ¥Õè„1b f95b70fdc3088560732a5ac135644506h
+h
+java:S11998"-Extract this nested code block into a method.8 ¥Õè„1b f95b70fdc3088560732a5ac135644506h
+Ç
+java:S11924"GDefine a constant instead of duplicating this literal "Tahoma" 6 times.8ÓËõê„1b 271e64d070b12fd41baa5a63b6c3bb4dh
+h
+java:S1199W"-Extract this nested code block into a method.8 ¥Õè„1b f95b70fdc3088560732a5ac135644506h
+h
+java:S11991"-Extract this nested code block into a method.8¡ã“ê„1b f95b70fdc3088560732a5ac135644506h
+r
+java:S1172&"7Remove these unused method parameters "padre", "modal".8“‘Æê„1b 41409f34ee49036ad153fa10b374747eh
+h
+java:S1199="-Extract this nested code block into a method.8 ¥Õè„1b f95b70fdc3088560732a5ac135644506h
+a
+java:S1199M"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+c
+java:S1604?"(Make this anonymous inner class a lambda8ìÌ¶ê„1b 65b17b751d67188db4a2eea102b1f843h
+a
+java:S1199\"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+ã	java:S117]"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8 ¥Õè„1b d5e9134b53785ffd7159b167b2f95bfdh
+i
+java:S1199é"-Extract this nested code block into a method.8 ¥Õè„1b f95b70fdc3088560732a5ac135644506h
+b
+java:S1199ì"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+d
+java:S1172¢"(Remove this unused method parameter "e".8ìÌ¶ê„1b e1671797c52e15f763380b45e841ec32h
+i
+java:S1199ó"-Extract this nested code block into a method.8 ¥Õè„1b f95b70fdc3088560732a5ac135644506h
+h
+java:S1199`"-Extract this nested code block into a method.8 ¥Õè„1b f95b70fdc3088560732a5ac135644506h
+c
+java:S1604O"(Make this anonymous inner class a lambda8ÓËõê„1b 65b17b751d67188db4a2eea102b1f843h
+h
+java:S1199f"-Extract this nested code block into a method.8 ¥Õè„1b f95b70fdc3088560732a5ac135644506h
+h
+java:S1199l"-Extract this nested code block into a method.8 ¥Õè„1b f95b70fdc3088560732a5ac135644506h
+h
+java:S1199r"-Extract this nested code block into a method.8 ¥Õè„1b f95b70fdc3088560732a5ac135644506h
+å	java:S117è"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8 ¥Õè„1b 145d64df0d46c4835d1d6d96229dbfaeh
+h
+java:S1199x"-Extract this nested code block into a method.8 ¥Õè„1b f95b70fdc3088560732a5ac135644506h
+h
+java:S1199~"-Extract this nested code block into a method.8 ¥Õè„1b f95b70fdc3088560732a5ac135644506h
+å	java:S117ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8 ¥Õè„1b 9fe8012a185ed2be6c028c9255ab8b81h

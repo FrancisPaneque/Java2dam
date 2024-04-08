@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;base.db&apos; to &apos;db&apos;&#x0D;&#x0A;- Original project: &apos;Tema4Activida01_Parte1&apos;&#x0D;&#x0A;- Destination element: &apos;db&apos;&#x0D;&#x0A;- Original element: &apos;base.db&apos;" description="Copy file" element1="db/base.db" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1708341735821" target="/ExamenHLC4/db" units="0" version="1.0"/>
+</session>

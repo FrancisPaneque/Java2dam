@@ -1,0 +1,8 @@
+
+e	java:S106""+Replace this use of System.out by a logger.8‚©¡≤‹1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106("+Replace this use of System.out by a logger.8äû∑È‹1b bb1c3f2ea781263d3a2bb92b06a2061fh
+à
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.8«∑˚Í‹1b de49ea0958a67b243c3bd832227b82cbh
+]
+java:S2189$""Add an end condition to this loop.8˚ñ˜è›1b 2f0d2a69557d41d66539df47b6dfdec8h
+e	java:S106/"+Replace this use of System.out by a logger.8±ß§ê›1b bb1c3f2ea781263d3a2bb92b06a2061fh

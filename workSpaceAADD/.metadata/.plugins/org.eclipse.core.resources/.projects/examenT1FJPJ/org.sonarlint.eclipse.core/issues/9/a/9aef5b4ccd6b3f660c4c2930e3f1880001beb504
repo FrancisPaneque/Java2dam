@@ -1,0 +1,27 @@
+
+Ö
+java:S2095à"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.b 71aed55c91c5fc63ae2850f08954e1c6h
+|
+java:S5361p"HReplace this call to "replaceAll()" by a call to the "replace()" method.b 9496ad7ef302f6365cbee6b6b6f4d2b9h
+^	java:S106&"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+|
+java:S5361s"HReplace this call to "replaceAll()" by a call to the "replace()" method.b 9496ad7ef302f6365cbee6b6b6f4d2b9h
+_	java:S106í"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+i
+java:S1128"5Remove this unused import 'java.io.DataOutputStream'.b 17efd1a7717717b097a1ff918656e0e1h
+É
+java:S2095á"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.b 08a26953a895b4491b28d0952a5b3e6bh
+j
+java:S1141«"5Extract this nested try block into a separate method.b 080f651e3fcca17df3a47c2cecfcb880h
+k
+java:S2589L"7Remove this expression which always evaluates to "true"b 7d474e5a6332493c6488e6d651e1d0d2h
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b a0f93e6a2de752e5de6793473f007f5bh
+Ä
+java:S2677f"LUse or store the value returned from "readLine" instead of throwing it away.b 05e60d83534fd68402281cdcbc4fcbf0h
+n
+java:S1118":Add a private constructor to hide the implicit public one.b 3f14393204fd4af3e343e25c782dd331h
+b
+java:S2689à"-Do not use a FileOutputStream in append mode.b 9766b55ba29f91613fc06851c34affd6h
+£
+java:S1130É"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.b ad249e05eb304d96ade91e500634f62ah
+^	java:S106F"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh

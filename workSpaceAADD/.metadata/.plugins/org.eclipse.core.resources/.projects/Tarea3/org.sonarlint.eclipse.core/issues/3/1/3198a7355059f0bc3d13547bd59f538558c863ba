@@ -1,0 +1,17 @@
+
+â
+java:S1104"UMake peliculas a static final constant or non-public and provide accessors if needed.b e5e3e3ef732a94deb8c11946451c3349h
+c
+java:S1444"/Make this "public static peliculas" field finalb e5e3e3ef732a94deb8c11946451c3349h
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 3f14393204fd4af3e343e25c782dd331h
+{
+java:S2095)"GUse try-with-resources or close this "Statement" in a "finally" clause.b fbd8d4b855380696679af2f680242338h
+Q
+java:S2386"Make this member "protected".b e5e3e3ef732a94deb8c11946451c3349h
+n
+java:S1118":Add a private constructor to hide the implicit public one.b 3f14393204fd4af3e343e25c782dd331h
+Å	java:S1009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b b96e1443f8759e449c907f679d346fa9h
+p
+java:S1128"<Remove this unused import 'com.mysql.cj.protocol.Resultset'.b 57ba96cbedc2fe9d35c81e66a7412c7ch
+e	java:S106_"+Replace this use of System.out by a logger.8Ü√ÊØ 1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106b"+Replace this use of System.err by a logger.8Ü√ÊØ 1b af259b5629da223c99d853ddc8045589h

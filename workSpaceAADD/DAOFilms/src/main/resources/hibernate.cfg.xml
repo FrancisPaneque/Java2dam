@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- Cambia 'false' a 'true' para utilizar el optimizador de reflexión -->
+        <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+        
+        <!-- Configuración de la conexión a la base de datos -->
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.password">*Francis12072004</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/BD_TheMovieApp?serverTimezone=UTC</property>
+        <property name="hibernate.connection.username">root</property>
+        
+        <!-- Nombre del esquema por defecto -->
+        <property name="hibernate.default_schema">BD_TheMovieApp</property>
+        
+        <!-- Dialecto de la base de datos -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        
+        <!-- Formateo de SQL -->
+        <property name="hibernate.format_sql">true</property>
+        
+        <!-- Registro automático de listeners de Hibernate Search -->
+        <property name="hibernate.search.autoregister_listeners">true</property>
+        
+        <!-- Mostrar SQL generado en la consola -->
+        <property name="hibernate.show_sql">true</property>
+        
+        <!-- Desactivar la aplicación de validación en DDL -->
+        <property name="hibernate.validator.apply_to_ddl">false</property>
+        
+        <!-- Crea tablas intermedias automaticamente -->
+        <!-- <property name="hibernate.hbm2ddl.auto">create</property>  -->
+        
+        <!-- Mapeo de las entidades -->
+        <mapping class="models.Pelicula"/>
+        <mapping class="models.Usuario"/>
+        
+    </session-factory>
+</hibernate-configuration>

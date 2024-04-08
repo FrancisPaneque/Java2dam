@@ -1,0 +1,12 @@
+
+è
+java:S1192e"[Define a constant instead of duplicating this literal "Error: Creacion de usuario" 3 times.b 0c8ed2b30cf6b5b7d765175fc111a913h
+z
+java:S1192d"FDefine a constant instead of duplicating this literal "Error" 3 times.b 679348fd6db8ab1e8f9b97a9fc70e120h
+Ä	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b dd0c5a710713b802d91c7e49ec45ed63h
+n
+java:S1117â"9Rename "stage" which hides the field declared at line 46.b 9a8c2b9d518bc163e99611fbacea63b2h
+]
+java:S1128")Remove this unused import 'java.net.URL'.b e2a0ba74bebf30eee6b29bb4bc0a593bh
+i
+java:S1128"5Remove this unused import 'java.util.ResourceBundle'.b 8f79f4894cd1df93519c34e40e9bce5bh

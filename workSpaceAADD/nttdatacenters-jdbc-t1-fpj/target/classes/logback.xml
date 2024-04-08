@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	
+	<appender name="registroConsolaTub" class="ch.qos.logback.core.ConsoleAppender">
+    
+    	<encoder>
+      		<pattern>%cyan(%d{HH:mm:ss.SSS}) - [%blue(%thread)] - %red(%-5level) - %green(%logger{35}): %yellow(%line) - %msg%n</pattern>
+    	</encoder>
+    </appender>
+	
+	<root level="debug">
+		<appender-ref ref="registroConsolaTub"/>
+	</root>
+	
+</configuration>

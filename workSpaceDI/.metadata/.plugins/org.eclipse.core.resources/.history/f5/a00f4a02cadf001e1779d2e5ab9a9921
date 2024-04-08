@@ -1,0 +1,150 @@
+package front;
+
+import java.awt.BorderLayout;
+import java.awt.FlowLayout;
+
+import javax.swing.JButton;
+import javax.swing.JDialog;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+
+import models.Comida;
+
+import javax.swing.GroupLayout;
+import javax.swing.GroupLayout.Alignment;
+import javax.swing.JLabel;
+import java.awt.Font;
+import java.awt.event.MouseEvent;
+import java.awt.Color;
+import javax.swing.JComboBox;
+import javax.swing.JTextField;
+import javax.swing.LayoutStyle.ComponentPlacement;
+import javax.swing.DefaultComboBoxModel;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class ComandaComida extends JDialog {
+
+	private static final long serialVersionUID = 1L;
+	private final JPanel contentPanel = new JPanel();
+	private JTextField textField;
+
+	/**
+	 * Create the dialog.
+	 */
+	public ComandaComida(Comanda padre, boolean modal) {
+		setBounds(100, 100, 699, 533);
+		getContentPane().setLayout(new BorderLayout());
+		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
+		getContentPane().add(contentPanel, BorderLayout.CENTER);
+		contentPanel.setLayout(new BorderLayout(0, 0));
+		{
+			JPanel panel = new JPanel();
+			panel.setBackground(new Color(244, 164, 96));
+			contentPanel.add(panel, BorderLayout.NORTH);
+			panel.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
+			
+			JLabel lblNewLabel = new JLabel("Comida");
+			lblNewLabel.setForeground(new Color(255, 255, 255));
+			lblNewLabel.setFont(new Font("Tahoma", Font.BOLD, 18));
+			panel.add(lblNewLabel);
+		}
+		{
+			JPanel panel = new JPanel();
+			panel.setBackground(new Color(245, 222, 179));
+			contentPanel.add(panel, BorderLayout.CENTER);
+			
+			JLabel lblComida = new JLabel("Comida");
+			lblComida.setFont(new Font("Tahoma", Font.PLAIN, 18));
+			
+			JLabel lblCantidad = new JLabel("Cantidad");
+			lblCantidad.setFont(new Font("Tahoma", Font.PLAIN, 18));
+			
+			JLabel lblPrecioProducto = new JLabel("Precio");
+			lblPrecioProducto.setFont(new Font("Tahoma", Font.PLAIN, 18));
+			
+			JComboBox comboBox = new JComboBox();
+			// Crear el modelo y añadir los elementos al modelo
+	        DefaultComboBoxModel<String> model = new DefaultComboBoxModel<>();
+	        for (Comida item : util.UtilidadesLogin.comidas) {
+	            model.addElement(item.getNombreComida());
+	        }
+	        // Establecer el modelo en el JComboBox
+	        comboBox.setModel(model);
+			
+			
+			textField = new JTextField();
+			textField.setColumns(10);
+			
+			JButton btnSalir = new JButton("Salir");
+			btnSalir.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					salidaPressed(e);
+				}
+			});
+			
+			JButton btnAñadir = new JButton("Añadir");
+			
+			JLabel lblNewLabel_1 = new JLabel("0.0");
+			lblNewLabel_1.setFont(new Font("Tahoma", Font.PLAIN, 15));
+			GroupLayout gl_panel = new GroupLayout(panel);
+			gl_panel.setHorizontalGroup(
+				gl_panel.createParallelGroup(Alignment.LEADING)
+					.addGroup(gl_panel.createSequentialGroup()
+						.addGroup(gl_panel.createParallelGroup(Alignment.LEADING, false)
+							.addGroup(gl_panel.createSequentialGroup()
+								.addGap(102)
+								.addGroup(gl_panel.createParallelGroup(Alignment.LEADING, false)
+									.addComponent(lblComida)
+									.addComponent(lblCantidad, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+									.addComponent(lblPrecioProducto, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+								.addGroup(gl_panel.createParallelGroup(Alignment.LEADING, false)
+									.addGroup(gl_panel.createSequentialGroup()
+										.addGap(113)
+										.addGroup(gl_panel.createParallelGroup(Alignment.LEADING, false)
+											.addComponent(comboBox, 0, 372, Short.MAX_VALUE)
+											.addComponent(textField)))
+									.addGroup(Alignment.TRAILING, gl_panel.createSequentialGroup()
+										.addPreferredGap(ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+										.addComponent(lblNewLabel_1, GroupLayout.PREFERRED_SIZE, 45, GroupLayout.PREFERRED_SIZE)
+										.addGap(163))))
+							.addGroup(gl_panel.createSequentialGroup()
+								.addContainerGap()
+								.addComponent(btnSalir, GroupLayout.PREFERRED_SIZE, 335, GroupLayout.PREFERRED_SIZE)
+								.addPreferredGap(ComponentPlacement.RELATED)
+								.addComponent(btnAñadir, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+						.addContainerGap(16, Short.MAX_VALUE))
+			);
+			gl_panel.setVerticalGroup(
+				gl_panel.createParallelGroup(Alignment.LEADING)
+					.addGroup(gl_panel.createSequentialGroup()
+						.addGap(69)
+						.addGroup(gl_panel.createParallelGroup(Alignment.BASELINE)
+							.addComponent(lblComida)
+							.addComponent(comboBox, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+						.addGap(94)
+						.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
+							.addComponent(textField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+							.addComponent(lblCantidad))
+						.addGap(101)
+						.addGroup(gl_panel.createParallelGroup(Alignment.BASELINE)
+							.addComponent(lblPrecioProducto)
+							.addComponent(lblNewLabel_1))
+						.addGap(50)
+						.addGroup(gl_panel.createParallelGroup(Alignment.BASELINE)
+							.addComponent(btnSalir)
+							.addComponent(btnAñadir))
+						.addContainerGap(60, Short.MAX_VALUE))
+			);
+			panel.setLayout(gl_panel);
+		}
+	}
+	
+	protected void salidaPressed(ActionEvent e) {
+	    // Cierra el JDialog
+	    this.dispose(); // Si la clase en la que estás implementando este método es un JDialog
+	    // O bien:
+	    // comandaComida.dispose(); // Si la clase es un JDialog llamado comandaComida
+	}
+	
+}

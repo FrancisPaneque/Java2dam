@@ -1,0 +1,181 @@
+package controller;
+
+import javafx.application.Platform;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import models.*;
+import okhttp3.Request;
+import okhttp3.Response;
+import okhttp3.OkHttpClient;
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.HttpClients;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+import java.lang.reflect.Type;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.List;
+
+/**
+ * Controlador para la funcionalidad del menú de la aplicación.
+ */
+public class menuController {
+
+    // Claves de la API y URL para acceder a la información de películas
+    private static final String KEY_API = "bef30369a404f9a1a923bc48ffbc00bc";
+    private static final String URL_MOVIE = "https://api.themoviedb.org/3/search/movie";
+    private static final String URL_CAST = "https://api.themoviedb.org/3/movie";
+    private static final String IMAGE_URL = "https://image.tmdb.org/t/p/w500";    
+    
+    // Elementos de la interfaz de usuario que se actualizarán
+    @FXML
+    private Button busca;
+
+    @FXML
+    private TextField buscador;
+
+    @FXML
+    private ImageView cartel;
+
+    @FXML
+    private Label fechaEstreno;
+
+    @FXML
+    private TextArea sinopsis;
+    
+    @FXML
+    private TextArea actores;
+
+    @FXML
+    private Label titulo;
+
+    /**
+     * Realiza una búsqueda de película al hacer clic en el botón de búsqueda.
+     *
+     * @param e Evento de acción generado por el clic en el botón de búsqueda.
+     */
+    @FXML
+    void buscar(ActionEvent e) {
+        // Obtiene la palabra de búsqueda desde el campo de texto
+        String palabraBusqueda = buscador.getText();
+        if (!palabraBusqueda.isEmpty()) {
+            try {
+                // Obtiene la información de la película mediante la API
+                InfoPeli infoPeli = getInfoMovie(palabraBusqueda);
+                Movie[] datosPeli = infoPeli.getResults();
+            	Cast cast = getInfoCast(datosPeli[0].getId());
+                // Actualiza la interfaz de usuario con la información obtenida
+                updateUI(datosPeli, cast, titulo, fechaEstreno, sinopsis, cartel);
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+        }
+    }
+
+
+	/**
+     * Obtiene información sobre una película a partir de la API de themoviedb.org.
+     *
+     * @param palabraBusqueda Término de búsqueda para la película.
+     * @return Información de la película obtenida de la API.
+     * @throws ClientProtocolException Si ocurre un error en el protocolo de cliente durante la solicitud HTTP.
+     * @throws IOException            Si ocurre un error de entrada/salida durante la solicitud HTTP.
+     */
+    private InfoPeli getInfoMovie(String palabraBuscada) throws ClientProtocolException, IOException {
+        // Construye la URL de la API con la clave y la palabra de búsqueda
+        String apiUrl = String.format("%s?api_key=%s&query=%s&language=es-ES", URL_MOVIE, KEY_API, palabraBuscada);
+        HttpClient httpClient = HttpClients.createDefault();
+        HttpGet httpGet = new HttpGet(apiUrl);
+
+        // Ejecuta la solicitud HTTP y obtiene la respuesta
+        HttpResponse response = httpClient.execute(httpGet);
+        HttpEntity entity = response.getEntity();
+
+        // Procesa la respuesta para obtener el cuerpo de la misma
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(entity.getContent()))) {
+            StringBuilder responseStringBuilder = new StringBuilder();
+            String linea;
+
+            while ((linea = br.readLine()) != null) {
+                responseStringBuilder.append(linea);
+            }
+
+            String responseBody = responseStringBuilder.toString();
+
+            // Utiliza Gson para convertir el cuerpo de la respuesta a un objeto Movie
+            Gson gson = new Gson();
+            return gson.fromJson(responseBody, InfoPeli.class);
+        }
+    }
+    
+    private Cast getInfoCast(int id) throws ClientProtocolException, IOException {
+    	OkHttpClient client = new OkHttpClient();
+
+    	Request request = new Request.Builder()
+    	  .url("https://api.themoviedb.org/3/movie/550/credits?language=en-US")
+    	  .get()
+    	  .addHeader("accept", "application/json")
+    	  .addHeader("Authorization", "Bearer bef30369a404f9a1a923bc48ffbc00bc")
+    	  .build();
+
+    	Response response = client.newCall(request).execute();
+
+        // Procesa la respuesta para obtener el cuerpo de la misma
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(entity.getContent()))) {
+            StringBuilder responseStringBuilder = new StringBuilder();
+            String linea;
+
+            while ((linea = br.readLine()) != null) {
+                responseStringBuilder.append(linea);
+            }
+
+            String responseBody = responseStringBuilder.toString();
+
+            // Utiliza Gson para convertir el cuerpo de la respuesta a una lista de objetos Cast
+            Gson gson = new Gson();
+            return gson.fromJson(responseBody, Cast.class);
+        }
+    }
+
+    
+    
+
+    /**
+     * Actualiza la interfaz de usuario con la información de la película.
+     *
+     * @param infoPeli Información de la película a mostrar.
+     * @param titulo    Etiqueta para mostrar el título de la película.
+     * @param overview  Etiqueta para mostrar la sinopsis de la película.
+     * @param sinopsis   Etiqueta para mostrar la fecha de estreno de la película.
+     * @param poster_path    ImageView para mostrar el cartel de la película.
+     */
+    private void updateUI(Movie[] datosPeli, Cast cast, Label titulo, Label fechaDeEstreno, TextArea sinopsis, ImageView cartel) {
+        // Actualiza los elementos de la interfaz con la información de la película
+        if (datosPeli != null) {
+            //Array que contiene los datos de la pelicula
+       
+            titulo.setText(datosPeli[0].getTitle());
+            fechaDeEstreno.setText(datosPeli[0].getRelease_date());
+            sinopsis.setText(datosPeli[0].getOverview());
+            actores.setText(cast.getActors().get(0).getName());
+
+            // Obtiene la URL del cartel de la película y la muestra en la ImageView
+            String poster = datosPeli[0].getPoster_path();
+            if (poster != null && !poster.isEmpty()) {
+                Image posterImage = new Image(IMAGE_URL + poster);
+                cartel.setImage(posterImage);
+            }
+        }
+    }
+}

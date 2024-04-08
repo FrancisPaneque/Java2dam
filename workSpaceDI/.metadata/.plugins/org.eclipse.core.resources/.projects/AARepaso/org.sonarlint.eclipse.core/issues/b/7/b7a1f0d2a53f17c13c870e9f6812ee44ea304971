@@ -1,0 +1,9 @@
+
+Ä	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b babf519c2afea47cb3927909c5a47c5dh
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 3882ba2bf492af9bf263c32a38376686h
+Q
+java:S2386"Make this member "protected".b ecd2ec43c588ae012e3550fcc55d6009h
+Ö
+java:S1104"QMake lista a static final constant or non-public and provide accessors if needed.b ecd2ec43c588ae012e3550fcc55d6009h
+_
+java:S1444"+Make this "public static lista" field finalb ecd2ec43c588ae012e3550fcc55d6009h

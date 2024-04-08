@@ -1,0 +1,45 @@
+// FileClientApp.java
+package psp.ud03.act303.client;
+
+import java.io.*;
+import java.net.*;
+
+public class FileClientApp {
+    private static final String DEFAULT_HOST = "localhost";
+    private static final int DEFAULT_PORT = 2121;
+
+    public static void main(String[] args) {
+        String host = DEFAULT_HOST;
+        int port = DEFAULT_PORT;
+
+        if (args.length >= 2) {
+            host = args[0];
+            port = Integer.parseInt(args[1]);
+        }
+
+        try (
+            Socket socket = new Socket(host, port);
+            PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
+            BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            BufferedReader stdIn = new BufferedReader(new InputStreamReader(System.in))
+        ) {
+            System.out.println("Conectado al servidor en " + host + ":" + port);
+            String userInput;
+            while ((userInput = stdIn.readLine()) != null) {
+                out.println(userInput);
+                String response = in.readLine();
+                response.replace("-", "\n");
+                System.out.println("Respuesta del servidor: " + response);
+                if (response.equals("OK") && userInput.equals("quit")) {
+                    break;
+                }
+            }
+        } catch (UnknownHostException e) {
+            System.err.println("No se puede encontrar el host " + host);
+            System.exit(1);
+        } catch (IOException e) {
+            System.err.println("Error de entrada/salida para la conexión con " + host);
+            System.exit(1);
+        }
+    }
+}

@@ -1,0 +1,17 @@
+
+e	java:S106"+Replace this use of System.out by a logger.8„ªÔ√Œ1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106/"+Replace this use of System.out by a logger.8„ªÔ√Œ1b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106"+Replace this use of System.err by a logger.b af259b5629da223c99d853ddc8045589h
+Y
+java:S1181"%Catch Exception instead of Throwable.b d7af4fa06d4171008feaad27882949b3h
+v	java:S1259"<This block of commented-out lines of code should be removed.8ú¢ñƒŒ1b 540c13e9e156b687226421b24f2df178h
+e	java:S1062"+Replace this use of System.out by a logger.8√«Ò√Œ1b bb1c3f2ea781263d3a2bb92b06a2061fh
+v	java:S1254"<This block of commented-out lines of code should be removed.8ú¢ñƒŒ1b c644f9d96ff61b99ef46c34f058a6dbdh
+í
+java:S1128"WRemove this unused import 'org.hibernate.boot.registry.StandardServiceRegistryBuilder'.8ûöÛ·—1b a4d68ecd0b9fb473f6e87a9fe1bafe6dh
+w
+java:S1128"<Remove this unused import 'org.hibernate.cfg.Configuration'.8ûöÛ·—1b cc491dd75c920a27b699f0116f39b6b3h
+b
+java:S1905+"'Remove this unnecessary cast to "List".8Ωå¥‚—1b e5ecb4e83f3b6cd0bc103f2982bb0d71h
+t
+java:S1128"9Remove this unused import 'org.hibernate.SessionFactory'.8ˆ´”‚—1b 836349435fd277987074405a8d75de4ch

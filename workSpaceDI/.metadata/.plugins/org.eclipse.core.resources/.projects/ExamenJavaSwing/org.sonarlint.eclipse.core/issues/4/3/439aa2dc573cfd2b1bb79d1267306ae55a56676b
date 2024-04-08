@@ -1,0 +1,10 @@
+
+Ñ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b ce8ae9da5b7cd6c3df2929543a9af92dh
+å
+java:S1104n"XMake listaCliente a static final constant or non-public and provide accessors if needed.b 368f1aa4718e2ef8e6e738a3b8c5f8f7h
+f
+java:S1444n"2Make this "public static listaCliente" field finalb 368f1aa4718e2ef8e6e738a3b8c5f8f7h
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b a470a23326b3831dd974dfc1116119c2h
+É	java:S116"PRename this field "Email" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b ce8ae9da5b7cd6c3df2929543a9af92dh
+Q
+java:S2386n"Make this member "protected".b 368f1aa4718e2ef8e6e738a3b8c5f8f7h

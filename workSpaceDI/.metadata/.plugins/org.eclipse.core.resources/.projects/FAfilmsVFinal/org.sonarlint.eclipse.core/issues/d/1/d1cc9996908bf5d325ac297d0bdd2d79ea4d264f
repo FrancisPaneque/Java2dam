@@ -1,0 +1,13 @@
+
+z
+java:S1192/"FDefine a constant instead of duplicating this literal "Error" 3 times.b 679348fd6db8ab1e8f9b97a9fc70e120h
+|
+java:S11920"HDefine a constant instead of duplicating this literal "Error: " 3 times.b 8d3ce6296a320b092232b77b4a0dc584h
+„	java:S117}"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 64c6da2436465d11573858d46056b95dh
+€	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b fa021aebd120307891c458149c7586a7h
+m
+java:S1117h"9Rename "stage" which hides the field declared at line 32.b 9a8c2b9d518bc163e99611fbacea63b2h
+n
+java:S1117Š"9Rename "stage" which hides the field declared at line 32.b 9a8c2b9d518bc163e99611fbacea63b2h
+v
+java:S1126œ"AReplace this if-then-else statement by a single return statement.b 39c8942e1038872a822c0dc75eedbde3h

@@ -1,0 +1,31 @@
+
+c
+java:S1604G"(Make this anonymous inner class a lambda8Ò—¢úá1b 65b17b751d67188db4a2eea102b1f843h
+‹	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8Ò—¢úá1b 4e7f8b41585307362ff7c0fa48a0e88ah
+j
+java:S3740V"/Provide the parametrized type for this generic.8Ò—¢úá1b ad23634b394e5f182ae9576cf7eed86ch
+c
+java:S1604X"(Make this anonymous inner class a lambda8Ò—¢úá1b 65b17b751d67188db4a2eea102b1f843h
+‹	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8Ò—¢úá1b d5e9134b53785ffd7159b167b2f95bfdh
+‹	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8Ò—¢úá1b 145d64df0d46c4835d1d6d96229dbfaeh
+‹	java:S117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8Ò—¢úá1b afaf9f5e443441000ffa2e533dd3f2b8h
+‹	java:S117a"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8Ò—¢úá1b 48cdb542c6229da78c749690d1f74c25h
+‹	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8Ò—¢úá1b 1778fbafbca5981710b1a9c4cd303023h
+	java:S116"VRename this field "textField_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8Ò—¢úá1b a652c7c065bb1d31a61a7243352a6fe2h
+¼
+java:S1186H"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.8Ò—¢úá1b 0798fbfbfaa01496c55c95fedd077933h
+j
+java:S3740V"/Provide the parametrized type for this generic.8Ò—¢úá1b ad23634b394e5f182ae9576cf7eed86ch
+…
+java:S1192>"JDefine a constant instead of duplicating this literal "New label" 4 times.8Ò—¢úá1b d0f85b895e1d7b2005386d3fecfa5bc4h
+k
+java:S1128"0Remove this unused import 'java.awt.FlowLayout'.8Ò—¢úá1b 152c6b14e9e8a55c4e70be29ed0b3f3ah
+}
+java:S1126Z"BReplace this if-then-else statement by a single method invocation.8Ò—¢úá1b 39c8942e1038872a822c0dc75eedbde3h
+j
+java:S3740W"/Provide the parametrized type for this generic.8Ò—¢úá1b 06e974aeb7edb66ca774fba29b98f5bch
+‹	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8Ò—¢úá1b c77fb54f445e2112028a4ddbdad894dah
+‹	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8Ò—¢úá1b 9fe8012a185ed2be6c028c9255ab8b81h
+r
+java:S1172""7Remove these unused method parameters "padre", "modal".8Æ ¾úá1b 41409f34ee49036ad153fa10b374747eh
+‹	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8Ò—¢úá1b c7e64a9a41540130fb40a4879983994eh

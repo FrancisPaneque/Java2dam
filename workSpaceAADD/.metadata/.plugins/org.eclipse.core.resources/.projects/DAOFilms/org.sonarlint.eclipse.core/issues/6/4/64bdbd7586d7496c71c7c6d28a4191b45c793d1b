@@ -1,0 +1,7 @@
+
+s
+java:S1128
+"8Remove this unused import 'javax.persistence.ManyToOne'.8‰˜ë¬Ó1b 77e900db43d69ee40f5fd9ef42f5d891h
+t
+java:S1128	"9Remove this unused import 'javax.persistence.JoinColumn'.8‰˜ë¬Ó1b 1cf2a23e960b35c7620ab9103ae4d88bh
+€	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b d5a28d65ee7b2d7bc95c46e1a661b06eh

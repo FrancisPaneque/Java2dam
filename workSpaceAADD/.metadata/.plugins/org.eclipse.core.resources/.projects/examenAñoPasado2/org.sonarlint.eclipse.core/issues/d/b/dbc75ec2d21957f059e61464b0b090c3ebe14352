@@ -1,0 +1,7 @@
+
+¼
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.8™’“¬à1b 915a50509a5b968903bdb788f448639eh
+‹
+java:S1206P"PThis class overrides "equals()" and should therefore also override "hashCode()".8þÀ”¬à1b 51c3f59625962b899c03595d6cdfb284h
+t
+java:S3400s"9Remove this method and declare a constant for this value.8þÀ”¬à1b 67f16a9538d861818e2ee9e0fa5e01f0h

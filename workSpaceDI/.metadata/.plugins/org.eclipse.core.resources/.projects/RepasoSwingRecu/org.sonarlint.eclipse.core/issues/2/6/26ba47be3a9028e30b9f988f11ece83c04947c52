@@ -1,0 +1,30 @@
+
+Œ	java:S117§"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8¦ˆÆÖ×1b 4328b2e77a4d5cc818f3a480095ca118h
+‹	java:S117V"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8ç ÚÔ×1b 145d64df0d46c4835d1d6d96229dbfaeh
+Œ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8ç ÚÔ×1b b9c75e043482bb383c39e11f4f34bc19h
+‚
+java:S1128"GRemove this unused import 'javax.swing.LayoutStyle.ComponentPlacement'.8ÓóàÖ×1b b5dbb62a1e43b2e23ffced61dfbb874fh
+c
+java:S1604q"(Make this anonymous inner class a lambda8ˆ”äÖ×1b 65b17b751d67188db4a2eea102b1f843h
+Œ	java:S117š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8ç ÚÔ×1b 589fbdde045316bf3b7754cb1c15eb75h
+‹	java:S117v"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8ç ÚÔ×1b cc109d0cb9a8bf536469be86dcd71b15h
+}
+java:S32525"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".b d3eba7aaff6ac48405695200513a5198h
+v
+java:S1161Ç":Add the "@Override" annotation above this method signature8Ï–éê×1b be5313f549f31ef35f375953c0fdb83ah
+‹	java:S117p"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8ç ÚÔ×1b 0765106e7616de589ad64f494ed11f18h
+Œ	java:S117Í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8¦ˆÆÖ×1b 48cdb542c6229da78c749690d1f74c25h
+Œ	java:S117«"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8¦ˆÆÖ×1b 8a797ae3c6e8779b4a7c20af9ee59529h
+d
+java:S1172Û"(Remove this unused method parameter "e".8ËƒÍÖ×1b e1671797c52e15f763380b45e841ec32h
+Œ	java:S117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8ç ÚÔ×1b c7e64a9a41540130fb40a4879983994eh
+‹	java:S117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8ç ÚÔ×1b 9fe8012a185ed2be6c028c9255ab8b81h
+‹	java:S117_"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8ç ÚÔ×1b 1778fbafbca5981710b1a9c4cd303023h
+Œ	java:S117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8ç ÚÔ×1b 97085246a97ee191bf8a5bccdb9ea7f7h
+\
+java:S1604%"(Make this anonymous inner class a lambdab ea52882b4555d68253c21906fed1a7f9h
+Œ	java:S117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8¦ˆÆÖ×1b d5e9134b53785ffd7159b167b2f95bfdh
+c
+java:S1604h"(Make this anonymous inner class a lambda8¦ˆÆÖ×1b 65b17b751d67188db4a2eea102b1f843h
+‹	java:S117Y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8ç ÚÔ×1b c77fb54f445e2112028a4ddbdad894dah
+Œ	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8ç ÚÔ×1b fceee693f66b85bb6590956c378acf4ch

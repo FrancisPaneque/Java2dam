@@ -1,0 +1,38 @@
+// FileServerApp.java
+package psp.ud03.act303.server;
+
+import java.io.*;
+import java.net.*;
+import java.util.Properties;
+
+public class FileServerApp {
+    private static final int DEFAULT_PORT = 2121;
+
+    public static void main(String[] args) {
+        int port = DEFAULT_PORT;
+
+        try {
+            // Cargar la configuración del archivo server.properties
+            Properties props = new Properties();
+            FileInputStream fis = new FileInputStream("server.properties");
+            props.load(fis);
+            port = Integer.parseInt(props.getProperty("puerto", String.valueOf(DEFAULT_PORT)));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        try (ServerSocket serverSocket = new ServerSocket(port)) {
+            System.out.println("Servidor esperando conexiones en el puerto " + port + "...");
+            
+            while (true) {
+                Socket clientSocket = serverSocket.accept();
+                System.out.println("Cliente conectado: " + clientSocket);
+                
+                Thread clientThread = new Thread(new ClientHandler(clientSocket));
+                clientThread.start();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}

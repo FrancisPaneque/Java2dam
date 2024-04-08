@@ -1,0 +1,10 @@
+
+Ñ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b ce8ae9da5b7cd6c3df2929543a9af92dh
+ã
+java:S1104t"WMake listaAdmins a static final constant or non-public and provide accessors if needed.b 475c1f9753ca721858e35ef97c1689b8h
+e
+java:S1444t"1Make this "public static listaAdmins" field finalb 475c1f9753ca721858e35ef97c1689b8h
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b a470a23326b3831dd974dfc1116119c2h
+É	java:S116"PRename this field "Email" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b ce8ae9da5b7cd6c3df2929543a9af92dh
+Q
+java:S2386t"Make this member "protected".b 475c1f9753ca721858e35ef97c1689b8h

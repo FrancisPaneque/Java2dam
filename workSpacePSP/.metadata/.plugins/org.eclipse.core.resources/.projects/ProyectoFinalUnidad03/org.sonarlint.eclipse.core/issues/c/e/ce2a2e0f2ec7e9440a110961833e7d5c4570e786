@@ -1,0 +1,14 @@
+
+
+java:S2095e"DUse try-with-resources or close this "Stream" in a "finally" clause.8≠õ¡≤‹1b 3276d4721b5e4d975120030ea4bc22d2h
+e	java:S1060"+Replace this use of System.err by a logger.8≠õ¡≤‹1b af259b5629da223c99d853ddc8045589h
+ç
+java:S3776G"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.8≠õ¡≤‹1b 55278385972763f771d8f8c19bf8326ch
+â
+java:S4042L"NUse "java.nio.file.Files#delete" here for better messages on error conditions.8≠õ¡≤‹1b 099af53f601532dbd31e0ea99ffdeb64h
+â
+java:S4042U"NUse "java.nio.file.Files#delete" here for better messages on error conditions.8≠õ¡≤‹1b 099af53f601532dbd31e0ea99ffdeb64h
+q
+java:S1144n"6Remove this unused private "obtenerDirectorio" method.8Ÿ ¢¥‹1b a0d622c8af3893f004f5d2b305a6e861h
+W
+java:S1643;"Use a StringBuilder instead.8è˚˜µ‹1b a976903939df7e38b2ac220a12193d30h

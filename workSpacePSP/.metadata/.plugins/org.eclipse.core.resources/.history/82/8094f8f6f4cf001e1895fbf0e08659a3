@@ -1,0 +1,120 @@
+// FileServerThread.java
+package psp.ud03.act303.server;
+
+import java.io.*;
+import java.net.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.Objects;
+
+public class FileServerThread extends Thread {
+    private final Socket socket;
+
+    public FileServerThread(Socket socket) {
+        this.socket = socket;
+    }
+
+    @Override
+    public void run() {
+        try (BufferedReader entrada = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+             PrintWriter salida = new PrintWriter(socket.getOutputStream(), true)) {
+
+            String inputLine;
+            while ((inputLine = entrada.readLine()) != null) {
+                System.out.println("Comando recibido: " + inputLine); // Debugging: Imprimir el comando recibido
+                if (inputLine.isEmpty()) {
+                    break; // Salir si la entrada está vacía
+                }
+                String[] parts = inputLine.split(" ", 2);
+                String comando = parts[0];
+                String argumento = parts.length > 1 ? parts[1] : null;
+
+                switch (comando) {
+                    case "list":
+                        listarArchivos(salida, argumento);
+                        break;
+                    case "delete":
+                        eliminarArchivo(salida, argumento);
+                        break;
+                    case "show":
+                        mostrarArchivo(salida, argumento);
+                        break;
+                    case "quit":
+                        salida.println("OK");
+                        return;
+                    default:
+                        salida.println("KO");
+                        break;
+                }
+            }
+        } catch (IOException e) {
+            System.err.println("Error de E/S: " + e.getMessage());
+        }
+    }
+
+    private void listarArchivos(PrintWriter salida, String ruta) {
+    	File directorio = new File(ruta); // Utilizamos la ruta proporcionada como una ruta absoluta
+        if (directorio.exists() && directorio.isDirectory()) {
+            File[] archivos = directorio.listFiles();
+            if (archivos != null && archivos.length > 0) {
+                salida.println("OK");
+                for (File archivo : archivos) {
+                    salida.println(archivo.getName() + " " + archivo.length() / 1024);
+                }
+            } else {
+                salida.println("OK"); // Enviamos OK aunque no haya archivos para listar
+            }
+        } else {
+            salida.println("KO"); // Si no existe el directorio o no es un directorio, enviamos KO
+        }
+        salida.println(); // Enviamos una línea vacía al final
+    }
+
+    private void eliminarArchivo(PrintWriter salida, String ruta) {
+        File archivo = new File(ruta);
+        if (archivo.exists()) {
+            if (archivo.isDirectory()) {
+                if (Objects.requireNonNull(archivo.list()).length == 0) {
+                    if (archivo.delete()) {
+                        salida.println("OK");
+                    } else {
+                        salida.println("KO");
+                    }
+                } else {
+                    salida.println("KO");
+                }
+            } else {
+                if (archivo.delete()) {
+                    salida.println("OK");
+                } else {
+                    salida.println("KO");
+                }
+            }
+        } else {
+            salida.println("KO");
+        }
+    }
+
+    private void mostrarArchivo(PrintWriter salida, String ruta) {
+        Path archivo = Paths.get(ruta);
+        try {
+            if (Files.exists(archivo) && !Files.isDirectory(archivo)) {
+                salida.println("OK");
+                Files.lines(archivo).forEach(salida::println);
+            } else {
+                salida.println("KO");
+            }
+        } catch (IOException e) {
+            salida.println("KO");
+        }
+    }
+
+    private File obtenerDirectorio(String ruta) {
+        if (ruta.startsWith("/")) {
+            return new File(ruta);
+        } else {
+            return new File(System.getProperty("user.dir"), ruta);
+        }
+    }
+}

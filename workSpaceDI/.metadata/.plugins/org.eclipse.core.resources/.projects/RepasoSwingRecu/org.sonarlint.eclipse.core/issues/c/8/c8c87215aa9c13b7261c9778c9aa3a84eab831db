@@ -1,0 +1,9 @@
+
+u
+java:S1118":Add a private constructor to hide the implicit public one.8âÅÖ×1b 3f14393204fd4af3e343e25c782dd331h
+
+java:S1104"TMake usuarios a static final constant or non-public and provide accessors if needed.8øÄÕ×1b 03f996214fba4a1d05a68b18fece8e71h
+X
+java:S2386"Make this member "protected".8øÄÕ×1b 03f996214fba4a1d05a68b18fece8e71h
+i
+java:S1444".Make this "public static usuarios" field final8øÄÕ×1b 03f996214fba4a1d05a68b18fece8e71h

@@ -1,0 +1,31 @@
+// FileServerApp.java
+package psp.ud03.act303.server;
+
+import java.io.*;
+import java.net.*;
+import java.util.Properties;
+
+public class FileServerApp {
+    public static void main(String[] args) {
+        int puerto = 2121; // Puerto por defecto
+
+        try {
+            // Leer configuración del archivo server.properties
+            Properties propiedades = new Properties();
+            propiedades.load(new FileInputStream("server.properties"));
+            puerto = Integer.parseInt(propiedades.getProperty("puerto"));
+        } catch (IOException e) {
+            System.err.println("Error al leer el archivo de configuración. Usando puerto por defecto: " + puerto);
+        }
+
+        try (ServerSocket serverSocket = new ServerSocket(puerto)) {
+            System.out.println("Servidor iniciado. Esperando conexiones en el puerto " + puerto + "...");
+            while (true) {
+                Socket socket = serverSocket.accept();
+                new FileServerThread(socket).start();
+            }
+        } catch (IOException e) {
+            System.err.println("Error al iniciar el servidor: " + e.getMessage());
+        }
+    }
+}

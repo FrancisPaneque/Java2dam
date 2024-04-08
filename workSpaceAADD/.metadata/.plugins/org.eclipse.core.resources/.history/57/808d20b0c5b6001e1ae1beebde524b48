@@ -1,0 +1,82 @@
+package dao;
+
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import com.mysql.cj.xdevapi.SessionFactory;
+
+import models.Pelicula;
+
+public class PeliculaDaoImp extends CommonDaoImpl implements PeliculaDaoInt {
+
+    public PeliculaDaoImp(Session session) {
+        this.session = session;
+    }
+
+    @Override
+    public void agregarPelicula(Pelicula pelicula, Session session){
+        Transaction transaction = null;
+        try {
+            transaction = session.beginTransaction();
+            session.save(pelicula);
+            transaction.commit();
+        } catch (Exception e) {
+            if (transaction != null) {
+                transaction.rollback();
+            }
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public Pelicula obtenerPelicula(int id,  Session session) {
+        
+        return session.get(Pelicula.class, id);
+        
+    }
+
+    @Override
+    public void actualizarPelicula(Pelicula pelicula,  Session session) {
+        Transaction transaction = null;
+        try {
+            transaction = session.beginTransaction();
+            session.update(pelicula);
+            transaction.commit();
+        } catch (Exception e) {
+            if (transaction != null) {
+                transaction.rollback();
+            }
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void eliminarPelicula(int id,  Session session) {
+        Transaction transaction = null;
+        try {
+            transaction = session.beginTransaction();
+            Pelicula pelicula = session.get(Pelicula.class, id);
+            if (pelicula != null) {
+                session.delete(pelicula);
+            }
+            transaction.commit();
+        } catch (Exception e) {
+            if (transaction != null) {
+                transaction.rollback();
+            }
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public List<Pelicula> listarPeliculas(Session session) {
+        
+    	Query query = session.createQuery("FROM Pelicula");
+        return query.list();
+        
+    }
+
+}

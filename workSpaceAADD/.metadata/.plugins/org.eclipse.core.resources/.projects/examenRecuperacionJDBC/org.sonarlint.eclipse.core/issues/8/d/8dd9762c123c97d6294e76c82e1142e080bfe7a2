@@ -1,0 +1,48 @@
+
+Ñ	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b d03bab8c1b8ce144a9da53ad9fbc775ch
+Ñ	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b e54b368b9d65353164bf8800f6843953h
+Ñ	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 3e588a92624753d29af9ec81c6fe15c9h
+Ö	java:S117ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b d03bab8c1b8ce144a9da53ad9fbc775ch
+Ö	java:S117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b aaff82c3c0f833b29c68052b352db454h
+Ö	java:S117£"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 28cc0226d749ef8578c6b70f1c025810h
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b ff971b76f5099d4f63b1356de0c89748h
+{
+java:S2259Ω"FA "NullPointerException" could be thrown; "escritor" is nullable here.b d1239e3daf1143a16053e60e149011a9h
+Ñ
+java:S2095ö"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.b 21e5a73043ec95d38bcbcd22889f3beeh
+{
+java:S2095X"GUse try-with-resources or close this "Statement" in a "finally" clause.b 08e4108c4eab4dea01453f37a7574106h
+Ñ
+java:S2095ô"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.b d5740138952cf1112a68e85e9f50a19eh
+Ñ
+java:S2095©"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.b fbdb7d6ad7848618ced7526666fc1241h
+{
+java:S2095q"GUse try-with-resources or close this "Statement" in a "finally" clause.b 08e4108c4eab4dea01453f37a7574106h
+Ñ
+java:S2095®"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.b f2e1447be28b9d09db87863736d3af93h
+{
+java:S2095J"GUse try-with-resources or close this "Statement" in a "finally" clause.b 08e4108c4eab4dea01453f37a7574106h
+\
+java:S24403"(Remove this instantiation of "Conexion".b 9f873a67efcfe48cac10405dc48d2263h
+i
+java:S2209F"5Change this instance-reference to a static reference.b f57f289e5eee4ac67409881097b36a4eh
+_
+java:S2093î"*Change this "try" to a try-with-resources.b 080f651e3fcca17df3a47c2cecfcb880h
+_
+java:S2093 "*Change this "try" to a try-with-resources.b 080f651e3fcca17df3a47c2cecfcb880h
+_
+java:S2093‹"*Change this "try" to a try-with-resources.b 080f651e3fcca17df3a47c2cecfcb880h
+_
+java:S2093Ï"*Change this "try" to a try-with-resources.b 080f651e3fcca17df3a47c2cecfcb880h
+Ç	java:S100Ü"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 12dd0e7d21cd35101fe1ea6a58e8932bh
+á
+java:S3776Ü"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.b 12dd0e7d21cd35101fe1ea6a58e8932bh
+r
+java:S1117¨"=Rename "categoria" which hides the field declared at line 24.b 256d016af3f3609da45ca89ae134783dh
+_	java:S106Ø"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+_	java:S106±"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+_	java:S106≥"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+_
+java:S2093í"*Change this "try" to a try-with-resources.b 080f651e3fcca17df3a47c2cecfcb880h
+˚
+java:S6541Ü"≈A "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 95 to 64, Complexity from 15 to 14, Nesting Level from 3 to 2, Number of Variables from 22 to 6.b 12dd0e7d21cd35101fe1ea6a58e8932bh

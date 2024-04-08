@@ -1,0 +1,6 @@
+
+„	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b c821dd297aa0f45a2b00923b491aa5deh
+m
+java:S1128"9Remove this unused import 'javax.persistence.JoinColumn'.b 1cf2a23e960b35c7620ab9103ae4d88bh
+l
+java:S1128"8Remove this unused import 'javax.persistence.ManyToOne'.b 77e900db43d69ee40f5fd9ef42f5d891h

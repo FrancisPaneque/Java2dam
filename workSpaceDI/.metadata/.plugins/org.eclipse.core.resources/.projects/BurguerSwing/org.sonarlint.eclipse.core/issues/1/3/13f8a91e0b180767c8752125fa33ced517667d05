@@ -1,0 +1,33 @@
+
+…	java:S117ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 7b05cc0693f02ef48b6d2d0865555ad5h
+]
+java:S1948'")Make "bebida2" transient or serializable.b 1cd24007fa214ea15db896171b60d681h
+]
+java:S1172ø"(Remove this unused method parameter "e".b e1671797c52e15f763380b45e841ec32h
+]
+java:S1948/")Make "comida2" transient or serializable.b 391d13cee152e88a28acb83855a11a20h
+]
+java:S1172€"(Remove this unused method parameter "e".b e1671797c52e15f763380b45e841ec32h
+]
+java:S1948,")Make "comida1" transient or serializable.b 6cb2e6566ca6bd658e9714f69b2b46e3h
+]
+java:S19485")Make "usuario" transient or serializable.b f8032d5cae3de20fcec887f395ec9a6ah
+„	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 6e7a2377fd558796b56a432181dd0817h
+]
+java:S1948&")Make "bebida1" transient or serializable.b 478f8c1147253e50cd7dbf77a1e42a45h
+]
+java:S1948(")Make "bebida3" transient or serializable.b 55ec09ef55e537f252fa8c5bf9cb498dh
+U
+java:S1128"!Remove this unused import 'util'.b 53c0e0675473ba136f6212306023cc8eh
+\
+java:S1604<"(Make this anonymous inner class a lambdab ea52882b4555d68253c21906fed1a7f9h
+]
+java:S1604ˆ"(Make this anonymous inner class a lambdab 65b17b751d67188db4a2eea102b1f843h
+]
+java:S19482")Make "comida3" transient or serializable.b 182f697fc637bfeacdb3fb648fbfab61h
+}
+java:S3252W"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".b d3eba7aaff6ac48405695200513a5198h
+…	java:S117É"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 145d64df0d46c4835d1d6d96229dbfaeh
+p
+java:S1117‹";Rename "usuario" which hides the field declared at line 53.b f8032d5cae3de20fcec887f395ec9a6ah
+…	java:S117š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b a055f54343409d9c1c5cf1a7c04f672dh

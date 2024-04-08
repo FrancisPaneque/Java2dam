@@ -1,0 +1,9 @@
+
+€
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.b e6cbc73e356b8d3c676d5441971f1b47h
+n
+java:S1118
+":Add a private constructor to hide the implicit public one.b 3f14393204fd4af3e343e25c782dd331h
+^	java:S106%"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^
+java:S1197E"*Move the array designators [] to the type.b 24b9ce85c67473f075aa732e6edec2deh

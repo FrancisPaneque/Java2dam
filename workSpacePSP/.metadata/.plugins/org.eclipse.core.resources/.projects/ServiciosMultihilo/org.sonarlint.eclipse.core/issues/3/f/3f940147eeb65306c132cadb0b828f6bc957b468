@@ -1,0 +1,18 @@
+
+e	java:S106U"+Replace this use of System.out by a logger.8Θ§‹•Η1b bb1c3f2ea781263d3a2bb92b06a2061fh
+’
+java:S1104"WMake inputFolder a static final constant or non-public and provide accessors if needed.8δό©Η1b 36430f6209d359826551f40d2443e152h
+‘
+java:S1104"VMake outputFile a static final constant or non-public and provide accessors if needed.8δό©Η1b 0e20961c41539d1f0459ce5fa6afc03bh
+l
+java:S1444"1Make this "public static inputFolder" field final8‹“³Η1b 36430f6209d359826551f40d2443e152h
+k
+java:S1444"0Make this "public static outputFile" field final8‹“³Η1b 0e20961c41539d1f0459ce5fa6afc03bh
+c
+java:S3010'"(Remove this assignment of "inputFolder".8‹“³Η1b 36430f6209d359826551f40d2443e152h
+b
+java:S3010("'Remove this assignment of "outputFile".8‹“³Η1b 0e20961c41539d1f0459ce5fa6afc03bh
+c
+java:S3010,"(Remove this assignment of "inputFolder".8‹“³Η1b 36430f6209d359826551f40d2443e152h
+b
+java:S3010/"'Remove this assignment of "outputFile".8‹“³Η1b 0e20961c41539d1f0459ce5fa6afc03bh

@@ -1,0 +1,41 @@
+
+v
+java:S1854O";Remove this useless assignment to local variable "results".8À‘÷„—1b e3888527fcd0df22b5f8f3b8ea1873b0h
+v
+java:S1854b";Remove this useless assignment to local variable "results".8À‘÷„—1b e3888527fcd0df22b5f8f3b8ea1873b0h
+g
+java:S1481O",Remove this unused "results" local variable.8ô√®¡Œ1b 53e61336bb49ec978968786b07dea50bh
+v
+java:S1854l";Remove this useless assignment to local variable "results".8À‘÷„—1b e3888527fcd0df22b5f8f3b8ea1873b0h
+u
+java:S1118":Add a private constructor to hide the implicit public one.8 ‘÷„—1b 05420e72a2fbb97f3f9488243b52ec09h
+v
+java:S1854X";Remove this useless assignment to local variable "results".8À‘÷„—1b e3888527fcd0df22b5f8f3b8ea1873b0h
+v
+java:S1854?";Remove this useless assignment to local variable "results".8À‘÷„—1b e3888527fcd0df22b5f8f3b8ea1873b0h
+g
+java:S14815",Remove this unused "results" local variable.8ô√®¡Œ1b 53e61336bb49ec978968786b07dea50bh
+f
+java:S1168"+Return an empty collection instead of null.8À‘÷„—1b 37a6259cc0c1dae299a7866489dff0bdh
+v
+java:S1854(";Remove this useless assignment to local variable "results".8À‘÷„—1b e3888527fcd0df22b5f8f3b8ea1873b0h
+b
+java:S1905"'Remove this unnecessary cast to "List".8À‘÷„—1b f41e641f85fc95b18a846d9b032dfdbeh
+g
+java:S1481(",Remove this unused "results" local variable.8”’£¡Œ1b 53e61336bb49ec978968786b07dea50bh
+f
+java:S1068"+Remove this unused "factory" private field.8À‘÷„—1b 9549dd6065d019211460c59a86dd6536h
+g
+java:S1481?",Remove this unused "results" local variable.8”’£¡Œ1b 53e61336bb49ec978968786b07dea50bh
+v
+java:S1854G";Remove this useless assignment to local variable "results".8À‘÷„—1b e3888527fcd0df22b5f8f3b8ea1873b0h
+g
+java:S1481G",Remove this unused "results" local variable.8ô√®¡Œ1b 53e61336bb49ec978968786b07dea50bh
+g
+java:S1481X",Remove this unused "results" local variable.8ô√®¡Œ1b 53e61336bb49ec978968786b07dea50bh
+g
+java:S1481b",Remove this unused "results" local variable.8”’£¡Œ1b 53e61336bb49ec978968786b07dea50bh
+g
+java:S1481l",Remove this unused "results" local variable.8ô√®¡Œ1b 53e61336bb49ec978968786b07dea50bh
+v
+java:S18545";Remove this useless assignment to local variable "results".8À‘÷„—1b e3888527fcd0df22b5f8f3b8ea1873b0h

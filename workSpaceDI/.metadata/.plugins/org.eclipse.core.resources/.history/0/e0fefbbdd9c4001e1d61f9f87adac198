@@ -1,0 +1,133 @@
+/**
+ * La clase Carta representa una ventana de diálogo que muestra la carta de un restaurante,
+ * incluyendo los platos de comida y bebida disponibles.
+ */
+package front;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JDialog;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.swing.border.EmptyBorder;
+import javax.swing.table.DefaultTableModel;
+
+import util.UtilidadesLogin;
+
+public class Carta extends JDialog {
+
+    private static final long serialVersionUID = 1L;
+    private final JPanel contentPanel = new JPanel();
+    public static JTable table;
+    public static JTable table_1;
+
+    /**
+     * Crea la ventana de la carta del restaurante.
+     * @param padre La ventana principal de la aplicación.
+     * @param modal Indica si la ventana es modal o no.
+     */
+    public Carta(Login padre, boolean modal) {
+
+        setBounds(100, 100, 869, 688);
+        getContentPane().setLayout(new BorderLayout());
+        contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
+        getContentPane().add(contentPanel, BorderLayout.CENTER);
+        contentPanel.setLayout(new BorderLayout(0, 0));
+        
+        // Panel de cabecera
+        JPanel panelCabecera = new JPanel();
+        panelCabecera.setBackground(new Color(255, 127, 80));
+        contentPanel.add(panelCabecera, BorderLayout.NORTH);
+        JLabel lblNewLabel = new JLabel("Carta");
+        lblNewLabel.setForeground(new Color(248, 248, 255));
+        lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 20));
+        panelCabecera.add(lblNewLabel);
+
+        // Panel de la carta
+        JPanel panelCarta = new JPanel();
+        contentPanel.add(panelCarta, BorderLayout.CENTER);
+        panelCarta.setLayout(new BorderLayout(0, 0));
+
+        // Panel de comida
+        JPanel panelComida = new JPanel();
+        panelCarta.add(panelComida, BorderLayout.NORTH);
+        panelComida.setLayout(new BorderLayout(0, 0));
+
+        // Panel del título de comida
+        JPanel panelTituloComida = new JPanel();
+        panelTituloComida.setBackground(new Color(240, 230, 140));
+        panelComida.add(panelTituloComida, BorderLayout.NORTH);
+        JLabel lblComida = new JLabel("Comida");
+        lblComida.setBackground(new Color(248, 248, 255));
+        lblComida.setFont(new Font("Tahoma", Font.BOLD, 15));
+        panelTituloComida.add(lblComida);
+
+        // Panel de la tabla de comida
+        JPanel panelTablaComida = new JPanel();
+        panelComida.add(panelTablaComida, BorderLayout.SOUTH);
+        JScrollPane scrollPane = new JScrollPane();
+        panelTablaComida.add(scrollPane);
+        table = new JTable();
+        table.setModel(new DefaultTableModel(
+                new Object[][] {},
+                new String[] { "Nombre", "Precio", "Ingredientes" }));
+        scrollPane.setViewportView(table);
+        // Actualiza la tabla de comida
+        table.setModel(UtilidadesLogin.actualizaTablaComida());
+
+        // Panel de bebida
+        JPanel panelBebida = new JPanel();
+        panelCarta.add(panelBebida, BorderLayout.SOUTH);
+        panelBebida.setLayout(new BorderLayout(0, 0));
+
+        // Panel del título de bebida
+        JPanel panelTituloBebida = new JPanel();
+        panelTituloBebida.setBackground(new Color(240, 230, 140));
+        panelBebida.add(panelTituloBebida, BorderLayout.NORTH);
+        JLabel lblBebida = new JLabel("Bebida");
+        lblBebida.setFont(new Font("Tahoma", Font.BOLD, 15));
+        lblBebida.setBackground(new Color(248, 248, 255));
+        panelTituloBebida.add(lblBebida);
+
+        // Panel de la tabla de bebida
+        JPanel panelTablaBebida = new JPanel();
+        panelBebida.add(panelTablaBebida, BorderLayout.SOUTH);
+        JScrollPane scrollPane_1 = new JScrollPane();
+        panelTablaBebida.add(scrollPane_1);
+        table_1 = new JTable();
+        table_1.setModel(new DefaultTableModel(
+                new Object[][] {},
+                new String[] { "Nombre", "Precio" }));
+        scrollPane_1.setViewportView(table_1);
+        // Actualiza la tabla de bebida
+        table_1.setModel(UtilidadesLogin.actualizaTablaBebida());
+
+        // Panel del pie
+        JPanel panelPie = new JPanel();
+        panelPie.setBackground(new Color(240, 230, 140));
+        contentPanel.add(panelPie, BorderLayout.SOUTH);
+
+        JButton btnNewButton = new JButton("Volver");
+        btnNewButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                volverPressed(e);
+            }
+        });
+        panelPie.add(btnNewButton);
+    }
+
+    /**
+     * Método invocado cuando se presiona el botón "Volver".
+     * @param e El evento de acción.
+     */
+    protected void volverPressed(ActionEvent e) {
+        this.setVisible(false);
+    }
+}

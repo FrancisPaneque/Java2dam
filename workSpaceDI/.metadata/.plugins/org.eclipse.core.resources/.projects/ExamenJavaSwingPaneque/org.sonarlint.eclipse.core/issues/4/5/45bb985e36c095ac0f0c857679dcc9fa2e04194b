@@ -1,0 +1,14 @@
+
+Ñ	java:S117]"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 2ef8e35148ae36b6b1f53007b194b4b0h
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 4f0374ef714b3fed050248c3c53b1b1eh
+a
+java:S1199G"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+a
+java:S1199L"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+o
+java:S1172%";Remove these unused method parameters "pantallaAdmin", "b".b 7d7b264afa9a6f0599b6a23da362b9b1h
+a
+java:S1199S"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+Ñ	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 6807a19de6aea644fb13fc98d9ae6e4eh
+a
+java:S1199+"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h

@@ -1,0 +1,12 @@
+
+„	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 64c6da2436465d11573858d46056b95dh
+‰	java:S116"VRename this field "TxtAActores" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 7fcfff6f846046f85377932caa82ec83h
+Š	java:S116"WRename this field "TxtAActores1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 78dbd0490c87b36322e65abb5d07b9a7h
+Œ	java:S116"YRename this field "TxtADirectores" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 752aa4c67f43650e63cfbf9f0e34d38ah
+µ
+java:S11867"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.b 113f74280bedb6175d4537bb4270b63ch
+µ
+java:S1186<"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.b 0810aa39aa00e36c3fce8aa2fbd52217h
+ˆ
+java:S14504"TRemove the "stage" field and declare it as a local variable in the relevant methods.b 9a8c2b9d518bc163e99611fbacea63b2h
+	java:S1007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 113f74280bedb6175d4537bb4270b63ch

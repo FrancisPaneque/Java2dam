@@ -1,0 +1,19 @@
+
+Ñ	java:S117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b d5e9134b53785ffd7159b167b2f95bfdh
+Ñ	java:S117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 145d64df0d46c4835d1d6d96229dbfaeh
+Ñ	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 9fe8012a185ed2be6c028c9255ab8b81h
+Ñ	java:S117P"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b c77fb54f445e2112028a4ddbdad894dah
+Ñ	java:S117["QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 1778fbafbca5981710b1a9c4cd303023h
+\
+java:S1604 "(Make this anonymous inner class a lambdab ea52882b4555d68253c21906fed1a7f9h
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 4f0374ef714b3fed050248c3c53b1b1eh
+}
+java:S32520"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".b d3eba7aaff6ac48405695200513a5198h
+\
+java:S1172p"(Remove this unused method parameter "e".b e1671797c52e15f763380b45e841ec32h
+\
+java:S1172x"(Remove this unused method parameter "e".b e1671797c52e15f763380b45e841ec32h
+d
+java:S1128"0Remove this unused import 'javax.swing.JButton'.b 86bf792b94c0822d7997e109988439bch
+k
+java:S1128"7Remove this unused import 'java.awt.event.ActionEvent'.b b62a6376d44eb6e083dd2739092a93b6h

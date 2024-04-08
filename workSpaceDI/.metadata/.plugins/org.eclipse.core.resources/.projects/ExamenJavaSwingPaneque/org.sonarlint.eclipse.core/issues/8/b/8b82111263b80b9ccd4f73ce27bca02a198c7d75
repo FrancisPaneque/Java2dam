@@ -1,0 +1,26 @@
+
+Q
+java:S2386"Make this member "protected".b 6c21dd89a8bc67f5cbfa031995fd00c0h
+i
+java:S1444"5Make this "public static listaDeUsuarios" field finalb 6c21dd89a8bc67f5cbfa031995fd00c0h
+`
+java:S1444",Make this "public static clases" field finalb 3d4269060424596dae3a398ac5dd210eh
+ñ
+java:S1488'"bImmediately return this expression instead of assigning it to the temporary variable "nuevoClase".b 05c8a75342d112bb1a0278a3b12ce37ch
+¢
+java:S14887"gImmediately return this expression instead of assigning it to the temporary variable "fechaFormateada".8çìèÀ◊1b e6a4e196fc7c90ae4c719b44caff51a5h
+è
+java:S1104"[Make listaDeUsuarios a static final constant or non-public and provide accessors if needed.b 6c21dd89a8bc67f5cbfa031995fd00c0h
+u
+java:S1118":Add a private constructor to hide the implicit public one.8¸ΩöÀ◊1b 4b7867b5e47d75a37854afa6782590e6h
+Å	java:S1000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b dce2ae56f3528b28c3b58bdeda696a14h
+Q
+java:S2386"Make this member "protected".b 3d4269060424596dae3a398ac5dd210eh
+g
+java:S1444"3Make this "public static listaDeClases" field finalb 1acf45c98a1ea0c118a52861b484e5b3h
+Q
+java:S2386"Make this member "protected".b 1acf45c98a1ea0c118a52861b484e5b3h
+Ü
+java:S1104"RMake clases a static final constant or non-public and provide accessors if needed.b 3d4269060424596dae3a398ac5dd210eh
+ç
+java:S1104"YMake listaDeClases a static final constant or non-public and provide accessors if needed.b 1acf45c98a1ea0c118a52861b484e5b3h

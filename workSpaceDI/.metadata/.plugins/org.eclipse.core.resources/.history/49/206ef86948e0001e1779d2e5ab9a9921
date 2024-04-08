@@ -1,0 +1,42 @@
+package util;
+import models.*;
+import utils.Utilidades;
+
+import java.util.*;
+
+import javax.swing.JOptionPane;
+import javax.swing.JRadioButton;
+import javax.swing.JTextField;
+
+public class Utils {
+	
+	List<Usuario> usuarios = new ArrayList<>();
+	
+	/**
+	 * metodo que toma los datos de los campos y cre un objeto usuario
+	 * 
+	 * @param textNombre
+	 * @param textMail
+	 * @param rdbtSexo
+	 * @param textNumero
+	 * 
+	 * @return devuelve un nuevo usuario
+	 */
+	public static void nuevoUsuario(JTextField textNombre, JTextField textApellidos, JTextField textTelefono, JTextField textMail, JTextField textContrania, JRadioButton rdbtSexo) {
+		
+		String nombreUsuario = textNombre.getText();
+		String mailUsuario = textMail.getText();
+		String genero = rdbtSexo.getText();
+		int numero = Integer.parseInt(textNumero.getText());
+		
+		Usuario nuevoUsuario = new Usuario(nombreUsuario, mailUsuario, genero, numero);
+		
+		usuarios.add(nuevoUsuario);
+		
+		if (Utilidades.usuarios.contains(nuevoUsuario)) {
+			JOptionPane.showMessageDialog(null,"Usuario correctamente añadido");
+		} else {
+			JOptionPane.showMessageDialog(null,"Error al crear el usuario");
+		}
+	}
+}

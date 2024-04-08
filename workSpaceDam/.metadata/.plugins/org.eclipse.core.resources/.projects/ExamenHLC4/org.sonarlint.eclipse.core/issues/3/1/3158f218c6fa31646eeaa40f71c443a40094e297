@@ -1,0 +1,9 @@
+
+^	java:S106:"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106D"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+™
+java:S1104"^Make numeroCifradoCesar a static final constant or non-public and provide accessors if needed.8µ®õ‰Ü1b 0ada07a3f44486c4737bca190f541770h
+s
+java:S1444"8Make this "public static numeroCifradoCesar" field final8Ô»ý‰Ü1b 0ada07a3f44486c4737bca190f541770h
+q
+java:S2696A"6Make the enclosing method "static" or remove this set.8Ô»ý‰Ü1b 0ada07a3f44486c4737bca190f541770h

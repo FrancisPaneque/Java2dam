@@ -1,0 +1,46 @@
+package psp.ud93.practica01.cliente;
+
+import java.io.IOException;
+import java.net.*;
+import java.util.Scanner;
+
+public class ClienteDNS {
+
+    public static void main(String[] args) {
+        try {
+            DatagramSocket socket = new DatagramSocket();
+            Scanner scanner = new Scanner(System.in);
+
+            boolean continuar = true;  // Variable que controla la ejecución del bucle.
+
+            while (continuar) {
+                System.out.print("Ingrese el nombre a consultar (o vacío para salir): ");
+                String nombre = scanner.nextLine();
+
+                // Si se ingresa un nombre vacío, sale del bucle.
+                if (nombre.isEmpty()) {
+                    continuar = false;  // Establece la variable continuar a false para salir del bucle.
+                } else {
+                    byte[] buffer = nombre.getBytes();
+                    InetAddress servidorAddress = InetAddress.getByName("localhost");
+                    DatagramPacket packet = new DatagramPacket(buffer, buffer.length, servidorAddress, 2222);
+
+                    socket.send(packet);
+
+                    buffer = new byte[1024];
+                    packet = new DatagramPacket(buffer, buffer.length);
+
+                    socket.receive(packet);
+
+                    String respuesta = new String(packet.getData(), 0, packet.getLength());
+                    System.out.println("Respuesta del servidor: " + respuesta);
+                }
+            }
+
+            socket.close();
+            scanner.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}

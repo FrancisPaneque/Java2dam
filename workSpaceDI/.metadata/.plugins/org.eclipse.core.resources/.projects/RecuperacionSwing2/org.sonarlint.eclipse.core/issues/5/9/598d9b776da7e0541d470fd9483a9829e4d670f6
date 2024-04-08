@@ -1,0 +1,19 @@
+
+n
+java:S1444"3Make this "public static usuarioActual" field final8¶Ôéã1b c0ea967392d6e372035f3657e33fed5dh
+
+java:S1104"TMake usuarios a static final constant or non-public and provide accessors if needed.8ô‰ğã1b 03f996214fba4a1d05a68b18fece8e71h
+Œ
+java:S1104"QMake citas a static final constant or non-public and provide accessors if needed.8®“”ã1b 92e2f50fffeea1d6897e685c034123b9h
+”
+java:S1104"YMake usuarioActual a static final constant or non-public and provide accessors if needed.8¶Ôéã1b c0ea967392d6e372035f3657e33fed5dh
+u
+java:S1118":Add a private constructor to hide the implicit public one.8ô‰ğã1b a470a23326b3831dd974dfc1116119c2h
+X
+java:S2386"Make this member "protected".8®“”ã1b 92e2f50fffeea1d6897e685c034123b9h
+X
+java:S2386"Make this member "protected".8ô‰ğã1b 03f996214fba4a1d05a68b18fece8e71h
+f
+java:S1444"+Make this "public static citas" field final8®“”ã1b 92e2f50fffeea1d6897e685c034123b9h
+i
+java:S1444".Make this "public static usuarios" field final8ô‰ğã1b 03f996214fba4a1d05a68b18fece8e71h

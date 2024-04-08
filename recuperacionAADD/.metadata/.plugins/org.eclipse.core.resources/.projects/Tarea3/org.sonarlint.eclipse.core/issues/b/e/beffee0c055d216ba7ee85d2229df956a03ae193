@@ -1,0 +1,30 @@
+
+~
+java:S1192O"JDefine a constant instead of duplicating this literal "Consolas" 10 times.b 1c1a424e305adf1e3ec0bb95debf3dc2h
+„	java:S117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b c083470ac53dc36a0aa99f7cf0b9127dh
+	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b ea7a3ab35db0ccfcc51c1f10dec94796h
+’
+java:S1450%"^Remove the "textAreaReparto" field and declare it as a local variable in the relevant methods.b 4b85de4b261201470f7f2d8baa7266e6h
+}
+java:S3252G"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".b d3eba7aaff6ac48405695200513a5198h
+f
+java:S1128"2Remove this unused import 'java.awt.BorderLayout'.b 28646df8e4f0595f8d2e64a54c827ef8h
+h
+java:S1128"4Remove this unused import 'javax.swing.GroupLayout'.b f7bc9f2b8463bbd4d65a95f5f9851a88h
+r
+java:S1128">Remove this unused import 'javax.swing.GroupLayout.Alignment'.b 44a1a154b64de1001a9b52514080f2cch
+{
+java:S1128
+"GRemove this unused import 'javax.swing.LayoutStyle.ComponentPlacement'.b b5dbb62a1e43b2e23ffced61dfbb874fh
+f
+java:S1128"2Remove this unused import 'javax.swing.JComboBox'.b d8706940c40975b3efa881d908842dffh
+g
+java:S1128"3Remove this unused import 'javax.swing.JScrollBar'.b c664c43c6255d613fabee3e578e212f5h
+b
+java:S1128".Remove this unused import 'javax.swing.JTree'.b 9f2d131702e5108379431763b9e3ff1dh
+k
+java:S1128"7Remove this unused import 'javax.swing.SwingConstants'.b cd20b7fda2f3bedbd8aa90e65ce68287h
+p
+java:S1128"<Remove this unused import 'com.mysql.cj.protocol.Resultset'.b 57ba96cbedc2fe9d35c81e66a7412c7ch
+g
+java:S1128"3Remove this unused import 'com.mysql.cj.util.Util'.b 4c8cbdf502ad2acb2ec1049f793118dbh

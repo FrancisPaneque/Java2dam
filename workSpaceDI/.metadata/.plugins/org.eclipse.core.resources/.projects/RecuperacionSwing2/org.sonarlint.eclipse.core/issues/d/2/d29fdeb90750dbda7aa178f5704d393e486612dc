@@ -1,0 +1,19 @@
+
+d
+java:S1172¥"(Remove this unused method parameter "e".8§Â¨ê„1b e1671797c52e15f763380b45e841ec32h
+å	java:S117Å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8 ⁄êè„1b 1778fbafbca5981710b1a9c4cd303023h
+å	java:S117á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8 ⁄êè„1b 4328b2e77a4d5cc818f3a480095ca118h
+ã	java:S117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8 ⁄êè„1b b7b24f41d86c09d7e1092caa17c3a3d5h
+ã	java:S117]"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8 ⁄êè„1b 52d1b9fb68e38ac8e63a669994eeae20h
+d
+java:S1172®"(Remove this unused method parameter "e".8’úõè„1b e1671797c52e15f763380b45e841ec32h
+ã	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8 ⁄êè„1b d5e9134b53785ffd7159b167b2f95bfdh
+\
+java:S1604 "(Make this anonymous inner class a lambdab ea52882b4555d68253c21906fed1a7f9h
+ã	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8 ⁄êè„1b 145d64df0d46c4835d1d6d96229dbfaeh
+å	java:S117í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8 ⁄êè„1b 8a797ae3c6e8779b4a7c20af9ee59529h
+}
+java:S32520"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".b d3eba7aaff6ac48405695200513a5198h
+å	java:S117Ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8 ⁄êè„1b c7e64a9a41540130fb40a4879983994eh
+y
+java:S1128">Remove this unused import 'com.toedter.calendar.JDateChooser'.8“Úºê„1b 247bcd22d8f3202aac86e1e45d5a6d85h

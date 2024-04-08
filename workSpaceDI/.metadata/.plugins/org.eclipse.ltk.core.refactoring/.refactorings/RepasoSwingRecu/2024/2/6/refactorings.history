@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;GestionMesas.java&apos; to &apos;ExamenJavaSwingPaneque/src/frontLogin&apos;&#x0D;&#x0A;- Original project: &apos;RepasoSwingRecu&apos;&#x0D;&#x0A;- Destination element: &apos;ExamenJavaSwingPaneque/src/frontLogin&apos;&#x0D;&#x0A;- Original element: &apos;front.GestionMesas.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=ExamenJavaSwingPaneque/src&lt;frontLogin" element1="/src&lt;front{GestionMesas.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1707208290795" units="1" version="1.0"/>
+</session>

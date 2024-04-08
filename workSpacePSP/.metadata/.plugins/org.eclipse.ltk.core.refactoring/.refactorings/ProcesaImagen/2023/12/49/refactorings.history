@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;utils.Utilidades&apos; to &apos;Utilities&apos;&#x0D;&#x0A;- Original project: &apos;ProcesaImagen&apos;&#x0D;&#x0A;- Original element: &apos;utils.Utilidades&apos;&#x0D;&#x0A;- Renamed element: &apos;utils.Utilities&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Utilidades&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;utils{Utilidades.java[Utilidades" matchStrategy="1" name="Utilities" qualified="false" references="true" similarDeclarations="false" stamp="1701682809843" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,6 @@
+
+^	java:S1061"+Replace this use of System.err by a logger.b af259b5629da223c99d853ddc8045589h
+O
+java:S36262"Remove this redundant jump.b 505b97969baa28c3f607a38ee02f4f2dh
+V
+java:S2189&""Add an end condition to this loop.b 335feffb9fae3192cda796fff4296d63h

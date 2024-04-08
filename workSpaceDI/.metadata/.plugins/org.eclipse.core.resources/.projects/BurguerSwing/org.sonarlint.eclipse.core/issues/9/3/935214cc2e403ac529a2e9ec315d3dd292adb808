@@ -1,0 +1,34 @@
+
+a
+java:S1199("-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+a
+java:S11990"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+a
+java:S1199+"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+j
+java:S3740>"/Provide the parametrized type for this generic.8Æë±ı‚1b ad23634b394e5f182ae9576cf7eed86ch
+j
+java:S3740>"/Provide the parametrized type for this generic.8Æë±ı‚1b ad23634b394e5f182ae9576cf7eed86ch
+Ö
+java:S1192,"JDefine a constant instead of duplicating this literal "New label" 4 times.8Æë±ı‚1b d0f85b895e1d7b2005386d3fecfa5bc4h
+ã	java:S1173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8Æë±ı‚1b 145d64df0d46c4835d1d6d96229dbfaeh
+ã	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8Æë±ı‚1b c77fb54f445e2112028a4ddbdad894dah
+ã	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8Æë±ı‚1b 9fe8012a185ed2be6c028c9255ab8b81h
+ã	java:S117`"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8Æë±ı‚1b 0765106e7616de589ad64f494ed11f18h
+ã	java:S117y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8Æë±ı‚1b 6807a19de6aea644fb13fc98d9ae6e4eh
+c
+java:S16048"(Make this anonymous inner class a lambda8Æë±ı‚1b 65b17b751d67188db4a2eea102b1f843h
+c
+java:S1604G"(Make this anonymous inner class a lambda8Æë±ı‚1b 65b17b751d67188db4a2eea102b1f843h
+d
+java:S1172≠"(Remove this unused method parameter "e".8Æë±ı‚1b e1671797c52e15f763380b45e841ec32h
+c
+java:S1604a"(Make this anonymous inner class a lambda8®≈µı‚1b 65b17b751d67188db4a2eea102b1f843h
+ç
+java:S3776""RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.8®≈µı‚1b 0e8dc3662bedf6058c89c4c75cdc9778h
+r
+java:S1172""7Remove these unused method parameters "padre", "modal".8¡ıπı‚1b 41409f34ee49036ad153fa10b374747eh
+k
+java:S1128"0Remove this unused import 'java.awt.FlowLayout'.8Èò∫ı‚1b 152c6b14e9e8a55c4e70be29ed0b3f3ah
+e
+java:S1128"*Remove this unused import 'models.Comida'.8£¬…ı‚1b 11f6c4861d5c5bf531e0f2da421212e8h

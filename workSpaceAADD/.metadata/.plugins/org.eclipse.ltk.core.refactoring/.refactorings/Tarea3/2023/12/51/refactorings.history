@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;textAreaDescripcion_1&apos; in &apos;AADD.Tarea3.Main.initialize()&apos; to &apos;JTextAreaReparto&apos;&#x0D;&#x0A;- Original project: &apos;Tarea3&apos;&#x0D;&#x0A;- Original element: &apos;AADD.Tarea3.Main.initialize().textAreaDescripcion_1&apos;&#x0D;&#x0A;- Renamed element: &apos;textAreaDescripcion_1&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;textAreaDescripcion_1&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;AADD.Tarea3{Main.java[Main~initialize@textAreaDescripcion_1!4517!4566!4527!4547!QJTextArea;!0!false" name="JTextAreaReparto" references="true" stamp="1703440784062" version="1.0"/>
+</session>

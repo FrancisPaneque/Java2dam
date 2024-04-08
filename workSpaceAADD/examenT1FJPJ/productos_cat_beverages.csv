@@ -1,0 +1,33 @@
+ProductID;ProductName;SupplierID;CategoryID;QuantityPerUnit;UnitPrice;UnitsInStock;UnitsOnOrder;ReorderLevel;Discontinued
+1;Chai;1;1;10 boxes x 20 bags;18.0000;39;0;10;0
+2;Chang;1;1;24 - 12 oz bottles;19.0000;17;40;25;0
+34;Sasquatch Ale;16;1;24 - 12 oz bottles;14.0000;111;0;15;0
+35;Steeleye Stout;16;1;24 - 12 oz bottles;18.0000;20;0;15;0
+38;Cte de Blaye;18;1;12 - 75 cl bottles;263.5000;17;0;15;0
+39;Chartreuse verte;18;1;750 cc per bottle;18.0000;69;0;5;0
+43;Ipoh Coffee;20;1;16 - 500 g tins;46.0000;17;10;25;0
+67;Laughing Lumberjack Lager;16;1;24 - 12 oz bottles;14.0000;52;0;10;0
+70;Outback Lager;7;1;24 - 355 ml bottles;15.0000;15;10;30;0
+75;Rhnbru Klosterbier;12;1;24 - 0.5 l bottles;7.7500;125;0;25;0
+76;Lakkalikri;23;1;500 ml;18.0000;57;0;20;0
+81;Producto 4;10;1;12 - 355 ml cans;4.5000;20;0;0;0
+91;Producto 14;10;1;12 - 355 ml cans;4.5000;20;0;0;0
+101;Producto 24;10;1;12 - 355 ml cans;4.5000;20;0;0;0
+110;Producto 4;10;1;12 - 355 ml cans;4.5000;20;0;0;0
+120;Producto 14;10;1;12 - 355 ml cans;4.5000;20;0;0;0
+130;Producto 24;10;1;12 - 355 ml cans;4.5000;20;0;0;0
+139;Producto 4;10;1;12 - 355 ml cans;4.5000;20;0;0;0
+149;Producto 14;10;1;12 - 355 ml cans;4.5000;20;0;0;0
+159;Producto 24;10;1;12 - 355 ml cans;4.5000;20;0;0;0
+168;Producto 4;10;1;12 - 355 ml cans;4.5000;20;0;0;0
+178;Producto 14;10;1;12 - 355 ml cans;4.5000;20;0;0;0
+188;Producto 24;10;1;12 - 355 ml cans;4.5000;20;0;0;0
+197;Producto 4;10;1;12 - 355 ml cans;4.5000;20;0;0;0
+207;Producto 14;10;1;12 - 355 ml cans;4.5000;20;0;0;0
+217;Producto 24;10;1;12 - 355 ml cans;4.5000;20;0;0;0
+226;Producto 4;10;1;12 - 355 ml cans;4.5000;20;0;0;0
+236;Producto 14;10;1;12 - 355 ml cans;4.5000;20;0;0;0
+246;Producto 24;10;1;12 - 355 ml cans;4.5000;20;0;0;0
+255;Producto 4;10;1;12 - 355 ml cans;4.5000;20;0;0;0
+265;Producto 14;10;1;12 - 355 ml cans;4.5000;20;0;0;0
+275;Producto 24;10;1;12 - 355 ml cans;4.5000;20;0;0;0

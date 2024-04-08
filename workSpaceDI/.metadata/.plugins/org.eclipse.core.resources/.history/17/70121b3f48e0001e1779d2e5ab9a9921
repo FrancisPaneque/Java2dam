@@ -1,0 +1,9 @@
+package util;
+import models.*;
+import java.util.*;
+
+public class Utils {
+	
+	List<Usuario> usuarios = new ArrayList<>();
+	
+}

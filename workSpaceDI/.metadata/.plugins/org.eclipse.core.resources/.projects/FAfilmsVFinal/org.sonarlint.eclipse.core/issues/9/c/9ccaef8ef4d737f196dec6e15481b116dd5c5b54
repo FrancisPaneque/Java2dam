@@ -1,0 +1,34 @@
+
+|
+java:S1192L"HDefine a constant instead of duplicating this literal "CjFilms" 5 times.b 70ded5d8829718d07c96807486382697h
+z
+java:S1192R"FDefine a constant instead of duplicating this literal "Error" 4 times.b 679348fd6db8ab1e8f9b97a9fc70e120h
+|
+java:S1192S"HDefine a constant instead of duplicating this literal "Error: " 4 times.b 8d3ce6296a320b092232b77b4a0dc584h
+Ö	java:S117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 64c6da2436465d11573858d46056b95dh
+â	java:S116"VRename this field "TxtAActores" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 7fcfff6f846046f85377932caa82ec83h
+ç	java:S116"ZRename this field "TxtADescripcion" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 5d1ef7fcfb71a769c948df0484025677h
+å	java:S116 "YRename this field "TxtADirectores" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 752aa4c67f43650e63cfbf9f0e34d38ah
+â	java:S116#"VRename this field "TxtAGeneros" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b a662d01dd899e831c4274854cf921847h
+å	java:S116&"YRename this field "TxtAPlataforma" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 9053a1aa6ea37c05b18fee878c4a3998h
+ä	java:S116/"WRename this field "txtCompa√±ia" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 8b172305bb2184b737cc1cd61d229cebh
+m
+java:S1117I"9Rename "stage" which hides the field declared at line 52.b 9a8c2b9d518bc163e99611fbacea63b2h
+m
+java:S1117c"9Rename "stage" which hides the field declared at line 52.b 9a8c2b9d518bc163e99611fbacea63b2h
+m
+java:S1117}"9Rename "stage" which hides the field declared at line 52.b 9a8c2b9d518bc163e99611fbacea63b2h
+n
+java:S1117•"9Rename "stage" which hides the field declared at line 52.b 9a8c2b9d518bc163e99611fbacea63b2h
+n
+java:S1117∑"9Rename "stage" which hides the field declared at line 52.b 9a8c2b9d518bc163e99611fbacea63b2h
+p
+java:S1128"<Remove this unused import 'javafx.scene.control.ScrollPane'.b a48a868b7c7e80a5d763539129f4e015h
+°
+java:S1192T"fDefine a constant instead of duplicating this literal "Esa funcionalidad no est√° disponible" 4 times.8ò¡˝ú€1b b3776244cfdad484ad1a5bbae9f8783ah
+g
+java:S1128",Remove this unused import 'Utils.GestorSQL'.8ò¡˝ú€1b b42e946c888a47ac6ef9f1e07d890506h
+g
+java:S1128",Remove this unused import 'models.Pelicula'.8ò¡˝ú€1b 68dda64ff83945d2cb5af79ef99f7516h
+n
+java:S1144≤"2Remove this unused private "showPrincipal" method.8ò¡˝ú€1b bc0fef430a419bfa3bdbffc310aa99eah

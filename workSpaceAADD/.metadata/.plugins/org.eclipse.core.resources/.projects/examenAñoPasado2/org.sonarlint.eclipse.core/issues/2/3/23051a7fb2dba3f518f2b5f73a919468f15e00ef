@@ -1,0 +1,41 @@
+
+‹	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8Баш«а1b d03bab8c1b8ce144a9da53ad9fbc775ch
+”
+java:S2293;"YReplace the type specification in this constructor call with the diamond operator ("<>").8Баш«а1b 420a464f4c5f127e2d1c8800c4610e39h
+‹	java:S117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8Баш«а1b e54b368b9d65353164bf8800f6843953h
+‹	java:S117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8Баш«а1b 3e588a92624753d29af9ec81c6fe15c9h
+‰	java:S100У"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8Баш«а1b 5c09996df7b8a5059bcc44c285469ec2h
+f
+java:S2093м"*Change this "try" to a try-with-resources.8Баш«а1b 080f651e3fcca17df3a47c2cecfcb880h
+q
+java:S2209о"5Change this instance-reference to a static reference.8МЎ™¬а1b f57f289e5eee4ac67409881097b36a4eh
+‰
+java:S1192Ю"MDefine a constant instead of duplicating this literal "insert into " 3 times.8Баш«а1b 228e53d8d8cfe55a1ca92bb2deac99e8h
+Њ
+java:S1659Ъ"PDeclare "procesandoProveedor" and all following declarations on a separate line.8КЮ•Га1b a13f1f073a6ad9722ed67f29b6dc1cabh
+…
+java:S1192?"JDefine a constant instead of duplicating this literal "select * " 3 times.8Баш«а1b 20d44cdbcdba6e67ce0557f312f4a755h
+Њ	java:S117в"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8Баш«а1b aaff82c3c0f833b29c68052b352db454h
+‚
+java:S2095U"GUse try-with-resources or close this "Statement" in a "finally" clause.8МЎ™¬а1b 08e4108c4eab4dea01453f37a7574106h
+‚
+java:S2095|"GUse try-with-resources or close this "Statement" in a "finally" clause.8МЎ™¬а1b 08e4108c4eab4dea01453f37a7574106h
+”
+java:S2293:"YReplace the type specification in this constructor call with the diamond operator ("<>").8Баш«а1b bfa459f4bdb012116de00799e4379b0ch
+‚
+java:S2095c"GUse try-with-resources or close this "Statement" in a "finally" clause.8МЎ™¬а1b 08e4108c4eab4dea01453f37a7574106h
+f
+java:S2093џ"*Change this "try" to a try-with-resources.8Баш«а1b 080f651e3fcca17df3a47c2cecfcb880h
+d
+java:S2440Х"(Remove this instantiation of "Conexion".8Баш«а1b 9f873a67efcfe48cac10405dc48d2263h
+‚
+java:S2259И"FA "NullPointerException" could be thrown; "escritor" is nullable here.8МЎ™¬а1b d1239e3daf1143a16053e60e149011a9h
+Њ	java:S117з"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8Баш«а1b 28cc0226d749ef8578c6b70f1c025810h
+c
+java:S24403"(Remove this instantiation of "Conexion".8Баш«а1b 9f873a67efcfe48cac10405dc48d2263h
+Њ	java:S117Э"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8Баш«а1b d03bab8c1b8ce144a9da53ad9fbc775ch
+p
+java:S2209Q"5Change this instance-reference to a static reference.8тїь«а1b f57f289e5eee4ac67409881097b36a4eh
+Ћ
+java:S3776У"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.8Баш«а1b 5c09996df7b8a5059bcc44c285469ec2h
+Ќ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b c0ab900da255bedd0a578e5f8f42efdfh

@@ -1,0 +1,15 @@
+
+„	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b d5e9134b53785ffd7159b167b2f95bfdh
+	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b b510ba9b3c211435571b074a338ad315h
+}
+java:S3252""IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".b d3eba7aaff6ac48405695200513a5198h
+d
+java:S1128"0Remove this unused import 'java.awt.EventQueue'.b 2bef63f752c035d8092c1ae52dfaf107h
+h
+java:S1128"4Remove this unused import 'javax.swing.GroupLayout'.b f7bc9f2b8463bbd4d65a95f5f9851a88h
+r
+java:S1128">Remove this unused import 'javax.swing.GroupLayout.Alignment'.b 44a1a154b64de1001a9b52514080f2cch
+{
+java:S1128"GRemove this unused import 'javax.swing.LayoutStyle.ComponentPlacement'.b b5dbb62a1e43b2e23ffced61dfbb874fh
+g
+java:S1144T"3Remove this unused private "actualizaTabla" method.b 717c4bfe764d4fe9006a0e01dff3cb81h

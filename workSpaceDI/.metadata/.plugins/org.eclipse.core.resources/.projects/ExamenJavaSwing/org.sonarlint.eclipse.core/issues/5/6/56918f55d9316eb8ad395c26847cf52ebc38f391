@@ -1,0 +1,8 @@
+
+ä
+java:S1104K"VMake listaClase a static final constant or non-public and provide accessors if needed.b 093665a4da19141b686ad00a147c452ah
+d
+java:S1444K"0Make this "public static listaClase" field finalb 093665a4da19141b686ad00a147c452ah
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b a470a23326b3831dd974dfc1116119c2h
+Q
+java:S2386K"Make this member "protected".b 093665a4da19141b686ad00a147c452ah

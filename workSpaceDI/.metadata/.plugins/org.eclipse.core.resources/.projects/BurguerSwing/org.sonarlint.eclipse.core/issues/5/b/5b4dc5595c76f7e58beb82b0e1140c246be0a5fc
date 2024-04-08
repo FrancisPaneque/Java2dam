@@ -1,0 +1,36 @@
+
+h
+java:S1199-"-Extract this nested code block into a method.8Ÿ»òâ1b f95b70fdc3088560732a5ac135644506h
+h
+java:S11998"-Extract this nested code block into a method.8Ÿ»òâ1b f95b70fdc3088560732a5ac135644506h
+h
+java:S1199X"-Extract this nested code block into a method.8Ÿ»òâ1b f95b70fdc3088560732a5ac135644506h
+‹	java:S117_"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8ûå¢òâ1b 6807a19de6aea644fb13fc98d9ae6e4eh
+r
+java:S1172'"7Remove these unused method parameters "padre", "modal".8úŸÇòâ1b 41409f34ee49036ad153fa10b374747eh
+c
+java:S1172{"(Remove this unused method parameter "e".8ëÛ¶óâ1b e1671797c52e15f763380b45e841ec32h
+X
+java:S2386 "Make this member "protected".8¨¢Äóâ1b 3d8d95fe21684427020e4d04c0a4eb00h
+
+java:S1104 "SMake pedidos a static final constant or non-public and provide accessors if needed.8´©Ğóâ1b 3d8d95fe21684427020e4d04c0a4eb00h
+h
+java:S1444 "-Make this "public static pedidos" field final8´©Ğóâ1b 3d8d95fe21684427020e4d04c0a4eb00h
+c
+java:S1604="(Make this anonymous inner class a lambda8ìŸÔóâ1b 65b17b751d67188db4a2eea102b1f843h
+d
+java:S1172"(Remove this unused method parameter "e".8Äíóâ1b e1671797c52e15f763380b45e841ec32h
+c
+java:S1604D"(Make this anonymous inner class a lambda8ùÙïóâ1b 65b17b751d67188db4a2eea102b1f843h
+Œ
+java:S1104"QMake table a static final constant or non-public and provide accessors if needed.8Ùñ¿ôâ1b aab9e1de16f38176f86d7a92ba337a8dh
+f
+java:S1444"+Make this "public static table" field final8›ÔÀôâ1b aab9e1de16f38176f86d7a92ba337a8dh
+]
+java:S3010o""Remove this assignment of "table".8›ÔÀôâ1b aab9e1de16f38176f86d7a92ba337a8dh
+d
+java:S1172‡"(Remove this unused method parameter "e".8õÕ¸õâ1b e1671797c52e15f763380b45e841ec32h
+c
+java:S1604M"(Make this anonymous inner class a lambda8§‡¼õâ1b 65b17b751d67188db4a2eea102b1f843h
+q
+java:S1128"6Remove this unused import 'java.awt.event.MouseEvent'.8§‡¼õâ1b 47c543a43741911c9eb73a7a125793f3h

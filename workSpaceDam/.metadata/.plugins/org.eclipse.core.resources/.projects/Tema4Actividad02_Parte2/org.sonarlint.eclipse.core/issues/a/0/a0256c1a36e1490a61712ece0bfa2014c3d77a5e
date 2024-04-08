@@ -1,0 +1,10 @@
+
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 18d8d31c3c59410497ab48d7b4e4dce0h
+â
+java:S1450"URemove the "reader" field and declare it as a local variable in the relevant methods.b 1de9b0a30075ae8c303eb420c103c320h
+â
+java:S1450"URemove the "salida" field and declare it as a local variable in the relevant methods.b 5c894636500f788f3cd2d513b1050679h
+X
+java:S1168""$Return an empty map instead of null.b 37a6259cc0c1dae299a7866489dff0bdh
+Ö
+java:S1128	"QRemove this unused import 'hlc.ud04.controllAcceso.autenticador.PermisosUsuario'.b ec90ddc873c60d4cf3c34baedfef0bb3h

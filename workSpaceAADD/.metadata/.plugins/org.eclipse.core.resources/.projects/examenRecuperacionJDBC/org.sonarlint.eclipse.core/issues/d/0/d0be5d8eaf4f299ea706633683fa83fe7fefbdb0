@@ -1,0 +1,7 @@
+
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b ff971b76f5099d4f63b1356de0c89748h
+¢
+java:S1130"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.b ad249e05eb304d96ade91e500634f62ah
+†
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.b be3bf3cb01e0cae10d7459a53f1b9edch
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh

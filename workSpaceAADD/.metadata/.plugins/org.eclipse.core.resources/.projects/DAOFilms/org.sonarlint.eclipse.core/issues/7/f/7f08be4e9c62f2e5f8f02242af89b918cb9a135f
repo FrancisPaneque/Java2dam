@@ -1,0 +1,17 @@
+
+e	java:S106""+Replace this use of System.out by a logger.8ÃäãÑ1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S1067"+Replace this use of System.out by a logger.8ÃäãÑ1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S1069"+Replace this use of System.out by a logger.8ÃäãÑ1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106@"+Replace this use of System.out by a logger.8ê˜œ¼Û1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e	java:S106B"+Replace this use of System.out by a logger.8ê˜œ¼Û1b bb1c3f2ea781263d3a2bb92b06a2061fh
+k
+java:S1128"0Remove this unused import 'org.hibernate.Query'.8ê˜œ¼Û1b ad054d7a123d3c55328088fe637d445ah
+t
+java:S1128"9Remove this unused import 'org.hibernate.SessionFactory'.8ê˜œ¼Û1b 836349435fd277987074405a8d75de4ch
+’
+java:S1128"WRemove this unused import 'org.hibernate.boot.registry.StandardServiceRegistryBuilder'.8ê˜œ¼Û1b a4d68ecd0b9fb473f6e87a9fe1bafe6dh
+w
+java:S1128"<Remove this unused import 'org.hibernate.cfg.Configuration'.8ê˜œ¼Û1b cc491dd75c920a27b699f0116f39b6b3h
+f
+java:S1128
+"+Remove this unused import 'java.util.List'.8ê˜œ¼Û1b 647165940d2971f696436f6a7da1f89dh

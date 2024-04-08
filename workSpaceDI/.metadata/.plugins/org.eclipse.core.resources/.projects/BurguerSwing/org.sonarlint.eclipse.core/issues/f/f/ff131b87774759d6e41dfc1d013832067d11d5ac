@@ -1,0 +1,28 @@
+
+a
+java:S1199,"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+a
+java:S11997"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+j
+java:S3740E"/Provide the parametrized type for this generic.8ë¤§óâ1b ad23634b394e5f182ae9576cf7eed86ch
+j
+java:S3740E"/Provide the parametrized type for this generic.8ë¤§óâ1b ad23634b394e5f182ae9576cf7eed86ch
+‚
+java:S11924"GDefine a constant instead of duplicating this literal "Tahoma" 5 times.8ë¤§óâ1b 271e64d070b12fd41baa5a63b6c3bb4dh
+‹	java:S117q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8ë¤§óâ1b 73526e717e287809990c7e1bd4346e16h
+Œ	java:S117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8ë¤§óâ1b 6807a19de6aea644fb13fc98d9ae6e4eh
+r
+java:S1172&"7Remove these unused method parameters "padre", "modal".8Õê­óâ1b 41409f34ee49036ad153fa10b374747eh
+d
+java:S1172À"(Remove this unused method parameter "e".8ïçÍóâ1b e1671797c52e15f763380b45e841ec32h
+c
+java:S1604N"(Make this anonymous inner class a lambda8äÎóâ1b 65b17b751d67188db4a2eea102b1f843h
+’	java:S116!"XRename this field "lblNewLabel_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8ºÙöóâ1b 145d64df0d46c4835d1d6d96229dbfaeh
+c
+java:S1604k"(Make this anonymous inner class a lambda8ñ›™ôâ1b 65b17b751d67188db4a2eea102b1f843h
+c
+java:S1604r"(Make this anonymous inner class a lambda8û¤Àôâ1b 65b17b751d67188db4a2eea102b1f843h
+
+java:S3776&"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.8û¤Àôâ1b 820f79432ba3eebb654316b60c1f5ceeh
+q
+java:S1128"6Remove this unused import 'java.awt.event.MouseEvent'.8Ì¦çôâ1b 47c543a43741911c9eb73a7a125793f3h

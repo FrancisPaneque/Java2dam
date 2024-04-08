@@ -1,0 +1,35 @@
+// FileServerApp.java
+package psp.ud03.act303.server;
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class FileServerApp {
+    private static final int DEFAULT_PORT = 2121;
+
+    public static void main(String[] args) {
+        int port = DEFAULT_PORT;
+
+        // Read configuration from server.properties
+        // (You need to implement this)
+
+        try {
+            ServerSocket serverSocket = new ServerSocket(port);
+            System.out.println("Server listening on port " + port);
+
+            ExecutorService executorService = Executors.newCachedThreadPool();
+
+            while (true) {
+                Socket clientSocket = serverSocket.accept();
+                System.out.println("Accepted connection from " + clientSocket.getInetAddress());
+
+                // Handle client connection in a separate thread
+                executorService.submit(new ClientHandler(clientSocket));
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}

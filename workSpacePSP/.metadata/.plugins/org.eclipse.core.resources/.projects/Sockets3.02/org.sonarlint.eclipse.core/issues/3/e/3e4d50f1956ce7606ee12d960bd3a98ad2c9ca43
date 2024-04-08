@@ -1,0 +1,10 @@
+
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+]
+java:S2189""Add an end condition to this loop.8‡σσ¨Υ1b a9394e6ca6a5d096349210915bcf6977h
+k
+java:S1128"0Remove this unused import 'java.nio.file.Paths'.8‡σσ¨Υ1b ff75993130b9da98c25048b1e31f590eh
+k
+java:S1128"0Remove this unused import 'java.nio.file.Files'.8‡σσ¨Υ1b 26200eeaa3365f274f4a0e99a5b736bfh
+j
+java:S1128"/Remove this unused import 'java.nio.file.Path'.8‡σσ¨Υ1b 02b550f25e07608c0e29a355bb32539bh

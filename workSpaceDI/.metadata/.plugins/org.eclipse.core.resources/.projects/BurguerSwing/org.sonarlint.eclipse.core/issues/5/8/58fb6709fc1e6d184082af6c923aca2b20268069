@@ -1,0 +1,47 @@
+
+Ñ	java:S117Q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b f0352063b99a7294892d4874e2f479dfh
+{
+java:S11920"GDefine a constant instead of duplicating this literal "Tahoma" 3 times.b 271e64d070b12fd41baa5a63b6c3bb4dh
+a
+java:S1199*"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+a
+java:S1199a"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+{
+java:S1128"GRemove this unused import 'javax.swing.LayoutStyle.ComponentPlacement'.b b5dbb62a1e43b2e23ffced61dfbb874fh
+b
+java:S1199Ä"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+a
+java:S1199I"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+Ö	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 0214838ff3aa891c9170c7130de9af91h
+d
+java:S1128"0Remove this unused import 'java.awt.FlowLayout'.b 152c6b14e9e8a55c4e70be29ed0b3f3ah
+_
+java:S1444"+Make this "public static table" field finalb aab9e1de16f38176f86d7a92ba337a8dh
+]
+java:S1604≈"(Make this anonymous inner class a lambdab 65b17b751d67188db4a2eea102b1f843h
+Y
+java:S3010±"$Remove this assignment of "table_1".b 7d5c59fb54af1b80cf4eba7c969bb920h
+a
+java:S1444"-Make this "public static table_1" field finalb 7d5c59fb54af1b80cf4eba7c969bb920h
+a
+java:S1199A"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+Ñ	java:S117f"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b eb4b18cb81c6c5fe8a3a293dc653cf8ch
+a
+java:S1199E"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+Ö
+java:S1104"QMake table a static final constant or non-public and provide accessors if needed.b aab9e1de16f38176f86d7a92ba337a8dh
+b
+java:S1199ø"-Extract this nested code block into a method.b f95b70fdc3088560732a5ac135644506h
+]
+java:S1172‹"(Remove this unused method parameter "e".b e1671797c52e15f763380b45e841ec32h
+Ü
+java:S3008"RRename this field "table_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 7d5c59fb54af1b80cf4eba7c969bb920h
+Ö	java:S117ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b b437a981210583d3c52f029c03c51340h
+k
+java:S1172#"7Remove these unused method parameters "padre", "modal".b 41409f34ee49036ad153fa10b374747eh
+Ñ	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b c2b83f653927ebc0954fe262ac121d86h
+á
+java:S1104"SMake table_1 a static final constant or non-public and provide accessors if needed.b 7d5c59fb54af1b80cf4eba7c969bb920h
+V
+java:S3010r""Remove this assignment of "table".b aab9e1de16f38176f86d7a92ba337a8dh
+Ö	java:S117£"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b bb8c160143f386f9ea789bc61e5d3267h

@@ -1,0 +1,6 @@
+
+|	java:S107"BConstructor has 12 parameters, which is greater than 7 authorized.8¾•ÉÌØ1b 4cd9f3996d60790cd11c04f842ebc43ch
+‹	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8è‡¹áÚ1b ec7e0d869a56b9d58e54cfdd17d7fa13h
+‘	java:S116"WRename this field "profile_path" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8¡ğØáÚ1b ec7e0d869a56b9d58e54cfdd17d7fa13h
+™	java:S116"_Rename this field "known_for_department" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8ÑÆÒëÚ1b 80927111aa4862f3f5bd72ec7dc5e454h
+‹	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8ˆşÒëÚ1b 80927111aa4862f3f5bd72ec7dc5e454h

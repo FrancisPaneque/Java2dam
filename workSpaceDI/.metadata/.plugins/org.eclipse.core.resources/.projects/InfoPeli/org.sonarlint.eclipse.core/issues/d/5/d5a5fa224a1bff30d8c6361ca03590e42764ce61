@@ -1,0 +1,45 @@
+
+X
+java:S1643´"Use a StringBuilder instead.8Ğ¯ƒíÚ1b 7f80095aea4d66af1121f1fbe916066dh
+‹	java:S117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.8Ú® íÚ1b 64c6da2436465d11573858d46056b95dh
+c
+java:S1444&"(Make this "public static id" field final8·Ñ‘îÚ1b b80bb7740288fda1f201890375a60c8fh
+q
+java:S2696b"6Make the enclosing method "static" or remove this set.8§Û‡îÚ1b b80bb7740288fda1f201890375a60c8fh
+f	java:S106Ú"+Replace this use of System.out by a logger.8’ÄáÚ1b bb1c3f2ea781263d3a2bb92b06a2061fh
+X
+java:S1643–"Use a StringBuilder instead.8Ğ¯ƒíÚ1b 585a853cba1897089e0f16832d4382cdh
+e
+java:S1172Ö")Remove this unused method parameter "id".8…à“Û1b b80bb7740288fda1f201890375a60c8fh
+p
+java:S1128"5Remove this unused import 'javafx.stage.FileChooser'.8‘€ú“Û1b 49301da8bfebe9fbab86a0a28ca3bb4ch
+‰
+java:S1104&"NMake id a static final constant or non-public and provide accessors if needed.8·Ñ‘îÚ1b b80bb7740288fda1f201890375a60c8fh
+„
+java:S1192·"HDefine a constant instead of duplicating this literal "Error: " 3 times.8şÃ¿ìÚ1b 8d3ce6296a320b092232b77b4a0dc584h
+x	java:S107û"=Method has 17 parameters, which is greater than 7 authorized.8Ç¡ˆ›Ù1b 754923e60bf4f0428ee8e0ea8bffa606h
+¨
+java:S1130Ò"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.8ÃÖÏíÚ1b be3bf3cb01e0cae10d7459a53f1b9edch
+€	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b e8d6cc8b7f23215c1998ca7bb89b0681h
+X
+java:S1643‰"Use a StringBuilder instead.8Ğ¯ƒíÚ1b 3d4e992d8d8a7d848724aa26ed7f4176h
+p
+java:S2209b"5Change this instance-reference to a static reference.8§Û‡îÚ1b 9e925e9341b490bfd3b4c4ca3b0c1ef2h
+‚
+java:S1192€"FDefine a constant instead of duplicating this literal "Error" 5 times.8şÃ¿ìÚ1b 679348fd6db8ab1e8f9b97a9fc70e120h
+~
+java:S2583n"CChange this condition so that it does not always evaluate to "true"8“òÈ“Û1b fa1b0282b864cd68f395deccca91e1bdh
+f
+java:S1068""+Remove this unused "KEY_API" private field.8òş­“Û1b 81ad13c2bce9da97e6268873f464e2dbh
+j
+java:S1172û".Remove this unused method parameter "actores".8‘Ú„Ú1b 59e86f5764c418310351a814dde4325eh
+z
+java:S1854®">Remove this useless assignment to local variable "actoresBox".8‚®ìÚ1b a69fd3e2f360df9751683415600fbcedh
+
+java:S1450%"TRemove the "stage" field and declare it as a local variable in the relevant methods.8Ú® íÚ1b 9a8c2b9d518bc163e99611fbacea63b2h
+
+java:S3776û"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.8²Ì²äÙ1b 754923e60bf4f0428ee8e0ea8bffa606h
+‚
+java:S2259k"GA "NullPointerException" could be thrown; "datosPeli" is nullable here.8“òÈ“Û1b 1fc6e9ecf24cdd943acb3e97bf0b73c9h
+ƒ
+java:S2259•"GA "NullPointerException" could be thrown; "datosPeli" is nullable here.8ÖüÎíÚ1b 1fc6e9ecf24cdd943acb3e97bf0b73c9h

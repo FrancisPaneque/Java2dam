@@ -1,0 +1,8 @@
+
+n
+java:S1118":Add a private constructor to hide the implicit public one.b 27742b6fce8999ad466e6a59dcf7f133h
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b a470a23326b3831dd974dfc1116119c2h
+\
+java:S1128"(Remove this unused import 'models.Crew'.b 202aac425d6be5c9f7b217bd9560201bh
+_
+java:S1128"+Remove this unused import 'java.util.List'.b 647165940d2971f696436f6a7da1f89dh

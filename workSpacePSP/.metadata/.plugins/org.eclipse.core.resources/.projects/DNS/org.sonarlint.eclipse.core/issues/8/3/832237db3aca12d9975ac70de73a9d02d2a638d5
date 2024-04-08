@@ -1,0 +1,8 @@
+
+e	java:S106"+Replace this use of System.out by a logger.8˘ÜíÑ”1b bb1c3f2ea781263d3a2bb92b06a2061fh
+e
+java:S2093"*Change this "try" to a try-with-resources.8≥îÅ©’1b 080f651e3fcca17df3a47c2cecfcb880h
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+^	java:S106"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+Ä
+java:S2095"LUse try-with-resources or close this "DatagramSocket" in a "finally" clause.b 1523ac5b1237fc5bfdcf1fe1d3bd916dh

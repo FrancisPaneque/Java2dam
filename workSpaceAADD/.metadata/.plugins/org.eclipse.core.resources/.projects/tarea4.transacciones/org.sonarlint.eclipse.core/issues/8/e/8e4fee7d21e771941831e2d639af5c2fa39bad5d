@@ -1,0 +1,10 @@
+
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b c0ab900da255bedd0a578e5f8f42efdfh
+V
+java:S2189""Correct this loop's end condition.b 27a079b3c7211faf4b290329442ea7d7h
+v
+java:S1854"BRemove this useless assignment to local variable "numeroProfesor".b aca67adec9b88a3c71ca17b921b48676h
+x
+java:S1854"DRemove this useless assignment to local variable "numeroAsignatura".b aca67adec9b88a3c71ca17b921b48676h
+m
+java:S2251"9"i" is incremented and will never reach "stop condition".b 229ed256054524379101e828752fe078h

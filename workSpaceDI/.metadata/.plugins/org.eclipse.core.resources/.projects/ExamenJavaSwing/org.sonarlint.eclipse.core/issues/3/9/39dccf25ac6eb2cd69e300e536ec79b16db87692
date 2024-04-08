@@ -1,0 +1,21 @@
+
+	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b b510ba9b3c211435571b074a338ad315h
+}
+java:S3252$"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".b d3eba7aaff6ac48405695200513a5198h
+d
+java:S1128"0Remove this unused import 'java.awt.EventQueue'.b 2bef63f752c035d8092c1ae52dfaf107h
+f
+java:S1128"2Remove this unused import 'java.awt.BorderLayout'.b 28646df8e4f0595f8d2e64a54c827ef8h
+h
+java:S1128
+"4Remove this unused import 'javax.swing.GroupLayout'.b f7bc9f2b8463bbd4d65a95f5f9851a88h
+r
+java:S1128">Remove this unused import 'javax.swing.GroupLayout.Alignment'.b 44a1a154b64de1001a9b52514080f2cch
+{
+java:S1128"GRemove this unused import 'javax.swing.LayoutStyle.ComponentPlacement'.b b5dbb62a1e43b2e23ffced61dfbb874fh
+k
+java:S1128"7Remove this unused import 'java.awt.event.ActionEvent'.b b62a6376d44eb6e083dd2739092a93b6h
+d
+java:S1128"0Remove this unused import 'javax.swing.JButton'.b 86bf792b94c0822d7997e109988439bch
+n
+java:S1128":Remove this unused import 'java.awt.event.ActionListener'.b efada574b6ff23c93df9e16a1ee4fdd9h

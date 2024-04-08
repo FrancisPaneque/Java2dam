@@ -1,0 +1,17 @@
+
+Ä
+java:S1871?"LThis branch's code block is the same as the block for the branch on line 53.b 8d73e49c43793ce24d5d3454b9b89bf6h
+|
+java:S1192U"HDefine a constant instead of duplicating this literal "CjFilms" 3 times.b 70ded5d8829718d07c96807486382697h
+v
+java:S1126ù"AReplace this if-then-else statement by a single return statement.b 39c8942e1038872a822c0dc75eedbde3h
+n
+java:S1117Ä"9Rename "stage" which hides the field declared at line 32.b 9a8c2b9d518bc163e99611fbacea63b2h
+Ä	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b fa021aebd120307891c458149c7586a7h
+m
+java:S1117R"9Rename "stage" which hides the field declared at line 32.b 9a8c2b9d518bc163e99611fbacea63b2h
+Ñ	java:S117f"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.b 64c6da2436465d11573858d46056b95dh
+m
+java:S1117r"9Rename "stage" which hides the field declared at line 32.b 9a8c2b9d518bc163e99611fbacea63b2h
+v
+java:S1126í"AReplace this if-then-else statement by a single return statement.b 39c8942e1038872a822c0dc75eedbde3h

@@ -1,0 +1,6 @@
+
+s
+java:S1128
+"8Remove this unused import 'javax.persistence.ManyToOne'.8«ди¬У1b 77e900db43d69ee40f5fd9ef42f5d891h
+t
+java:S1128	"9Remove this unused import 'javax.persistence.JoinColumn'.8«ди¬У1b 1cf2a23e960b35c7620ab9103ae4d88bh

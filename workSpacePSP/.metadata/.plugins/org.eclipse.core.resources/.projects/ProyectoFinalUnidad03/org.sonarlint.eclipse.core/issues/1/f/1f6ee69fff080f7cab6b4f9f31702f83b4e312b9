@@ -1,0 +1,9 @@
+
+W
+java:S1643J"Use a StringBuilder instead.8Β΅ρλά1b 9c9752fd8c878f87d8b52e927ba218abh
+u	java:S899\";Do something with the "boolean" value returned by "delete".8‚¨νά1b 8b7d619a772f28274563882f93bdfb88h
+‰
+java:S4042\"NUse "java.nio.file.Files#delete" here for better messages on error conditions.8‚¨νά1b 099af53f601532dbd31e0ea99ffdeb64h
+e	java:S106Y"+Replace this use of System.out by a logger.8°ª“νά1b bb1c3f2ea781263d3a2bb92b06a2061fh
+W
+java:S1643r"Use a StringBuilder instead.8²΄‰έ1b c7824f3d4d5f7b2f22d034758c1e9454h

@@ -1,0 +1,16 @@
+
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b cbfeb229c2da0b092a655ec6ed8a72e3h
+{
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.b fbd8d4b855380696679af2f680242338h
+^	java:S106?"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+~
+java:S1128"JRemove this unused import 'ConexionBaseDatos.MainSQL.Utilidades.Conexion'.b 3d8a29db7ddbf4481e58a2737b6e2bf6h
+^	java:S106/"+Replace this use of System.out by a logger.b bb1c3f2ea781263d3a2bb92b06a2061fh
+}
+java:S20955"IUse try-with-resources or close this "PrintWriter" in a "finally" clause.b b0b08eceac73f5bf0b1c1af0500b4e5dh
+o
+java:S1854";Remove this useless assignment to local variable "nombres".b d38181c8f22d361042515e4973f47e4eh
+`
+java:S1481",Remove this unused "nombres" local variable.b b5d904239c235d253aac5e6d643afaa5h
+|
+java:S20954"HUse try-with-resources or close this "FileWriter" in a "finally" clause.b cdc942a86addb1b9a32d3bd21da380bbh

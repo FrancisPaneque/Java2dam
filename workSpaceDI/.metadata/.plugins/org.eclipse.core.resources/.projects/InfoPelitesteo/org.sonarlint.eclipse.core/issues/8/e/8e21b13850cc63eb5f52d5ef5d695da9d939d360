@@ -1,0 +1,8 @@
+
+€	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.b dd0c5a710713b802d91c7e49ec45ed63h
+l
+java:S18549"8Remove this useless assignment to local variable "user".b e4d4b8e2e67e31bb980cb2ff85a503ech
+m
+java:S1117T"9Rename "stage" which hides the field declared at line 47.b 9a8c2b9d518bc163e99611fbacea63b2h
+]
+java:S14819")Remove this unused "user" local variable.b ee11cbb19052e40b07aac0ca060c23eeh

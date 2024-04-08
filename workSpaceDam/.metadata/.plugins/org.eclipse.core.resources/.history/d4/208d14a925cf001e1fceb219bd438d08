@@ -1,0 +1,29 @@
+package hlc.ud04.autentificadorapp.utils;
+
+public class Utils {
+	
+	public static int generaRandomNumber() {
+    // Generamos un número aleatorio entre 1 y 23 (ambos inclusive)
+    int randomNumber = (int) (Math.random() * 23) + 1;
+    
+    return randomNumber;
+	}
+	
+	
+	public static String cifraCesarPassword(String passwordSinCifrar, int numeroCifraCesar) {
+    StringBuilder cifrado = new StringBuilder();
+
+    for (int i = 0; i < passwordSinCifrar.length(); i++) {
+        char caracter = passwordSinCifrar.charAt(i);
+
+        if (Character.isLetter(caracter)) {
+            char base = Character.isLowerCase(caracter) ? 'a' : 'A';
+            cifrado.append((char) ((caracter - base + numeroCifraCesar) % 26 + base));
+        } else {
+            cifrado.append(caracter);
+        }
+    }
+
+    return cifrado.toString();
+	}
+}

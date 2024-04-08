@@ -1,0 +1,18 @@
+1700559466047	Rename field 'contraseña'
+1700733139340	Rename type 'Cliente'
+1700733155108	Delete element
+1700733191350	Rename method 'creaCliente'
+1700733206851	Rename method 'añadeCliente'
+1700733271206	Rename local variable 'nuevoCliente'
+1700733493395	Rename local variable 'cliente'
+1700737836062	Delete element
+1700737908273	Delete element
+1700738076970	Rename type 'PantallaPrincipal'
+1700738284517	Rename type 'PantallaAdministracion'
+1700738701431	Rename type 'pantallaAdmin'
+1700759101155	Delete element
+1700819518036	Delete element
+1700819850580	Rename method 'appPressed'
+1700834971415	Rename package 'usuarios'
+1700836152946	Delete element
+1700836850719	Rename local variable 'lblNewLabel_1'

@@ -1,0 +1,7 @@
+
+o
+java:S1128"4Remove this unused import 'javax.persistence.Table'.8Û»¨»Û1b e794f28fee8d744735eaf10320e7f871h
+Q
+java:S1700"Rename field "usuario"8Û»¨»Û1b f8032d5cae3de20fcec887f395ec9a6ah
+|
+java:S1126`"AReplace this if-then-else statement by a single return statement.8Û»¨»Û1b 39c8942e1038872a822c0dc75eedbde3h
